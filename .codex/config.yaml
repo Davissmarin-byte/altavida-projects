@@ -1,0 +1,16 @@
+# OpenAI Codex CLI — project configuration
+# Reference: https://github.com/openai/codex
+
+model: o4-mini
+
+# Approval mode: "suggest" | "auto-edit" | "full-auto"
+# "suggest"   — show diffs and ask before applying (default, safest)
+# "auto-edit" — apply file edits automatically, ask before shell commands
+# "full-auto" — apply everything without prompting (CI / scripted use)
+approvalMode: suggest
+
+# Providers: "openai" (default) | "azure" | "gemini" | "ollama" | "mistral" | etc.
+provider: openai
+
+# Notify when a long-running task finishes
+notify: true
