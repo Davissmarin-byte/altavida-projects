@@ -1,0 +1,9 @@
+# Environment secrets
+.env
+
+# Firecrawl output (keep directory, ignore content)
+.firecrawl/*
+!.firecrawl/.gitkeep
+
+# Node
+node_modules/
