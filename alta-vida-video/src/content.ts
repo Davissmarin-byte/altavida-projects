@@ -1,5 +1,7 @@
-// src/content.ts — guion en pantalla (no hay narracion en el clip: video de dron sin dialogo,
-// ver nota en el PR sobre por que no se uso transcripcion por voz).
+// src/content.ts — guion en pantalla. El clip tiene voz real (persona hablando a camara),
+// pero no se transcribio: huggingface.co (host del modelo de Whisper) esta bloqueado en
+// este entorno. Ver nota en el PR. Este texto es marketing generico, no un subtitulo fiel
+// a lo que se dice en el audio.
 export const brand = {
   name: 'Alta Vida Inmuebles',
 };
