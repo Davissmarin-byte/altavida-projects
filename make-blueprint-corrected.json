@@ -155,7 +155,7 @@
         "headers": [
           {
             "name": "D360-API-KEY",
-            "value": "f9CGsnYUoUfCs4H8oHpmTaFeAK"
+            "value": "REEMPLAZAR_CON_TU_360DIALOG_API_KEY"
           },
           {
             "name": "Content-Type",
@@ -296,7 +296,7 @@
         "headers": [
           {
             "name": "Authorization",
-            "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImNlYmQ5OTM0OWFkODUxMjg0MTE3ZTIwNzY2ZTJhOWZjOTYxYzRlZjNlZmUxYzg4MjI1MDkxNGYyZjlhYjg0ZDI1ZGY4YmM2M2I0NmExYjE1In0.eyJhdWQiOiIzMGVjMzUxNS0wNzNjLTQzNDMtODMyNS04MDQwMzEyYjNmMjAiLCJqdGkiOiJjZWJkOTkzNDlhZDg1MTI4NDExN2UyMDc2NmUyYTlmYzk2MWM0ZWYzZWZlMWM4ODIyNTA5MTRmMmY5YWI4NGQyNWRmOGJjNjNiNDZhMWIxNSIsImlhdCI6MTc3OTA0NzM3NSwibmJmIjoxNzc5MDQ3Mzc1LCJleHAiOjE5MDUwMzM2MDAsInN1YiI6IjE1MTg1OTU5IiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjM2NDA0MzE1LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXSwiaGFzaF91dWlkIjoiN2E0OTlkYjEtZjlhMS00MTYyLTk2MDAtMjhlZjE0OGU1YmJkIiwiYXBpX2RvbWFpbiI6ImFwaS1jLmtvbW1vLmNvbSJ9.VhED3ipool3jbuSYRGpouE0q3ObNSYiPMxDEzIOFn_i_pfmyuWFnQzi2e5oXO-IpOfnpBg8aB9q8Ekbd1CjwLFQymPrDQYWZ-m8ubGz731v6E9NCT0XIKA7pM7ENcjxHLm4_v7oQXrLe7EOKzq6WlK7BVGl5HTXVGRUc5njJrPePXzkYeknRrC046dlfJZX_udBsvMfO5FjO6yr6BAbos7796ZGfLM_37GrtONtXnLFa2dezbiAOt93Pitt71JjZ6F4Hj4kLgBC_brPlQMrPg-JnVMlqjAp-s2lu3R_JJdEFoM6o1P33p67zODLk1KbDXTHDVLzSMtO2dMG93OqPew"
+            "value": "Bearer REEMPLAZAR_CON_KOMMO_BEARER_TOKEN"
           },
           {
             "name": "Content-Type",

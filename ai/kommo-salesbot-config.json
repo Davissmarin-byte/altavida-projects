@@ -1,0 +1,76 @@
+{
+  "_comment": "Configuración del SalesBot de Kommo para Alta Vida Inmuebles",
+  "_description": "Bot de ventas que se activa automáticamente según la etapa del pipeline en Kommo CRM",
+  "_setup_url": "https://davissmarin.kommo.com/settings/salesbot/",
+  "_pipeline_stages": {
+    "stage_1": "Nuevo Lead (entrada automática Meta Ads)",
+    "stage_2": "Primer Contacto (WhatsApp enviado)",
+    "stage_3": "Calificado (tiene presupuesto + interés)",
+    "stage_4": "Visita Agendada",
+    "stage_5": "Propuesta Enviada",
+    "stage_6": "Negociación",
+    "stage_7_won": "Cierre Exitoso",
+    "stage_7_lost": "No Interesado"
+  },
+  "salesbot_steps": [
+    {
+      "trigger": "lead_created",
+      "stage": "Nuevo Lead",
+      "delay_minutes": 0,
+      "channel": "whatsapp",
+      "message": "¡Hola {{lead.contact.name}}! 👋 Soy Avi, tu asistente de Alta Vida Inmuebles.\n\nVi que mostraste interés en {{lead.name}}. ¡Qué buen gusto! 🏡\n\n¿Estás buscando para vivir, para vacaciones o como inversión?"
+    },
+    {
+      "trigger": "no_response",
+      "delay_hours": 24,
+      "stage": "Nuevo Lead",
+      "channel": "whatsapp",
+      "message": "¡Hola {{lead.contact.name}}! 😊 Solo quería asegurarme de que recibiste mi mensaje.\n\nTenemos propiedades increíbles en Cancún y Riviera Maya. ¿Sigues interesado/a?\n\nCualquier duda, aquí estoy 🌊"
+    },
+    {
+      "trigger": "no_response",
+      "delay_hours": 72,
+      "stage": "Nuevo Lead",
+      "channel": "whatsapp",
+      "message": "Hola {{lead.contact.name}} 👋 Sé que el tiempo vuela y quizás no es el momento ideal ahora.\n\nWhen you're ready, we're here too! 🏡 (también hablamos English)\n\n¡Tu Alta Vida te está esperando! ✨"
+    },
+    {
+      "trigger": "stage_changed",
+      "to_stage": "Calificado",
+      "channel": "whatsapp",
+      "message": "¡Hola {{lead.contact.name}}! 🌟 Acabo de revisar tu perfil y tenemos opciones que se ajustan perfectamente a lo que buscas.\n\n¿Podemos agendar una llamada de 20 minutos para mostrarte las propiedades más relevantes?\n\nEscríbeme el día y hora que te venga mejor 📅"
+    },
+    {
+      "trigger": "stage_changed",
+      "to_stage": "Visita Agendada",
+      "channel": "whatsapp",
+      "message": "¡Perfecto, {{lead.contact.name}}! ✅ Tu visita está confirmada.\n\nTe recordamos:\n📅 Fecha y hora: {{task.date}}\n📍 Dirección: te la enviamos próximamente\n\nSi necesitas cambiar algo, escríbeme aquí mismo 😊\n\n¡Nos vemos pronto! 🏡✨"
+    },
+    {
+      "trigger": "stage_changed",
+      "to_stage": "Propuesta Enviada",
+      "channel": "whatsapp",
+      "message": "¡Hola {{lead.contact.name}}! 📄 Te acabo de enviar la propuesta detallada.\n\n¿La recibiste? ¿Tienes alguna pregunta sobre los números o las condiciones?\n\nEstamos aquí para resolver cualquier duda antes de que tomes tu decisión 💪"
+    },
+    {
+      "trigger": "no_response",
+      "delay_hours": 48,
+      "stage": "Propuesta Enviada",
+      "channel": "whatsapp",
+      "message": "Hola {{lead.contact.name}} 👋 Solo quería saber si tuviste oportunidad de revisar la propuesta.\n\nSi algo no quedó claro o quieres ajustar algo, con gusto lo revisamos juntos.\n\n¿Cuándo podemos hablar? 📞"
+    },
+    {
+      "trigger": "stage_changed",
+      "to_stage": "Cierre Exitoso",
+      "channel": "whatsapp",
+      "message": "¡{{lead.contact.name}}, FELICIDADES! 🎉🏡✨\n\nBienvenido/a a la familia Alta Vida Inmuebles. Tomaste una decisión increíble.\n\nEn los próximos días nuestro equipo te contactará con todos los detalles del proceso. ¡Esto es solo el comienzo de tu Alta Vida! 🌊"
+    }
+  ],
+  "bot_settings": {
+    "name": "Avi - Alta Vida 24/7",
+    "description": "Asistente automática para calificación de leads y seguimiento",
+    "working_hours": "24/7",
+    "escalation_keywords": ["hablar con persona", "agente", "asesor", "humano", "urgente", "problema", "queja", "speak to", "human", "agent"],
+    "escalation_message": "¡Por supuesto! Te conecto ahora mismo con uno de nuestros asesores para atención personalizada. Un momento por favor 🙏\n\nMientras tanto, ¿me puedes decir en qué propiedad o zona tienes más interés? Así el asesor llega preparado 😊"
+  }
+}

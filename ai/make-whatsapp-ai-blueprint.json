@@ -1,0 +1,195 @@
+{
+  "_comment": "ESCENARIO: Respuestas automáticas IA para WhatsApp entrante",
+  "_description": "Cuando un cliente escribe por WhatsApp, este escenario: 1) recibe el mensaje via 360dialog webhook, 2) genera respuesta con Claude AI, 3) envía respuesta por WhatsApp, 4) crea/actualiza el lead en Kommo",
+  "_setup_required": [
+    "1. Crear nuevo escenario en Make.com",
+    "2. Agregar webhook de 360dialog para mensajes ENTRANTES (diferente al webhook de Meta Ads)",
+    "3. Reemplazar ANTHROPIC_API_KEY con tu clave de console.anthropic.com",
+    "4. Reemplazar KOMMO_BEARER_TOKEN con el token actual",
+    "5. El módulo de 360dialog recibe en: Configuración 360dialog > Webhooks > agregar URL del webhook de Make"
+  ],
+  "flow": [
+    {
+      "id": 1,
+      "module": "gateway:CustomWebHook",
+      "version": 1,
+      "metadata": {
+        "designer": { "x": 0, "y": 150 },
+        "interface": [
+          { "name": "entry", "type": "collection",
+            "spec": [
+              { "name": "messaging_product", "type": "text" },
+              { "name": "contacts", "type": "array" },
+              { "name": "messages", "type": "array" }
+            ]
+          }
+        ],
+        "parameters": [
+          { "name": "hook", "type": "hook:gateway-webhook", "label": "Webhook 360dialog Entrante", "required": true }
+        ],
+        "restore": {
+          "parameters": {
+            "hook": { "label": "ALTAVIDA-WhatsApp-Incoming" }
+          }
+        }
+      },
+      "parameters": { "maxResults": 1 }
+    },
+    {
+      "id": 2,
+      "module": "builtin:BasicRouter",
+      "version": 1,
+      "metadata": {
+        "designer": { "x": 300, "y": 150 },
+        "comment": "Filtra solo mensajes de texto (ignora imágenes, audios, status updates)"
+      },
+      "routes": [
+        {
+          "flow": [
+            {
+              "id": 3,
+              "module": "http:MakeRequest",
+              "version": 4,
+              "metadata": {
+                "designer": { "x": 600, "y": 50 },
+                "label": "Claude AI - Generar respuesta Avi"
+              },
+              "mapper": {
+                "url": "https://api.anthropic.com/v1/messages",
+                "method": "post",
+                "headers": [
+                  { "name": "x-api-key", "value": "REEMPLAZAR_CON_TU_ANTHROPIC_API_KEY" },
+                  { "name": "anthropic-version", "value": "2023-06-01" },
+                  { "name": "content-type", "value": "application/json" }
+                ],
+                "contentType": "json",
+                "inputMethod": "jsonString",
+                "parseResponse": true,
+                "allowRedirects": true,
+                "stopOnHttpError": false,
+                "requestCompressedContent": true,
+                "jsonStringBodyContent": "{\"model\":\"claude-haiku-4-5-20251001\",\"max_tokens\":300,\"system\":\"Eres Avi, asistente virtual de Alta Vida Inmuebles. Inmobiliaria en Cancún y Riviera Maya. Servicios: compra, venta, renta e inversión. Personalidad: cálida, directa, segura. Respuestas cortas (máx 3 líneas para WhatsApp). Siempre tutea. Tu objetivo: calificar el prospecto y agendar cita. Si no sabes algo di que un asesor confirma. Termina con una pregunta o llamada a la acción. Usa emojis con moderación 🏡✨🌊. Propiedad destacada: Aqua Residencial, Cancún. Si el cliente ya está listo para hablar con persona, di que lo conectas con un asesor.\",\"messages\":[{\"role\":\"user\",\"content\":\"{{1.entry.messages[].body.text}}\"}]}"
+              },
+              "parameters": {
+                "tlsType": "",
+                "proxyKeychain": "",
+                "authenticationType": "noAuth"
+              }
+            },
+            {
+              "id": 4,
+              "module": "http:MakeRequest",
+              "version": 4,
+              "metadata": {
+                "designer": { "x": 900, "y": 50 },
+                "label": "360dialog - Enviar respuesta Avi por WhatsApp"
+              },
+              "mapper": {
+                "url": "https://waba-v2.360dialog.io/messages",
+                "method": "post",
+                "headers": [
+                  { "name": "D360-API-KEY", "value": "REEMPLAZAR_CON_TU_360DIALOG_API_KEY" },
+                  { "name": "Content-Type", "value": "application/json" }
+                ],
+                "contentType": "json",
+                "inputMethod": "jsonString",
+                "parseResponse": true,
+                "allowRedirects": true,
+                "stopOnHttpError": false,
+                "requestCompressedContent": true,
+                "jsonStringBodyContent": "{\"messaging_product\":\"whatsapp\",\"to\":\"{{1.entry.messages[].from}}\",\"type\":\"text\",\"text\":{\"body\":\"{{3.data.content[].text.value}}\"}}"
+              },
+              "parameters": {
+                "tlsType": "",
+                "proxyKeychain": "",
+                "authenticationType": "noAuth"
+              }
+            },
+            {
+              "id": 5,
+              "module": "http:MakeRequest",
+              "version": 4,
+              "metadata": {
+                "designer": { "x": 1200, "y": 50 },
+                "label": "Kommo - Buscar lead existente"
+              },
+              "mapper": {
+                "url": "https://davissmarin.kommo.com/api/v4/contacts?query={{1.entry.contacts[].wa_id}}",
+                "method": "get",
+                "headers": [
+                  { "name": "Authorization", "value": "Bearer REEMPLAZAR_CON_KOMMO_TOKEN" }
+                ],
+                "parseResponse": true,
+                "allowRedirects": true,
+                "stopOnHttpError": false,
+                "requestCompressedContent": false
+              },
+              "parameters": {
+                "tlsType": "",
+                "proxyKeychain": "",
+                "authenticationType": "noAuth"
+              }
+            },
+            {
+              "id": 6,
+              "module": "http:MakeRequest",
+              "version": 4,
+              "metadata": {
+                "designer": { "x": 1500, "y": 50 },
+                "label": "Kommo - Agregar nota de conversación"
+              },
+              "mapper": {
+                "url": "https://davissmarin.kommo.com/api/v4/leads/notes",
+                "method": "post",
+                "headers": [
+                  { "name": "Authorization", "value": "Bearer REEMPLAZAR_CON_KOMMO_TOKEN" },
+                  { "name": "Content-Type", "value": "application/json" }
+                ],
+                "contentType": "json",
+                "inputMethod": "jsonString",
+                "parseResponse": true,
+                "allowRedirects": true,
+                "stopOnHttpError": false,
+                "requestCompressedContent": true,
+                "jsonStringBodyContent": "[{\"entity_id\":{{5.data._embedded.contacts[].linked_leads_id}},\"note_type\":\"common\",\"params\":{\"text\":\"WhatsApp entrante:\\nCliente: {{1.entry.messages[].body.text}}\\n\\nRespuesta Avi: {{3.data.content[].text.value}}\"}}]"
+              },
+              "parameters": {
+                "tlsType": "",
+                "proxyKeychain": "",
+                "authenticationType": "noAuth"
+              }
+            }
+          ],
+          "filter": {
+            "name": "Solo mensajes de texto",
+            "conditions": [
+              [
+                {
+                  "a": "{{1.entry.messages[].type}}",
+                  "b": "text",
+                  "o": "text:equal"
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "instant": true,
+    "version": 1,
+    "designer": { "orphans": [] },
+    "scenario": {
+      "dlq": false,
+      "dataloss": false,
+      "maxErrors": 3,
+      "autoCommit": true,
+      "roundtrips": 1,
+      "sequential": false,
+      "confidential": false,
+      "freshVariables": false,
+      "autoCommitTriggerLast": true
+    }
+  }
+}
