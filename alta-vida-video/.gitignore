@@ -5,8 +5,3 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
-
-# Build local de whisper.cpp (se recompila con scripts/transcribir.mjs) y WAV intermedio
-# (se regenera desde public/clip.mp4 con ffmpeg).
-whisper.cpp
-public/audio.wav
