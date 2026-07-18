@@ -11,3 +11,11 @@ import { enableTailwind } from '@remotion/tailwind-v4';
 Config.setVideoImageFormat("jpeg");
 Config.setOverwriteOutput(true);
 Config.overrideWebpackConfig(enableTailwind);
+
+// Este entorno bloquea la descarga automática del Chrome Headless Shell de Remotion
+// (remotion.media no está en la lista de red permitida). Usamos el Chromium headless
+// ya preinstalado para Playwright en este contenedor en su lugar.
+Config.setChromeMode("headless-shell");
+Config.setBrowserExecutable(
+  "/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell",
+);

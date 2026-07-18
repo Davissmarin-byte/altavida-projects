@@ -5,3 +5,9 @@ dist
 
 # Ignore the output video from Git but not videos you import into src/.
 out
+
+# Instalación local de whisper.cpp + modelo (~1.5GB, se reinstala con scripts/transcribir.mjs).
+whisper.cpp
+
+# WAV intermedios para transcripción (regenerables desde los .mp4 con ffmpeg).
+public/audio-*.wav
