@@ -6,6 +6,7 @@ import {KenBurnsClip} from './components/KenBurnsClip';
 import {ProgressBar} from './components/ProgressBar';
 import {LowerThird} from './components/LowerThird';
 import {OnScreenText} from './components/OnScreenText';
+import {FigureHighlight} from './components/FigureHighlight';
 import {Outro} from './components/Outro';
 import {CaptionPageView, useCaptions, useTikTokPages} from './Captions';
 import {useFontReady} from './load-font';
@@ -54,9 +55,9 @@ const VideoContentInner: React.FC<VideoContentProps> = ({
 	const captionsA = useCaptions('captions-a.json');
 	const pages = useTikTokPages(captionsA);
 
-	// Punch-in a mitad del clip principal, coincide con un cambio de idea (ajustable con datos reales
-	// de captions-a.json una vez esté disponible la transcripción).
-	const punchAtFrame = Math.round(mainDurationInFrames / 2);
+	// Punch-in justo cuando empieza a decir la cifra de comparación ("...ha alcanzado 25 30
+	// millones de pesos"), tomado de public/captions-a.json (token " alcanz" en 21470ms).
+	const punchAtFrame = Math.round((21470 / 1000) * fps);
 
 	return (
 		<TransitionSeries>
@@ -110,6 +111,13 @@ const VideoContentInner: React.FC<VideoContentProps> = ({
 							</Sequence>
 						);
 					})}
+					{/* Cifras reales mencionadas en el audio (public/captions-a.json), Paso 8. */}
+					<Sequence from={Math.round((22300 / 1000) * fps)} durationInFrames={90} premountFor={fps}>
+						<FigureHighlight text="$25–30M MXN" durationInFrames={90} />
+					</Sequence>
+					<Sequence from={Math.round((27500 / 1000) * fps)} durationInFrames={90} premountFor={fps}>
+						<FigureHighlight text="Desde $4M MXN" durationInFrames={90} />
+					</Sequence>
 				</AbsoluteFill>
 			</TransitionSeries.Sequence>
 

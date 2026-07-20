@@ -8,11 +8,21 @@ import {
 } from "./SingleClipVideoContent";
 import { getMediaMetadata } from "./get-media-metadata";
 import { productoPlusvaliaTheme } from "./theme";
+import type { FigureHighlightSpec } from "./SingleClipVideoContent";
 
 const FPS = 30;
 const HOOK_SECONDS = 3.2;
 const OUTRO_SECONDS = 2.5;
 const TRANSITION_FRAMES = 20;
+
+// Cifras reales de public/captions-a.json (mismo audio en ambas composiciones):
+// "...ha alcanzado 25 30 millones de pesos, damar arranca preventas... desde 4 millones de pesos".
+const CLIP_A_FIGURE_HIGHLIGHTS: FigureHighlightSpec[] = [
+  { text: "$25–30M MXN", atMs: 22300, durationInFrames: 90 },
+  { text: "Desde $4M MXN", atMs: 27500, durationInFrames: 90 },
+];
+// Punch-in justo cuando empieza a decir la cifra de comparación (token " alcanz" en 21470ms).
+const CLIP_A_PUNCH_AT_FRAME = Math.round((21470 / 1000) * FPS);
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -75,6 +85,8 @@ export const RemotionRoot: React.FC = () => {
             outroDurationInFrames: FPS * 3,
             transitionDurationInFrames: TRANSITION_FRAMES,
             hookOverlayDurationInFrames: FPS * 3,
+            punchAtFrame: CLIP_A_PUNCH_AT_FRAME,
+            figureHighlights: CLIP_A_FIGURE_HIGHLIGHTS,
           } satisfies SingleClipVideoContentProps
         }
         calculateMetadata={async () => {
@@ -95,6 +107,8 @@ export const RemotionRoot: React.FC = () => {
             outroDurationInFrames,
             transitionDurationInFrames: TRANSITION_FRAMES,
             hookOverlayDurationInFrames,
+            punchAtFrame: CLIP_A_PUNCH_AT_FRAME,
+            figureHighlights: CLIP_A_FIGURE_HIGHLIGHTS,
           };
 
           return { durationInFrames, fps: FPS, props };
