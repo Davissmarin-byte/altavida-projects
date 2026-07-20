@@ -1,9 +1,10 @@
 import React from 'react';
 import {AbsoluteFill, interpolate, useCurrentFrame} from 'remotion';
-import {theme} from '../theme';
+import {useTheme} from '../theme-context';
 
 export const ProgressBar: React.FC<{durationInFrames: number}> = ({durationInFrames}) => {
 	const frame = useCurrentFrame();
+	const theme = useTheme();
 	const widthPct = interpolate(frame, [0, durationInFrames], [0, 100], {
 		extrapolateRight: 'clamp',
 	});

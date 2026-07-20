@@ -1,10 +1,11 @@
 import React from 'react';
 import {AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
-import {theme} from '../theme';
+import {useTheme} from '../theme-context';
 
 export const Outro: React.FC = () => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
+	const theme = useTheme();
 
 	const brandEnter = spring({frame, fps, config: theme.motion.springSnappy, durationInFrames: 15});
 	const ctaEnter = spring({

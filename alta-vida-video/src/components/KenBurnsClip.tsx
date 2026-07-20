@@ -1,6 +1,6 @@
 import React from 'react';
 import {Freeze, OffthreadVideo, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
-import {theme} from '../theme';
+import {useTheme} from '../theme-context';
 
 type Props = {
 	src: string;
@@ -29,6 +29,7 @@ export const KenBurnsClip: React.FC<Props> = ({
 }) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
+	const theme = useTheme();
 
 	const kenBurnsScale = interpolate(frame, [0, durationInFrames], theme.motion.kenBurnsScale, {
 		extrapolateRight: 'clamp',

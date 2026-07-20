@@ -1,6 +1,6 @@
 import React from 'react';
 import {interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
-import {theme} from '../theme';
+import {useTheme} from '../theme-context';
 
 type Props = {
 	name: string;
@@ -15,6 +15,7 @@ type Props = {
 export const LowerThird: React.FC<Props> = ({name, business, inAtFrame, outAtFrame}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
+	const theme = useTheme();
 
 	const inAnim = spring({
 		frame: frame - inAtFrame,

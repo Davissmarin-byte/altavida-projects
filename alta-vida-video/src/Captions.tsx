@@ -10,7 +10,7 @@ import {
 	spring,
 } from 'remotion';
 import {createTikTokStyleCaptions, type Caption, type TikTokPage} from '@remotion/captions';
-import {theme} from './theme';
+import {useTheme} from './theme-context';
 
 export const useCaptions = (jsonFileName: string): Caption[] | null => {
 	const [captions, setCaptions] = useState<Caption[] | null>(null);
@@ -42,6 +42,7 @@ export const useCaptions = (jsonFileName: string): Caption[] | null => {
 };
 
 export const useTikTokPages = (captions: Caption[] | null): TikTokPage[] => {
+	const theme = useTheme();
 	return useMemo(() => {
 		if (!captions || captions.length === 0) return [];
 		const {pages} = createTikTokStyleCaptions({
@@ -49,12 +50,13 @@ export const useTikTokPages = (captions: Caption[] | null): TikTokPage[] => {
 			combineTokensWithinMilliseconds: theme.caption.combineTokensWithinMilliseconds,
 		});
 		return pages;
-	}, [captions]);
+	}, [captions, theme.caption.combineTokensWithinMilliseconds]);
 };
 
 export const CaptionPageView: React.FC<{page: TikTokPage}> = ({page}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
+	const theme = useTheme();
 	// Tiempo absoluto: token.fromMs/toMs son absolutos, frame es relativo a la Sequence de esta page.
 	const absoluteTimeMs = page.startMs + (frame / fps) * 1000;
 	const enter = spring({frame, fps, config: theme.motion.springSnappy, durationInFrames: 8});
