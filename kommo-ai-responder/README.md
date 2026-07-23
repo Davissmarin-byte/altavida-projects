@@ -67,15 +67,49 @@ menú pueden variar según la versión, pero el flujo es:
 4. Agrega el paso **"Enviar mensaje"** usando esa variable como contenido del mensaje.
 5. Activa el bot y pruébalo con un lead de prueba antes de dejarlo en producción.
 
-## Despliegue
+## Despliegue en un VPS propio (Docker + HTTPS automático)
 
-Incluye un `Dockerfile` listo para desplegar en cualquier proveedor que corra
-contenedores (Render, Railway, Fly.io, un VPS propio, etc.). El servicio
-necesita:
-- Un dominio/URL pública alcanzable por Kommo (HTTPS).
-- Las variables de entorno `KOMMO_WEBHOOK_SECRET` y `ANTHROPIC_API_KEY` configuradas como secretos en la plataforma de hosting (nunca en el repo).
+Incluye `docker-compose.yml` y un `Caddyfile` para levantar el servicio junto
+con [Caddy](https://caddyserver.com/) como proxy inverso, que obtiene y renueva
+solo el certificado HTTPS (Let's Encrypt) — no necesitas configurar certbot ni
+Nginx a mano.
 
+Requisitos previos:
+1. Un subdominio (ej. `kommo-ai.tudominio.com`) con un registro DNS **A**
+   apuntando a la IP pública de tu VPS.
+2. Puertos `80` y `443` abiertos en el firewall del VPS (Caddy los necesita
+   para emitir el certificado y servir HTTPS).
+3. Docker y Docker Compose instalados en el VPS.
+
+Pasos:
+
+1. Copia el proyecto al VPS (`git clone` o `scp`) y entra a `kommo-ai-responder/`.
+2. `cp .env.example .env` y completa `KOMMO_WEBHOOK_SECRET` y `ANTHROPIC_API_KEY` (nunca subas este archivo al repo).
+3. Edita `Caddyfile` y reemplaza `kommo-ai.tudominio.com` por tu subdominio real.
+4. Levanta todo:
+   ```bash
+   docker compose up -d --build
+   ```
+5. Verifica que responde por HTTPS:
+   ```bash
+   curl https://kommo-ai.tudominio.com/health
+   # {"status":"ok"}
+   ```
+6. Usa `https://kommo-ai.tudominio.com/kommo/salesbot-reply` como URL del paso de webhook en Salesbot (ver sección anterior).
+
+Para ver logs o reiniciar tras un cambio de `.env`:
+```bash
+docker compose logs -f app
+docker compose restart app
+```
+
+### Otras plataformas
+
+El `Dockerfile` también funciona solo (sin Caddy) en cualquier PaaS que maneje
+HTTPS por ti (Render, Railway, Fly.io, etc.):
 ```bash
 docker build -t kommo-ai-responder .
 docker run -p 3000:3000 --env-file .env kommo-ai-responder
 ```
+En ese caso configura `KOMMO_WEBHOOK_SECRET` y `ANTHROPIC_API_KEY` como
+secretos en el panel de la plataforma.
