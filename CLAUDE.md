@@ -55,3 +55,22 @@ Este proyecto tiene instalado [G Stack](https://github.com/garrytan/gstack) en `
 | `/sync-gbrain` | Mantiene gbrain sincronizado con el repo |
 
 **Nota:** la función `/browse` (y todo lo que dependa de Chromium vía Playwright) puede no funcionar en este entorno: la instalación falló al descargar el binario de Chromium porque el proxy de red del sandbox bloquea `cdn.playwright.dev`. El resto de los skills no depende de esa descarga.
+
+## Skill routing
+
+When the user's request matches an available skill, invoke it via the Skill tool. When in doubt, invoke the skill.
+
+Key routing rules:
+- Product ideas/brainstorming → invoke /office-hours
+- Strategy/scope → invoke /plan-ceo-review
+- Architecture → invoke /plan-eng-review
+- Design system/plan review → invoke /design-consultation or /plan-design-review
+- Full review pipeline → invoke /autoplan
+- Bugs/errors → invoke /investigate
+- QA/testing site behavior → invoke /qa or /qa-only
+- Code review/diff check → invoke /review
+- Visual polish → invoke /design-review
+- Ship/deploy/PR → invoke /ship or /land-and-deploy
+- Save progress → invoke /context-save
+- Resume context → invoke /context-restore
+- Author a backlog-ready spec/issue → invoke /spec
