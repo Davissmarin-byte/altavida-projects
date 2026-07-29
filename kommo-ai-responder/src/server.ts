@@ -1,3 +1,4 @@
+import { timingSafeEqual } from "crypto";
 import express from "express";
 import { config } from "./config.js";
 import { generateReply } from "./ai.js";
@@ -5,12 +6,20 @@ import { generateReply } from "./ai.js";
 const app = express();
 app.use(express.json());
 
+function isValidWebhookSecret(provided: string | undefined): boolean {
+  if (!provided) return false;
+  const providedBuf = Buffer.from(provided);
+  const expectedBuf = Buffer.from(config.webhookSecret);
+  if (providedBuf.length !== expectedBuf.length) return false;
+  return timingSafeEqual(providedBuf, expectedBuf);
+}
+
 app.get("/health", (_req, res) => {
   res.json({ status: "ok" });
 });
 
 app.post("/kommo/salesbot-reply", async (req, res) => {
-  if (req.header("X-Webhook-Secret") !== config.webhookSecret) {
+  if (!isValidWebhookSecret(req.header("X-Webhook-Secret"))) {
     res.status(401).json({ error: "unauthorized" });
     return;
   }
