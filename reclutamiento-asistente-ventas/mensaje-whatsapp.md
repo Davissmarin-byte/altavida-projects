@@ -14,8 +14,8 @@ Gracias por tu interés. Te comparto los detalles de la vacante:
 🎯 **Buscamos:** una persona de 19 a 27 años, con muchísima energía, actitud de aprendizaje y ganas reales de crecer en el mundo inmobiliario. No pedimos experiencia — pedimos actitud.
 
 💰 **Compensación:**
-- Primeros 30–60 días (prueba): $10,000 base + hasta $2,000 de bono por productividad = **hasta $12,000/mes**
-- Al confirmar tu perfil: contrato formal con prestaciones + esquema de comisión por cierre
+- Primeros 15–20 días (evaluación): $10,000 base + bono de arranque de $500–$1,000 = **hasta $11,000/mes**
+- Al confirmar tu perfil: $10,000 base + $2,000 de bono completo = **$12,000/mes**, contrato formal con prestaciones, y bonos adicionales por volumen cuando te enfoques en atención a clientes
 
 🕐 **Horario:** L–V 9:00–18:00, sábados medio día
 
@@ -29,4 +29,4 @@ Gracias por tu interés. Te comparto los detalles de la vacante:
 
 ### Variante corta (si prefieres algo más directo)
 
-Hola [Nombre], soy David de ALTA VIDA Inmuebles 👋. Buscamos Asistente de Ventas: 19–27 años, mucha energía y ganas de aprender. Sueldo $10,000 + bono de hasta $2,000 (hasta $12,000/mes) en el periodo de prueba, con posibilidad de formalizar y crecer dentro de la empresa. Horario L–V 9–6, sábados medio día. ¿Te late agendar una entrevista esta semana?
+Hola [Nombre], soy David de ALTA VIDA Inmuebles 👋. Buscamos Asistente de Ventas: 19–27 años, mucha energía y ganas de aprender. Sueldo $10,000 + bono, hasta $12,000/mes al formalizar (15–20 días de evaluación), con posibilidad de crecer a atención a clientes y bonos por volumen. Horario L–V 9–6, sábados medio día. ¿Te late agendar una entrevista esta semana?

@@ -204,7 +204,7 @@ story.append(PageBreak())
 
 # ================= SECTION 2: CONDICIONES LABORALES =================
 story.append(Paragraph("02 · Condiciones laborales", styles["h1"]))
-story.append(Paragraph("HORARIO, MODALIDAD Y PERIODO DE PRUEBA", styles["h1sub"]))
+story.append(Paragraph("HORARIO, MODALIDAD Y PERIODO DE EVALUACIÓN", styles["h1sub"]))
 story.append(hr())
 
 story.append(Paragraph("HORARIO RECOMENDADO", styles["label"]))
@@ -215,18 +215,17 @@ story.append(Paragraph(
     "extendido razonable, para no perder prospectos calientes fuera de oficina.",
     styles["body"]))
 
-story.append(Paragraph("MODALIDAD Y PERIODO DE PRUEBA", styles["label"]))
+story.append(Paragraph("MODALIDAD Y PERIODO DE EVALUACIÓN", styles["label"]))
 story.append(Paragraph(
-    "Presencial, en oficina. Periodo de prueba flexible de 30 a 60 días, cuya duración exacta se define "
-    "según la curva de aprendizaje y el desempeño observado en cada persona — no es un plazo fijo, es "
-    "una ventana de evaluación real.",
+    "Presencial, en oficina. Ventana de evaluación de 15 a 20 días, suficiente para observar actitud, "
+    "energía, puntualidad y disciplina en un puesto de asistente — no se necesita un ciclo de venta "
+    "completo (que en proyectos desde $2.5 MDP es naturalmente largo) para ver si el perfil es el correcto.",
     styles["body"]))
 
 story.append(Table(
     [[Paragraph("Checkpoint", styles["thead"]), Paragraph("Día", styles["thead"]), Paragraph("Qué se evalúa", styles["thead"])],
-     [Paragraph("Primer corte", styles["tcell"]), Paragraph("Día 15", styles["tcellB"]), Paragraph("Actitud, puntualidad, disposición a aprender, manejo básico del CRM.", styles["tcell"])],
-     [Paragraph("Segundo corte", styles["tcell"]), Paragraph("Día 30", styles["tcellB"]), Paragraph("Curva de aprendizaje, calidad de seguimiento, primeras citas generadas.", styles["tcell"])],
-     [Paragraph("Decisión", styles["tcell"]), Paragraph("Día 30–60", styles["tcellB"]), Paragraph("Resultados sostenidos → formalización de contrato y ajuste de esquema.", styles["tcell"])],
+     [Paragraph("Primer corte", styles["tcell"]), Paragraph("Día 7–8", styles["tcellB"]), Paragraph("Actitud, puntualidad, disposición a aprender, manejo básico del CRM.", styles["tcell"])],
+     [Paragraph("Decisión", styles["tcell"]), Paragraph("Día 15–20", styles["tcellB"]), Paragraph("Curva de aprendizaje, disciplina de seguimiento, primeras citas generadas → formalización.", styles["tcell"])],
      ],
     colWidths=[28*mm, 20*mm, None],
     style=TableStyle([
@@ -241,11 +240,14 @@ story.append(Table(
 ))
 
 story.append(Spacer(1, 10))
+story.append(Paragraph("MARCO LEGAL (por qué 15–20 días y no 30–60)", styles["label"]))
 story.append(Paragraph(
-    "Este esquema evita dos errores comunes: comprometer condiciones formales antes de comprobar el "
-    "perfil, y alargar la incertidumbre más allá de lo necesario cuando el ajuste es evidente (para bien o "
-    "para mal) desde antes del día 30.",
-    styles["quote"]))
+    "El Art. 39-A de la Ley Federal del Trabajo topa el periodo de prueba en <b>30 días</b> para puestos "
+    "operativos (los 180 días aplican solo a puestos directivos, gerenciales o técnico-especializados, "
+    "no a un asistente de ventas). Evaluar y decidir en 15–20 días, en lugar de estirar hasta 30 o más, "
+    "deja margen dentro del tope legal y evita operar en una zona ambigua de \"prueba extendida\" que la "
+    "ley no reconoce para este puesto.",
+    styles["body"]))
 
 story.append(PageBreak())
 
@@ -281,12 +283,23 @@ story.append(Paragraph(
     styles["small"]))
 
 story.append(Spacer(1, 8))
-story.append(Paragraph("PROPUESTA ALTA VIDA — ETAPA 1: PERIODO DE PRUEBA (Día 1 a 30/60)", styles["label"]))
+story.append(Paragraph("NOTA LEGAL — POR QUÉ NO SE BAJA EL SUELDO BASE", styles["label"]))
+story.append(Paragraph(
+    "El salario mínimo general subió el 1 de enero de 2026 a <b>$315.04/día = $9,582.47 MXN/mes</b> "
+    "(incremento del 13%, publicado en el DOF / CONASAMI). Cancún no está en la Zona Libre de la Frontera "
+    "Norte, así que aplica este mínimo general. Un sueldo de $8,000 u $9,000 queda por debajo del piso "
+    "legal — el periodo de prueba no exime del salario mínimo, son dos figuras distintas en la ley. Por "
+    "eso el sueldo base se mantiene en $10,000 (con colchón de ~$417 sobre el mínimo) y la palanca de "
+    "motivación se mueve al bono, que sí es enteramente flexible.",
+    styles["body"]))
+
+story.append(Spacer(1, 8))
+story.append(Paragraph("PROPUESTA ALTA VIDA — ETAPA 1: EVALUACIÓN (Día 1 a 15/20)", styles["label"]))
 story.append(Table(
     [[Paragraph("Concepto", styles["thead"]), Paragraph("Monto mensual", styles["thead"])],
      [Paragraph("Sueldo base", styles["tcell"]), Paragraph("$10,000 MXN", styles["tcellB"])],
-     [Paragraph("Bono de productividad (KPIs de actividad y disciplina)", styles["tcell"]), Paragraph("hasta $2,000 MXN", styles["tcellB"])],
-     [Paragraph("Total potencial", styles["tcellB"]), Paragraph("$12,000 MXN", styles["tcellB"])],
+     [Paragraph("Bono de arranque (asistencia, puntualidad, disciplina básica de CRM)", styles["tcell"]), Paragraph("$500 – $1,000 MXN", styles["tcellB"])],
+     [Paragraph("Total potencial", styles["tcellB"]), Paragraph("$10,500 – $11,000 MXN", styles["tcellB"])],
      ],
     colWidths=[None, 45*mm],
     style=TableStyle([
@@ -303,24 +316,24 @@ story.append(Table(
 
 story.append(Spacer(1, 6))
 story.append(Paragraph(
-    "El bono se recomienda atado a indicadores simples y medibles desde el día 1: asistencia y "
-    "puntualidad, leads registrados en CRM el mismo día de contacto, citas agendadas y cumplidas, y "
-    "seguimiento a la cartera activa. Esto convierte el periodo de prueba en un entrenamiento real de "
-    "disciplina comercial, no solo en una espera pasiva.",
+    "El bono de arranque se mantiene deliberadamente chico frente al de la etapa formal: es una prueba de "
+    "disciplina básica (asistencia, puntualidad, registro de leads el mismo día, primeras citas agendadas), "
+    "no de resultados de venta. El salto real de bono llega al formalizar — ahí es donde se siente que "
+    "vale la pena quedarse.",
     styles["body"]))
 
-story.append(Paragraph("PROPUESTA ALTA VIDA — ETAPA 2: FORMALIZACIÓN (a partir de día 31/61)", styles["label"]))
+story.append(Paragraph("PROPUESTA ALTA VIDA — ETAPA 2: FORMALIZACIÓN (a partir de día 15/21)", styles["label"]))
 story.append(Paragraph(
     "Al comprobar el perfil, se recomienda <b>mantener la estructura de $10,000 base + $2,000 de bono de "
     "productividad</b>, en lugar de subir el fijo a $12,000. Razón: preserva el vínculo directo entre pago y "
-    "desempeño, mantiene la motivación activa después del periodo de prueba, y evita el riesgo — ya vivido "
+    "desempeño, mantiene la motivación activa después de la evaluación, y evita el riesgo — ya vivido "
     "por ALTA VIDA en una contratación anterior — de formalizar un sueldo fijo alto antes de confirmar que "
     "la persona realmente está para el puesto y no solo de paso.",
     styles["body"]))
 story.append(bullets([
     "Contrato formal con prestaciones de ley (IMSS, aguinaldo, vacaciones).",
     "Se mantiene: $10,000 base + $2,000 bono de productividad (techo $12,000/mes).",
-    "Se incorpora esquema de comisión por cierre de operación, a definir % según política comercial vigente.",
+    "Al asignarle atención directa a clientes de proyectos desde $2.5 MDP, se agregan bonos adicionales por volumen y comisión por cierre de operación, a definir % según política comercial vigente.",
     "Revisión de desempeño y compensación a los 90 días, con posibilidad de ajuste de base conforme a resultados sostenidos.",
 ]))
 story.append(PageBreak())
@@ -344,7 +357,7 @@ story.append(bullets([
 ]))
 story.append(Paragraph(
     "Se recomienda comunicar esta ruta desde la entrevista y reforzarla en cada checkpoint del periodo de "
-    "prueba: no es solo un empleo de asistente, es la puerta de entrada a una carrera comercial en bienes "
+    "evaluación: no es solo un empleo de asistente, es la puerta de entrada a una carrera comercial en bienes "
     "raíces de lujo.",
     styles["body"]))
 
@@ -367,7 +380,7 @@ story.append(bullets([
     "Difusión de la vacante: WhatsApp directo a candidatas/os identificados + publicación en redes sociales (arte adjunto) + bolsas de trabajo (OCC, Computrabajo, Indeed).",
     "Primer contacto y filtro por WhatsApp: energía, disponibilidad de horario, interés real en aprender.",
     "Entrevista presencial breve en oficina.",
-    "Inicio de periodo de prueba (30–60 días) con checkpoints en día 15 y día 30.",
+    "Inicio de periodo de evaluación (15–20 días) con corte intermedio en día 7–8 y decisión en día 15–20.",
     "Formalización de contrato al confirmar el perfil.",
 ]))
 story.append(Spacer(1, 10))
