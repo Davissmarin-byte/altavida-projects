@@ -1,49 +1,77 @@
-import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';
-import { theme } from '../theme';
-import { fontFamily } from '../load-font';
+import React from 'react';
+import {interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {useTheme} from '../theme-context';
 
-// `frame` es relativo a la Sequence que envuelve este componente.
-export const LowerThird: React.FC<{ name: string; durationInFrames: number }> = ({
-  name,
-  durationInFrames,
-}) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+type Props = {
+	name: string;
+	business: string;
+	// Frame (relativo a la Sequence) en que entra.
+	inAtFrame: number;
+	// Frame (relativo a la Sequence) en que empieza a salir.
+	outAtFrame: number;
+};
 
-  const inAnimation = spring({ frame, fps, config: theme.motion.springSnappy, durationInFrames: 15 });
-  const outAnimation = spring({
-    frame: frame - (durationInFrames - 15),
-    fps,
-    config: theme.motion.springSnappy,
-    durationInFrames: 15,
-  });
-  const progress = inAnimation - outAnimation;
-  const translateX = interpolate(progress, [0, 1], [-40, 0]);
+// Colocado arriba a la izquierda para no chocar con los subtítulos (zona segura inferior).
+export const LowerThird: React.FC<Props> = ({name, business, inAtFrame, outAtFrame}) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	const theme = useTheme();
 
-  return (
-    <AbsoluteFill style={{ justifyContent: 'flex-end', alignItems: 'flex-start' }}>
-      <div
-        style={{
-          margin: `0 0 ${theme.caption.safeBottomPct}% 6%`,
-          padding: '0.6em 1.1em',
-          borderRadius: 8,
-          background: 'rgba(10,10,10,0.55)',
-          borderLeft: `4px solid ${theme.colors.accent}`,
-          opacity: progress,
-          transform: `translateX(${translateX}px)`,
-        }}
-      >
-        <span
-          style={{
-            fontFamily,
-            fontWeight: 800,
-            fontSize: 30,
-            color: theme.colors.text,
-          }}
-        >
-          {name}
-        </span>
-      </div>
-    </AbsoluteFill>
-  );
+	const inAnim = spring({
+		frame: frame - inAtFrame,
+		fps,
+		config: theme.motion.springSnappy,
+		durationInFrames: 15,
+	});
+	const outAnim = spring({
+		frame: frame - outAtFrame,
+		fps,
+		config: theme.motion.springSnappy,
+		durationInFrames: 15,
+	});
+	const progress = inAnim - outAnim;
+	const translateY = interpolate(progress, [0, 1], [-40, 0]);
+	const opacity = interpolate(progress, [0, 1], [0, 1]);
+
+	return (
+		<div
+			style={{
+				position: 'absolute',
+				top: '8%',
+				left: '6%',
+				opacity,
+				transform: `translateY(${translateY}px)`,
+			}}
+		>
+			<div
+				style={{
+					background: 'rgba(0,0,0,0.55)',
+					borderLeft: `4px solid ${theme.colors.accent}`,
+					padding: '10px 18px',
+					borderRadius: 6,
+				}}
+			>
+				<div
+					style={{
+						fontFamily: theme.fonts.display,
+						fontWeight: 800,
+						fontSize: 26,
+						color: theme.colors.text,
+					}}
+				>
+					{name}
+				</div>
+				<div
+					style={{
+						fontFamily: theme.fonts.display,
+						fontWeight: 400,
+						fontSize: 18,
+						color: theme.colors.accent,
+					}}
+				>
+					{business}
+				</div>
+			</div>
+		</div>
+	);
 };

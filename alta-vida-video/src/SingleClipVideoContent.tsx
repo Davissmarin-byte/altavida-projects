@@ -10,7 +10,7 @@ import {FigureHighlight} from './components/FigureHighlight';
 import {Outro} from './components/Outro';
 import {CaptionPageView, useCaptions, useTikTokPages} from './Captions';
 import {useFontReady} from './load-font';
-import {agendaLlamadaTheme} from './theme';
+import type {Theme} from './theme';
 import {ThemeProvider, useTheme} from './theme-context';
 
 // Música: por ahora no hay pista. Cuando tengas un .mp3, pégalo en public/music.mp3,
@@ -30,72 +30,75 @@ import {ThemeProvider, useTheme} from './theme-context';
 //   }
 // />
 
-export type VideoContentProps = {
-	hookDurationInFrames: number;
+export type FigureHighlightSpec = {
+	text: string;
+	// Momento (ms, dentro del audio/clip) en que aparece el "sello" con la cifra.
+	atMs: number;
+	durationInFrames: number;
+};
+
+export type SingleClipVideoContentProps = {
+	theme: Theme;
+	clipSrc: string;
+	captionsFile: string;
 	mainDurationInFrames: number;
 	outroDurationInFrames: number;
 	transitionDurationInFrames: number;
+	// Cuánto tiempo se mantiene el gancho superpuesto sobre el propio clip antes de desvanecerse
+	// (aquí no hay un clip B separado: el gancho es texto encima del inicio del clip principal).
+	hookOverlayDurationInFrames: number;
+	// Frame (relativo al clip principal) donde cae el punch-in. Por defecto, la mitad del clip.
+	punchAtFrame?: number;
+	// Cifras/datos reales mencionados en el audio para resaltar en pantalla (Paso 8).
+	figureHighlights?: FigureHighlightSpec[];
 };
 
-export const VideoContent: React.FC<VideoContentProps> = (props) => (
-	<ThemeProvider value={agendaLlamadaTheme}>
-		<VideoContentInner {...props} />
+export const SingleClipVideoContent: React.FC<SingleClipVideoContentProps> = ({theme, ...props}) => (
+	<ThemeProvider value={theme}>
+		<SingleClipVideoContentInner {...props} />
 	</ThemeProvider>
 );
 
-const VideoContentInner: React.FC<VideoContentProps> = ({
-	hookDurationInFrames,
+const SingleClipVideoContentInner: React.FC<Omit<SingleClipVideoContentProps, 'theme'>> = ({
+	clipSrc,
+	captionsFile,
 	mainDurationInFrames,
 	outroDurationInFrames,
 	transitionDurationInFrames,
+	hookOverlayDurationInFrames,
+	punchAtFrame,
+	figureHighlights = [],
 }) => {
 	const {fps} = useVideoConfig();
 	const theme = useTheme();
 	useFontReady();
-	const captionsA = useCaptions('captions-a.json');
-	const pages = useTikTokPages(captionsA);
+	const captions = useCaptions(captionsFile);
+	const pages = useTikTokPages(captions);
 
-	// Punch-in justo cuando empieza a decir la cifra de comparación ("...ha alcanzado 25 30
-	// millones de pesos"), tomado de public/captions-a.json (token " alcanz" en 21470ms).
-	const punchAtFrame = Math.round((21470 / 1000) * fps);
+	// Punch-in: usa el frame real pasado por props (ideal, anclado a un momento de la
+	// transcripción) o, si no se especifica, la mitad del clip.
+	const resolvedPunchAtFrame = punchAtFrame ?? Math.round(mainDurationInFrames / 2);
+	const hookFadeOutStartFrame = hookOverlayDurationInFrames - Math.round(fps * 0.5);
 
 	return (
 		<TransitionSeries>
-			<TransitionSeries.Sequence durationInFrames={hookDurationInFrames}>
-				<AbsoluteFill>
-					<KenBurnsClip
-						src="clip-b.mp4"
-						durationInFrames={hookDurationInFrames}
-						muted
-						volume={0}
-						// El dron (visible en el propio plano, por ser un video generado por IA) entra en
-						// cuadro pasado el frame ~24 (0.8s @30fps); congelamos justo antes en un fotograma
-						// limpio de playa y mantenemos el Ken Burns sobre esa imagen fija.
-						freezeAtFrame={20}
-					/>
-					<OnScreenText text={theme.hook} />
-				</AbsoluteFill>
-			</TransitionSeries.Sequence>
-
-			<TransitionSeries.Transition
-				presentation={slide({direction: 'from-right'})}
-				timing={linearTiming({durationInFrames: transitionDurationInFrames})}
-			/>
-
 			<TransitionSeries.Sequence durationInFrames={mainDurationInFrames}>
 				<AbsoluteFill>
 					<KenBurnsClip
-						src="clip-a.mp4"
+						src={clipSrc}
 						durationInFrames={mainDurationInFrames}
-						punchAtFrame={punchAtFrame}
+						punchAtFrame={resolvedPunchAtFrame}
 					/>
 					<ProgressBar durationInFrames={mainDurationInFrames} />
 					<LowerThird
 						name={theme.brand.name}
 						business={theme.brand.business}
-						inAtFrame={Math.round(fps * 0.5)}
+						inAtFrame={hookOverlayDurationInFrames + Math.round(fps * 0.3)}
 						outAtFrame={mainDurationInFrames - Math.round(fps * 1)}
 					/>
+					<Sequence durationInFrames={hookOverlayDurationInFrames} premountFor={fps}>
+						<OnScreenText text={theme.hook} position="top" fadeOutAfterFrame={hookFadeOutStartFrame} />
+					</Sequence>
 					{pages.map((page) => {
 						const startFrame = Math.round((page.startMs / 1000) * fps);
 						const durationInFrames = Math.round((page.durationMs / 1000) * fps);
@@ -111,13 +114,16 @@ const VideoContentInner: React.FC<VideoContentProps> = ({
 							</Sequence>
 						);
 					})}
-					{/* Cifras reales mencionadas en el audio (public/captions-a.json), Paso 8. */}
-					<Sequence from={Math.round((22300 / 1000) * fps)} durationInFrames={90} premountFor={fps}>
-						<FigureHighlight text="$25–30M MXN" durationInFrames={90} />
-					</Sequence>
-					<Sequence from={Math.round((27500 / 1000) * fps)} durationInFrames={90} premountFor={fps}>
-						<FigureHighlight text="Desde $4M MXN" durationInFrames={90} />
-					</Sequence>
+					{figureHighlights.map((figure) => (
+						<Sequence
+							key={figure.atMs}
+							from={Math.round((figure.atMs / 1000) * fps)}
+							durationInFrames={figure.durationInFrames}
+							premountFor={fps}
+						>
+							<FigureHighlight text={figure.text} durationInFrames={figure.durationInFrames} />
+						</Sequence>
+					))}
 				</AbsoluteFill>
 			</TransitionSeries.Sequence>
 

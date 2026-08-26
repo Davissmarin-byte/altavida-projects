@@ -1,58 +1,73 @@
-import { AbsoluteFill, spring, useCurrentFrame, useVideoConfig } from 'remotion';
-import { theme } from '../theme';
-import { fontFamily } from '../load-font';
-import { brand, cta } from '../content';
+import React from 'react';
+import {AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {useTheme} from '../theme-context';
 
 export const Outro: React.FC = () => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	const theme = useTheme();
 
-  const brandEnter = spring({ frame, fps, config: theme.motion.springSmooth, durationInFrames: 20 });
-  const ctaEnter = spring({
-    frame: frame - 8,
-    fps,
-    config: { damping: 12 },
-    durationInFrames: 20,
-  });
+	const brandEnter = spring({frame, fps, config: theme.motion.springSnappy, durationInFrames: 15});
+	const ctaEnter = spring({
+		frame: frame - 10,
+		fps,
+		config: theme.motion.springBouncy,
+		durationInFrames: 18,
+	});
 
-  return (
-    <AbsoluteFill
-      style={{
-        backgroundColor: theme.colors.bgOutro,
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
-      <div
-        style={{
-          fontFamily,
-          fontWeight: 800,
-          fontSize: 34,
-          letterSpacing: 2,
-          color: theme.colors.accent,
-          opacity: brandEnter,
-          transform: `translateY(${(1 - brandEnter) * 16}px)`,
-          marginBottom: '2em',
-          textTransform: 'uppercase',
-        }}
-      >
-        {brand.name}
-      </div>
-      <div
-        style={{
-          fontFamily,
-          fontWeight: 800,
-          fontSize: 58,
-          textAlign: 'center',
-          padding: '0 10%',
-          color: theme.colors.text,
-          WebkitTextStroke: `2px ${theme.colors.textStroke}`,
-          opacity: ctaEnter,
-          transform: `scale(${0.9 + 0.1 * ctaEnter})`,
-        }}
-      >
-        {cta.text}
-      </div>
-    </AbsoluteFill>
-  );
+	return (
+		<AbsoluteFill
+			style={{
+				background: theme.colors.bgIntro,
+				justifyContent: 'center',
+				alignItems: 'center',
+			}}
+		>
+			<div
+				style={{
+					opacity: interpolate(brandEnter, [0, 1], [0, 1]),
+					transform: `translateY(${interpolate(brandEnter, [0, 1], [20, 0])}px)`,
+					textAlign: 'center',
+					marginBottom: 36,
+				}}
+			>
+				<div
+					style={{
+						fontFamily: theme.fonts.display,
+						fontWeight: 800,
+						fontSize: 40,
+						color: theme.colors.text,
+					}}
+				>
+					{theme.brand.name}
+				</div>
+				<div
+					style={{
+						fontFamily: theme.fonts.display,
+						fontWeight: 400,
+						fontSize: 26,
+						color: theme.colors.accent,
+					}}
+				>
+					{theme.brand.business}
+				</div>
+			</div>
+			<div
+				style={{
+					opacity: interpolate(ctaEnter, [0, 1], [0, 1]),
+					transform: `scale(${interpolate(ctaEnter, [0, 1], [0.8, 1])})`,
+					fontFamily: theme.fonts.display,
+					fontWeight: 800,
+					fontSize: 56,
+					color: theme.colors.accent,
+					textAlign: 'center',
+					padding: '0 8%',
+					lineHeight: 1.2,
+					WebkitTextStroke: `2px ${theme.colors.textStroke}`,
+				}}
+			>
+				{theme.cta}
+			</div>
+		</AbsoluteFill>
+	);
 };
