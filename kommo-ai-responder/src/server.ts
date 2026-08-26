@@ -32,7 +32,7 @@ app.post("/kommo/salesbot-reply", async (req, res) => {
   }
 
   try {
-    const text = await generateReply({
+    const { text, priority, signals } = await generateReply({
       leadId: lead_id,
       leadName: lead_name,
       contactName: contact_name,
@@ -40,7 +40,7 @@ app.post("/kommo/salesbot-reply", async (req, res) => {
       propertyUrl: property_url,
       message,
     });
-    res.json({ text });
+    res.json({ text, priority, signals });
   } catch (error) {
     console.error("Error generando respuesta con IA:", error);
     res.status(502).json({ error: "no se pudo generar la respuesta" });
