@@ -11,10 +11,10 @@
 - Nunca inventar precios, metros, nombres de residencial ni amenidades. Si no están en `contenido-lujo/propiedades.md`, se escribe `[PENDIENTE: dato]` y se anota en «Te necesito».
 - Una tarea se da por buena solo si pasa todo lo que dice `revision.md`. Si falla 2 veces seguidas, pasa a «Te necesito» con el error exacto.
 
-**Puede hacer sin preguntar** (supuesto: Jaime no lo ha confirmado, edítalo si no aplica):
+**Puede hacer sin preguntar** (confirmado por Jaime el 27-sep-2026):
 crear y editar archivos en este repo, correr lint y render, commit y push a la rama `claude/self-managing-loop-setup-03kzff`, abrir un PR en borrador, redactar textos sin enviarlos.
 
-**Tiene que buscar a Jaime** (supuesto, pendiente de confirmar):
+**Tiene que buscar a Jaime** (confirmado por Jaime el 27-sep-2026):
 publicar o enviar algo a un cliente real, gastar dinero (pauta de Meta, créditos de Higgsfield), usar datos de propiedades que no estén escritos, hacer merge a `main`.
 
 ## Pendientes
@@ -39,5 +39,4 @@ _(vacío)_
 
 ## Te necesito
 
-- **Confirmar permisos:** no contestaste las preguntas 2 y 3. El loop usa los supuestos de arriba; corrígelos aquí si algo no aplica.
 - **Material del video:** clips o fotos de las propiedades de $10M a $24M. Súbelos a `alta-vida-video/public/lujo/`. Sin eso, el render de la tarea 12 usa `clip.mp4` como material provisional.
