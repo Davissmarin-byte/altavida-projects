@@ -57,11 +57,18 @@ Horarios según los picos de audiencia de Metricool para el miércoles: Facebook
 | Mié 21 | 10:25 · 10:28 · 10:31 | Historias 1, 2 y 3 de adelanto (IG + FB) |
 | Mié 21 | 12:00 | Carrusel en Facebook |
 | Mié 21 | 13:00 | Reel en Facebook (v3) |
+| Mié 21 | 13:20 | TikTok: Reel v3 (etiqueta IA) |
+| Mié 21 | 13:30 | Threads: carrusel de 10 fotos |
+| Mié 21 | 14:00 | YouTube: video largo v3 (2:19), contenido sintético declarado |
 | Mié 21 | 15:00 | Carrusel en Instagram, con colaboradores |
 | Mié 21 | 17:00 · 17:03 · 17:06 | Historias 4, 5 y 6 |
+| Mié 21 | 18:00 | YouTube Short: Reel v3 |
 | Mié 21 | 19:00 | Reel en Instagram (v3), con colaboradores y etiqueta de IA |
+| Mié 21 | 20:30 | Threads: Reel v3 |
 | Jue 22 | 09:00 · 09:03 · 09:06 y 12:30 · 12:33 · 12:36 | Repetición de historias 1 a 6 |
 | Vie 23 | 11:00 · 11:03 · 11:06 y 19:00 | Repetición de historias 1, 3, 5 y 6 |
 | Sáb 24 | 11:00 · 11:03 · 11:06 | Repetición de historias 2, 4 y 6 |
 | Dom 25 | 18:00 · 18:03 | Repetición de historias 5 y 6 |
 | Mié 28 | 19:00 · 19:03 | Recordatorio con historias 5 y 6 |
+
+Pinterest no aparece conectado en la marca de Metricool (sí lo están Facebook, Instagram, Threads, TikTok, YouTube y LinkedIn).
