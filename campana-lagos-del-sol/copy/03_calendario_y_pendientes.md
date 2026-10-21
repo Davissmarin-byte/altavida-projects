@@ -49,15 +49,18 @@ Cambios pedidos por Jaime: se quitó su aparición de todos los videos, se acort
 - Reel 57 s, con vuelo aéreo y voz de Marisol: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/e08ac663-73eb-4d84-b9d5-1b081fffd3ee.mp4
 - YouTube 2:19, sin narración (solo música, títulos y vuelo aéreo): https://d2ol7oe51mr4n9.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/c3911e23-feb7-45a8-b5b8-d4130c26ba71.mp4
 
-### Calendario adelantado (Metricool)
+### Calendario vigente (Metricool): lanzamiento el miércoles 21
+Horarios según los picos de audiencia de Metricool para el miércoles: Facebook a las 10, 11 y 12 h; Instagram a las 15 h y en la tarde-noche.
+
 | Fecha | Hora | Pieza |
 |---|---|---|
-| Jue 22 | 08:30 | Carrusel en Facebook |
-| Jue 22 | 09:00 · 09:03 · 09:06 | Historias 1, 2 y 3 (IG + FB) |
-| Jue 22 | 10:00 | Carrusel en Instagram, con colaboradores |
-| Jue 22 | 11:00 | Reel en Instagram (v3) |
-| Jue 22 | 11:30 | Reel en Facebook (v3) |
-| Jue 22 | 12:30 · 12:33 · 12:36 | Historias 4, 5 y 6 |
+| Mié 21 | 10:25 · 10:28 · 10:31 | Historias 1, 2 y 3 de adelanto (IG + FB) |
+| Mié 21 | 12:00 | Carrusel en Facebook |
+| Mié 21 | 13:00 | Reel en Facebook (v3) |
+| Mié 21 | 15:00 | Carrusel en Instagram, con colaboradores |
+| Mié 21 | 17:00 · 17:03 · 17:06 | Historias 4, 5 y 6 |
+| Mié 21 | 19:00 | Reel en Instagram (v3), con colaboradores y etiqueta de IA |
+| Jue 22 | 09:00 · 09:03 · 09:06 y 12:30 · 12:33 · 12:36 | Repetición de historias 1 a 6 |
 | Vie 23 | 11:00 · 11:03 · 11:06 y 19:00 | Repetición de historias 1, 3, 5 y 6 |
 | Sáb 24 | 11:00 · 11:03 · 11:06 | Repetición de historias 2, 4 y 6 |
 | Dom 25 | 18:00 · 18:03 | Repetición de historias 5 y 6 |
