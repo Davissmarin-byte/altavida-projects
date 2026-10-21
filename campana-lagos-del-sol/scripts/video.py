@@ -91,7 +91,7 @@ def capa_titulo(seg, W, H, vertical):
             d.text((x, y + 95), seg["it"], font=fi, fill=ORO, anchor="ms")
     else:
         capa.alpha_composite(degradado(W, H, int(H * 0.55), H, alfa_max=190))
-        x, y = 110, H - 210
+        x, y = 110, H - 290
         if seg.get("kicker"):
             texto_espaciado(d, (x, y - 70), seg["kicker"].upper(), fuente("montserrat", 22, "Medium"), ORO, 0.32)
         ft = fuente("cormorant", 74, "Light")
@@ -113,11 +113,12 @@ def capa_jaime(W, H, vertical):
         texto_espaciado(d, (W / 2, y + 60), "DIRECTOR GENERAL, ALTA VIDA INMUEBLES",
                         fuente("montserrat", 24, "Medium"), ORO, 0.2, "mm")
     else:
-        capa.alpha_composite(degradado(W, H, int(H * 0.5), H, alfa_max=200))
-        d.line([(110, H - 250), (180, H - 250)], fill=ORO, width=2)
-        d.text((108, H - 165), "Jaime Marín", font=fuente("cormorant", 80, "Light"), fill=MARFIL, anchor="ls")
-        texto_espaciado(d, (110, H - 115), "DIRECTOR GENERAL, ALTA VIDA INMUEBLES",
-                        fuente("montserrat", 22, "Medium"), ORO, 0.25)
+        d.line([(110, H / 2 - 110), (180, H / 2 - 110)], fill=ORO, width=2)
+        d.text((108, H / 2), "Jaime Marín", font=fuente("cormorant", 96, "Light"), fill=MARFIL, anchor="ls")
+        texto_espaciado(d, (110, H / 2 + 55), "DIRECTOR GENERAL",
+                        fuente("montserrat", 24, "Medium"), ORO, 0.25)
+        texto_espaciado(d, (110, H / 2 + 100), "ALTA VIDA INMUEBLES",
+                        fuente("montserrat", 24, "Medium"), ORO, 0.25)
     return capa
 
 
@@ -195,12 +196,12 @@ YOUTUBE = [
     dict(img=[31, 9], f=(0.5, 0.4), mov="in", vo=[7], min=5, kicker="Planta baja", titulo="Sala a", it="doble altura"),
     dict(img=[32, 35], mov="out", vo=[8], min=8),
     dict(img=[9, 10], mov="in", vo=[9], min=5, kicker="Planta baja", titulo="Comedor"),
-    dict(img=[2, 10], mov="izq", vo=[10], min=7, kicker="Cocina", titulo="y alacena"),
+    dict(img=[2, 10], mov="izq", vo=[10], min=7, kicker="Planta baja", titulo="Cocina", it="y alacena"),
     dict(img=[4, 13], mov="in", vo=[11], min=7, kicker="Terraza techada", titulo="a doble", it="altura"),
     dict(img=[5, 6], mov="out", vo=[12], min=7, kicker="Jardín", titulo="Alberca", it="infinity"),
     dict(img=[8, 7], mov="in", vo=[13], min=6),
     dict(img=[44, 18], mov="der", vo=[14], min=6, kicker="Exterior", titulo="Acceso", it="al lago"),
-    dict(img=19, mov="in", vo=[15], min=6, kicker="Planta alta", titulo="Family room"),
+    dict(img=19, mov="in", vo=[15], min=6, kicker="Planta alta", titulo="Vista al", it="lago"),
     dict(img=24, mov="izq", vo=[16], min=9, kicker="Planta alta", titulo="Recámara", it="principal"),
     dict(img=[26, 29], mov="in", vo=[], min=5, kicker="Recámara principal", titulo="Vestidor", it="y baño"),
     dict(img=[22, 33], mov="der", vo=[17], min=8, kicker="Recámaras 2 y 3", titulo="Vestidor y", it="baño completo"),
@@ -300,7 +301,7 @@ def montar(guion, voz, W, H, vertical, musica, nombre, gap=0.55, pre=0.4, xf=0.6
 def base_jaime_h(W, H):
     """16:9: retrato de Jaime a la izquierda sobre espresso."""
     lienzo = Image.new("RGB", (int(W * 1.04), int(H * 1.04)), ESPRESSO)
-    retrato = cubrir(foto("jaime"), int(H * 1.04 * 0.75), int(H * 1.04), 0.5, 0.3)
+    retrato = cubrir(foto("jaime"), int(H * 1.04 * 0.75), int(H * 1.04), 0.68, 0.2)
     lienzo.paste(retrato, (int(W * 0.52), 0))
     return lienzo
 

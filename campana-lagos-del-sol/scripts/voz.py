@@ -64,7 +64,9 @@ k = Kokoro(f"{S}/tts/kokoro-v1.0.onnx", f"{S}/tts/voices.npz")
 
 
 def decir(txt, voz=VOZ):
-    a, sr = k.create(txt.replace("ALTA VIDA", "Alta Vida"), voice=voz, speed=0.86, lang="es")
+    # grafías fonéticas verificadas con transcripción automática
+    habla = txt.replace("ALTA VIDA Inmuebles", "Alta Vida Inmmuebles").replace("millones novecientos", "millones, novecientos")
+    a, sr = k.create(habla, voice=voz, speed=0.86, lang="es")
     assert sr == SR
     # recorta silencios de los bordes
     idx = np.where(np.abs(a) > 0.01)[0]
