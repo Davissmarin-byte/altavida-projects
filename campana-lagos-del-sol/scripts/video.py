@@ -23,7 +23,7 @@ def foto(n):
         im = ImageOps.exif_transpose(Image.open(JAIME)).convert("RGB")
         # cuerpo superior, sin la mano ni el fondo
         w, h = im.size
-        return gradar(im.crop((int(w * 0.38), int(h * 0.08), int(w * 0.98), int(h * 0.50))))
+        return gradar(im.crop((int(w * 0.45), int(h * 0.07), int(w * 0.98), int(h * 0.40))))
     return gradar(Image.open(f"{S}/photos/p{n:02d}.jpg"))
 
 
@@ -78,7 +78,7 @@ def capa_titulo(seg, W, H, vertical):
         return None
     d = ImageDraw.Draw(capa)
     if vertical:
-        capa.alpha_composite(degradado(W, H, 0, 820, alfa_max=225, arriba=True))
+        capa.alpha_composite(degradado(W, H, 0, 900, alfa_max=245, arriba=True))
         y = 380
         x = W / 2
         if seg.get("kicker"):
@@ -86,7 +86,9 @@ def capa_titulo(seg, W, H, vertical):
         if seg.get("titulo"):
             d.text((x, y), seg["titulo"], font=fuente("cormorant", 86, "Light"), fill=MARFIL, anchor="ms")
         if seg.get("it"):
-            d.text((x, y + 95), seg["it"], font=fuente("cormorant-it", 90, "Light"), fill=ORO, anchor="ms")
+            fi = fuente("cormorant-it", 90, "Regular")
+            d.text((x + 2, y + 97), seg["it"], font=fi, fill=(0, 0, 0, 150), anchor="ms")
+            d.text((x, y + 95), seg["it"], font=fi, fill=ORO, anchor="ms")
     else:
         capa.alpha_composite(degradado(W, H, int(H * 0.55), H, alfa_max=190))
         x, y = 110, H - 210
