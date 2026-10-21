@@ -27,7 +27,7 @@ Líneas secundarias:
 
 **Lo que NO se dice:** arquitecto o despacho, plusvalía o rendimientos, acabados que no se ven en las fotos.
 
-**Toma aérea IA (Gemini):** no se usa. El archivo pesa 7.7 MB y el conector de Drive solo deja bajar hasta unos 3 MB, así que no pude compararlo cuadro por cuadro con las fotos y el PDF. Por la regla 5, sin verificar no se usa. Todas las piezas abren con la toma real de la alberca infinity y el lago. **Recomendación:** programar un vuelo real de dron (amanecer o 5:30 pm, luz dorada sobre el lago) y sustituir la apertura en todas las piezas.
+**Toma aérea IA (Gemini):** por decisión de Jaime **sí se usa** como toma lejana del residencial: abre el Reel (3.5 s) y, en YouTube, va después de la presentación (4 s). Lleva el rótulo «Recreación ilustrativa generada con IA» y la etiqueta de IA de la plataforma. Muestra el entorno de lagos, no la casa, así que no atribuye a la propiedad nada que no tiene. Se recomienda un vuelo real de dron para sustituirla.
 
 ---
 

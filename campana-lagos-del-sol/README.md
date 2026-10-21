@@ -25,7 +25,7 @@ ALTA VIDA Inmuebles · octubre de 2026
 - Solo fotos reales de la propiedad; ninguna persona ficticia. La única persona que aparece es Jaime Marín, con su foto real (IMG_2630).
 - Solo los datos de la ficha técnica. No se menciona arquitecto ni plusvalía.
 - Logo ALTAVIDA® oficial (`ALTA VIDA PNG .png`) sin modificar, solo en el cierre y sobre fondo marfil.
-- El vuelo aéreo IA (Gemini) **no se usó**, porque no se pudo verificar su fidelidad.
+- Vuelo aéreo IA (Gemini): se usa como toma lejana de Lagos del Sol (Reel 0–3.5 s; YouTube 0:22), con el rótulo «Recreación ilustrativa generada con IA». Las versiones finales (`*_v2.mp4`) se armaron en el sandbox de Higgsfield con `scripts/vuelo_aereo.sh` y están en Higgsfield/Metricool.
 - La voz en off es sintética (Kokoro, voz masculina en español). Al publicar el Reel, el TikTok y el video de YouTube hay que activar la etiqueta de IA.
 - La música es original, sintetizada en `scripts/voz.py`, sin derechos de terceros.
 

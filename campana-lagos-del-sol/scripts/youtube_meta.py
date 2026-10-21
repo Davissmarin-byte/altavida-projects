@@ -13,7 +13,10 @@ def mmss(s):
     return f"{s // 60}:{s % 60:02d}"
 
 
-capitulos = "\n".join(f"{mmss(0 if i == 0 else cap[i][0])} {n}" for i, n in nombres.items())
+lineas = [(0 if i == 0 else cap[i][0], n) for i, n in nombres.items()]
+if len(sys.argv) > 3:  # versión con vuelo aéreo insertado tras la presentación
+    lineas.append((int(sys.argv[3]), "Vuelo sobre Lagos del Sol (recreación IA)"))
+capitulos = "\n".join(f"{mmss(t)} {n}" for t, n in sorted(lineas))
 
 txt = f"""# YouTube · metadatos
 
@@ -40,7 +43,7 @@ Instagram: @altavidainmuebles
 Capítulos
 {capitulos}
 
-Imágenes: fotografía real de la propiedad. Voz en off sintética.
+Imágenes: fotografía real de la propiedad. La toma aérea del residencial es una recreación ilustrativa generada con IA. Voz en off sintética.
 
 #LagosDelSol #CasasEnCancun #CancunRealEstate
 

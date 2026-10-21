@@ -33,9 +33,13 @@ Nada se publica sin el «sí, publica» de Jaime, pieza por pieza.
 
 **Técnico (Clau)**
 - [ ] Los 13 .MOV del recorrido (de 30 a 470 MB) no se pudieron bajar: el conector de Drive solo permite archivos de hasta unos 3 MB y la red del entorno bloquea Google Drive directo. Los videos se armaron con las 46 fotos reales, con movimiento de cámara. Para la versión con los .MOV hay dos caminos: (a) correr el proyecto en una computadora con los archivos, o (b) compartir la carpeta en un servicio permitido
-- [ ] El vuelo IA de Gemini no se usó (no se pudo verificar, ver concepto)
+- [x] Vuelo IA de Gemini integrado (Reel y YouTube v2, con rótulo de recreación IA)
 - [ ] Al llegar el clon de voz o el dron, re-renderizar con `scripts/video.py` (mismo montaje)
 
 ## Etiquetas de IA al publicar
 - Reel, TikTok y YouTube: **sí**, porque la voz en off es sintética. Activar «Contenido generado con IA» (IG `isAiGenerated`, TikTok `isAigc`, YouTube «contenido alterado o sintético»).
 - Carrusel e historias: **no** (fotos reales, sin IA).
+
+## Versiones finales con vuelo aéreo (v2)
+- Reel 60.5 s: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/20b55456-01e2-47c3-b2bc-0210cc4c83ee.mp4 (ya cargado en Metricool para el sábado 24, IG y FB)
+- YouTube 3:06: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/87c913fe-2453-4c64-9d40-31390642f0c4.mp4 (subida manual el lunes 26 a las 18:00, con los capítulos de `04_youtube_metadatos.md`)

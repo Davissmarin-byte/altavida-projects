@@ -23,18 +23,19 @@ Instagram: @altavidainmuebles
 Capítulos
 0:00 El lago
 0:11 Presentación
-0:24 La llegada
-0:45 Sala a doble altura
-1:00 Comedor y cocina
-1:12 Terraza, jardín y alberca infinity
-1:32 Acceso al lago
-1:38 Planta alta
-1:45 Recámara principal
-1:59 Recámaras
-2:19 Residencial Lagos del Sol
-2:51 Precio y visita privada
+0:22 Vuelo sobre Lagos del Sol (recreación IA)
+0:27 La llegada
+0:48 Sala a doble altura
+1:03 Comedor y cocina
+1:15 Terraza, jardín y alberca infinity
+1:35 Acceso al lago
+1:41 Planta alta
+1:48 Recámara principal
+2:02 Recámaras
+2:22 Residencial Lagos del Sol
+2:54 Precio y visita privada
 
-Imágenes: fotografía real de la propiedad. Voz en off sintética.
+Imágenes: fotografía real de la propiedad. La toma aérea del residencial es una recreación ilustrativa generada con IA. Voz en off sintética.
 
 #LagosDelSol #CasasEnCancun #CancunRealEstate
 
