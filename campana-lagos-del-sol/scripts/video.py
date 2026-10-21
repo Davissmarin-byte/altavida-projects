@@ -13,7 +13,7 @@ FPS = 30
 MODO, OUT = sys.argv[1], sys.argv[2]
 os.makedirs(OUT, exist_ok=True)
 AUD = os.path.join(S, "out", "audio")
-VOZ = json.load(open(f"{AUD}/voz.json"))
+VOZ = json.load(open(os.environ.get("VOZ_JSON", f"{AUD}/voz.json")))
 JAIME = os.path.join(S, "jaime", "IMG_2630.jpg")
 WA = "998 154 6066  ·  998 430 9472"
 
@@ -357,7 +357,33 @@ def srt(lineas, ruta):
             f.write(f"{i}\n{ts(a)} --> {ts(b)}\n{t}\n\n")
 
 
-if MODO == "reel":
+# v3: sin la aparición de Jaime; voz femenina (Marisol, Higgsfield) mezclada después en el sandbox
+REEL_V3 = [
+    dict(img=8, f=(0.5, 0.55), mov="in", vo=[0, 1], min=3.2, kicker="Lagos del Sol · Cancún", titulo="Vivir frente", it="al lago"),
+    dict(img=1, f=(0.3, 0.5), mov="izq", vo=[2], min=3.5, kicker="Residencia", titulo="frente al lago"),
+    dict(img=46, mov="in", vo=[3], min=3.0, kicker="Residencial", titulo="Lagos del Sol"),
+    dict(img=4, mov="sube", vo=[4], min=3.5, kicker="Terraza", titulo="a doble altura"),
+    dict(img=31, f=(0.5, 0.3), mov="in", vo=[5], min=3.5, kicker="Sala", titulo="a doble altura"),
+    dict(img=5, mov="out", vo=[], min=3.6, kicker="Alberca infinity", titulo="Acceso al lago"),
+    dict(img=24, mov="der", vo=[6], min=4.0, kicker="4 recámaras · 4.5 baños", titulo="Vista al lago"),
+    dict(img=26, mov="in", vo=[7], min=3.0),
+    dict(img=20, mov="izq", vo=[8], min=4.5, kicker="570 m² construcción", titulo="550 m² terreno"),
+    dict(img="cierre", mov="fijo", vo=[9], min=5.0, cierre=True),
+]
+
+# YouTube v3: película sin narración (música + títulos), sin la aparición de Jaime
+YOUTUBE_V3 = [dict(s, vo=[], min=max(5.0, s["min"] * 0.8)) for s in YOUTUBE if not s.get("jaime")]
+YOUTUBE_V3[0].update(min=7)
+YOUTUBE_V3[-1].update(min=8)
+
+if MODO == "reel3":
+    mp4, cap, lin, tot = montar(REEL_V3, VOZ["reel"], 1080, 1920, True, f"{AUD}/musica_reel.wav", "reel_lagos_del_sol_v3", gap=0.45)
+    srt(lin, f"{OUT}/reel_lagos_del_sol_v3.srt")
+    json.dump([(round(a, 3), round(b, 3), t) for a, b, t, _ in lin], open(f"{OUT}/reel_v3_lineas.json", "w"), ensure_ascii=False)
+elif MODO == "youtube3":
+    mp4, cap, lin, tot = montar(YOUTUBE_V3, [], 1920, 1080, False, f"{AUD}/musica_youtube.wav", "youtube_lagos_del_sol_v3", xf=1.0, cola=2.0)
+    json.dump(cap, open(f"{OUT}/youtube_v3_capitulos.json", "w"), ensure_ascii=False)
+elif MODO == "reel":
     mp4, cap, lin, tot = montar(REEL, VOZ["reel"], 1080, 1920, True, f"{AUD}/musica_reel.wav", "reel_lagos_del_sol")
     srt(lin, f"{OUT}/reel_lagos_del_sol.srt")
 elif MODO == "youtube":
