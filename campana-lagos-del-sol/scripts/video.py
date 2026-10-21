@@ -14,16 +14,15 @@ MODO, OUT = sys.argv[1], sys.argv[2]
 os.makedirs(OUT, exist_ok=True)
 AUD = os.path.join(S, "out", "audio")
 VOZ = json.load(open(f"{AUD}/voz.json"))
-JAIME = os.path.join(S, "jaime", "IMG_0386.jpg")
+JAIME = os.path.join(S, "jaime", "IMG_2630.jpg")
 WA = "998 154 6066  ·  998 430 9472"
 
 
 def foto(n):
     if n == "jaime":
         im = ImageOps.exif_transpose(Image.open(JAIME)).convert("RGB")
-        # cuerpo superior, sin la mano ni el fondo
         w, h = im.size
-        return gradar(im.crop((int(w * 0.45), int(h * 0.07), int(w * 0.98), int(h * 0.40))))
+        return gradar(im.crop((0, int(h * 0.04), w, int(h * 0.92))))
     return gradar(Image.open(f"{S}/photos/p{n:02d}.jpg"))
 
 
@@ -90,7 +89,7 @@ def capa_titulo(seg, W, H, vertical):
             d.text((x + 2, y + 97), seg["it"], font=fi, fill=(0, 0, 0, 150), anchor="ms")
             d.text((x, y + 95), seg["it"], font=fi, fill=ORO, anchor="ms")
     else:
-        capa.alpha_composite(degradado(W, H, int(H * 0.55), H, alfa_max=190))
+        capa.alpha_composite(degradado(W, H, int(H * 0.45), H, alfa_max=230))
         x, y = 110, H - 290
         if seg.get("kicker"):
             texto_espaciado(d, (x, y - 70), seg["kicker"].upper(), fuente("montserrat", 22, "Medium"), ORO, 0.32)
@@ -98,7 +97,7 @@ def capa_titulo(seg, W, H, vertical):
         d.text((x, y + 20), seg.get("titulo", ""), font=ft, fill=MARFIL, anchor="ls")
         if seg.get("it"):
             d.text((x + d.textlength(seg.get("titulo", "") + " ", font=ft), y + 20), seg["it"],
-                   font=fuente("cormorant-it", 74, "Light"), fill=ORO, anchor="ls")
+                   font=fuente("cormorant-it", 74, "Regular"), fill=ORO, anchor="ls")
     return capa
 
 
@@ -175,7 +174,7 @@ def capa_sub(txt, W, H, vertical):
 
 REEL = [
     dict(img=8, f=(0.5, 0.55), mov="in", vo=[0, 1], min=3.2, kicker="Lagos del Sol · Cancún", titulo="Vivir frente", it="al lago"),
-    dict(img="jaime", f=(0.75, 0.15), mov="in", vo=[2], min=4.0, jaime=True),
+    dict(img="jaime", f=(0.5, 0.3), mov="in", vo=[2], min=4.0, jaime=True),
     dict(img=1, f=(0.3, 0.5), mov="izq", vo=[3], min=3.5, kicker="Residencial", titulo="Lagos del Sol"),
     dict(img=4, mov="sube", vo=[4], min=3.5, kicker="Terraza", titulo="a doble altura"),
     dict(img=31, f=(0.5, 0.3), mov="in", vo=[5], min=3.5, kicker="Sala", titulo="a doble altura"),
@@ -202,7 +201,7 @@ YOUTUBE = [
     dict(img=[8, 7], mov="in", vo=[13], min=6),
     dict(img=[44, 18], mov="der", vo=[14], min=6, kicker="Exterior", titulo="Acceso", it="al lago"),
     dict(img=19, mov="in", vo=[15], min=6, kicker="Planta alta", titulo="Vista al", it="lago"),
-    dict(img=24, mov="izq", vo=[16], min=9, kicker="Planta alta", titulo="Recámara", it="principal"),
+    dict(img=24, mov="izq", vo=[16], min=9, kicker="Planta alta", titulo="Frente al", it="agua"),
     dict(img=[26, 29], mov="in", vo=[], min=5, kicker="Recámara principal", titulo="Vestidor", it="y baño"),
     dict(img=[22, 33], mov="der", vo=[17], min=8, kicker="Recámaras 2 y 3", titulo="Vestidor y", it="baño completo"),
     dict(img=[38, 34], mov="in", vo=[18], min=6),
@@ -301,7 +300,7 @@ def montar(guion, voz, W, H, vertical, musica, nombre, gap=0.55, pre=0.4, xf=0.6
 def base_jaime_h(W, H):
     """16:9: retrato de Jaime a la izquierda sobre espresso."""
     lienzo = Image.new("RGB", (int(W * 1.04), int(H * 1.04)), ESPRESSO)
-    retrato = cubrir(foto("jaime"), int(H * 1.04 * 0.75), int(H * 1.04), 0.68, 0.2)
+    retrato = cubrir(foto("jaime"), int(H * 1.04 * 0.75), int(H * 1.04), 0.5, 0.3)
     lienzo.paste(retrato, (int(W * 0.52), 0))
     return lienzo
 

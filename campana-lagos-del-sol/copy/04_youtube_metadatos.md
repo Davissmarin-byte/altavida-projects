@@ -29,8 +29,8 @@ Capítulos
 1:12 Terraza, jardín y alberca infinity
 1:32 Acceso al lago
 1:38 Planta alta
-1:44 Recámara principal
-1:58 Recámaras
+1:45 Recámara principal
+1:59 Recámaras
 2:19 Residencial Lagos del Sol
 2:51 Precio y visita privada
 
