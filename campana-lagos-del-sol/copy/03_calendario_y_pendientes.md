@@ -43,3 +43,22 @@ Nada se publica sin el «sí, publica» de Jaime, pieza por pieza.
 ## Versiones finales con vuelo aéreo (v2)
 - Reel 60.5 s: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/20b55456-01e2-47c3-b2bc-0210cc4c83ee.mp4 (ya cargado en Metricool para el sábado 24, IG y FB)
 - YouTube 3:06: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/87c913fe-2453-4c64-9d40-31390642f0c4.mp4 (subida manual el lunes 26 a las 18:00, con los capítulos de `04_youtube_metadatos.md`)
+
+## Versión v3 (vigente desde el 21 de octubre)
+Cambios pedidos por Jaime: se quitó su aparición de todos los videos, se acortó el Reel y la voz en off ahora es femenina (Marisol, Higgsfield Seed Audio).
+- Reel 57 s, con vuelo aéreo y voz de Marisol: https://d2ol7oe51mr4n9.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/e08ac663-73eb-4d84-b9d5-1b081fffd3ee.mp4
+- YouTube 2:19, sin narración (solo música, títulos y vuelo aéreo): https://d2ol7oe51mr4n9.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/c3911e23-feb7-45a8-b5b8-d4130c26ba71.mp4
+
+### Calendario adelantado (Metricool)
+| Fecha | Hora | Pieza |
+|---|---|---|
+| Jue 22 | 08:30 | Carrusel en Facebook |
+| Jue 22 | 09:00 · 09:03 · 09:06 | Historias 1, 2 y 3 (IG + FB) |
+| Jue 22 | 10:00 | Carrusel en Instagram, con colaboradores |
+| Jue 22 | 11:00 | Reel en Instagram (v3) |
+| Jue 22 | 11:30 | Reel en Facebook (v3) |
+| Jue 22 | 12:30 · 12:33 · 12:36 | Historias 4, 5 y 6 |
+| Vie 23 | 11:00 · 11:03 · 11:06 y 19:00 | Repetición de historias 1, 3, 5 y 6 |
+| Sáb 24 | 11:00 · 11:03 · 11:06 | Repetición de historias 2, 4 y 6 |
+| Dom 25 | 18:00 · 18:03 | Repetición de historias 5 y 6 |
+| Mié 28 | 19:00 · 19:03 | Recordatorio con historias 5 y 6 |
