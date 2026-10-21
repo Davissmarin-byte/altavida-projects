@@ -3,7 +3,9 @@
     "allow": [
       "mcp__Higgsfield__sandbox_exec",
       "mcp__Metricool_Social_Media_Management__updateScheduledPost",
-      "mcp__Metricool_Social_Media_Management__updateScheduledPost(*)"
+      "mcp__Metricool_Social_Media_Management__updateScheduledPost(*)",
+      "mcp__Metricool_Social_Media_Management__createScheduledPost",
+      "mcp__Metricool_Social_Media_Management__getScheduledPosts"
     ]
   }
 }
