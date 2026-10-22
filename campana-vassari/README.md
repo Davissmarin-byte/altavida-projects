@@ -1,6 +1,6 @@
 # Campaña orgánica · Departamentos de 3 recámaras en Av. Huayacán, Cancún · desde $1,880,000
 
-ALTA VIDA Inmuebles · lanzamiento viernes 23 de octubre de 2026, 07:30 (Cancún)
+ALTA VIDA Inmuebles · lanzamiento jueves 22 de octubre de 2026, 08:30 (Cancún)
 
 > Regla de Jaime: **las piezas públicas no mencionan el nombre del residencial ni del desarrollador**, para que el cliente nos escriba directo. Se descartaron todas las tomas donde se lee el letrero del club o la placa del desarrollador, y se quitó el audio original de los videos.
 
@@ -8,7 +8,7 @@ ALTA VIDA Inmuebles · lanzamiento viernes 23 de octubre de 2026, 07:30 (Cancún
 
 | Pieza | Formato | Estilo |
 |---|---|---|
-| Reel principal | 9:16 · 36 s | Kenia abre la puerta y recorre el depa; voz en off (IA), subtítulos, precio y CTA |
+| Reel principal | 9:16 · 36 s | Kenia abre la puerta y recorre el depa; voz en off, subtítulos, precio y CTA |
 | Reel POV «Dejaste de rentar» | 9:16 · 18.6 s | Tendencia POV, cortes al ritmo |
 | Reel FAQ «¿Me alcanza con mi Infonavit?» | 9:16 · 21.8 s | Tarjetas de pregunta y respuesta |
 | Reel Amenidades | 9:16 · 15.8 s | Montaje exterior + lista del brochure |

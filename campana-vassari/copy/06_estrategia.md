@@ -14,18 +14,19 @@
 | YouTube | Lunes 16:00 | 9,351 |
 | LinkedIn | 11:00 | 637–2,914 |
 
-Arrancamos el **viernes 23 a las 7:30** con historias (primera hora, cuando la gente revisa el celular antes del trabajo) y el carrusel en Facebook a las 8:50, para llegar antes de la ventana de Lagos del Sol. **Entre campañas se dejan al menos 2 horas**: el viernes Lagos del Sol publica a las 11:00 y 19:00, el sábado a las 11:00, el domingo a las 18:00 y el miércoles a las 19:00.
+Arrancamos **hoy jueves 22 a las 8:30** con historias (primera hora, cuando la gente revisa el celular antes del trabajo); el carrusel y el Reel principal salen por la tarde (14:45–16:00), en el pico de IG del jueves. **Entre campañas se dejan al menos 2 horas**: Lagos del Sol publica el jueves a las 9:00 y 12:30, el viernes a las 11:00 y 19:00, el sábado a las 11:00, el domingo a las 18:00 y el miércoles a las 19:00. Única excepción: las historias de arranque de hoy a las 8:30.
 
 ## Variedad de contenido (para no repetir)
 
 | Día | Formato estrella | Ángulo |
 |---|---|---|
-| Vie | Reel principal con Kenia + carrusel | Recorrido + «deja de rentar» |
-| Sáb | Reel POV | Deja de rentar (tendencia) |
-| Dom | Reel FAQ | ¿Me alcanza con mi Infonavit? |
-| Lun | YouTube completo + Reel amenidades + LinkedIn | Amenidades e inversión |
-| Mar | Trial Reel en IG (solo no seguidores) + video de Jaime (si llega) | Alcance nuevo |
-| Mié–Jue | Historias de cierre con encuesta | Urgencia: entrega inmediata |
+| Jue | Reel principal con Kenia + carrusel | Recorrido + «deja de rentar» |
+| Vie | Reel POV | Deja de rentar (tendencia) |
+| Sáb | Reel FAQ | ¿Me alcanza con mi Infonavit? |
+| Dom | Reel amenidades | Amenidades |
+| Lun | YouTube completo + LinkedIn + Trial Reel en IG (solo no seguidores) | Inversión y alcance nuevo |
+| Mar | Video de Jaime (si llega) | Confianza |
+| Mar–Mié | Historias de cierre con encuesta | Urgencia: entrega inmediata |
 
 ## Reglas de comunidad
 
@@ -46,7 +47,7 @@ Si al lunes 26 hay menos de 15 conversaciones:
 - Audiencia: Cancún y 25 km alrededor, de 25 a 45 años, intereses en Infonavit, renta de departamentos, primera vivienda y familia.
 - Meta: costo por conversación menor a $40 MXN. Si no se logra en 48 h, cambiar al Reel POV.
 
-## KPIs (revisión lunes 26 y jueves 29 a las 9:00)
+## KPIs (revisión lunes 26 y miércoles 28 a las 9:00)
 
 | Indicador | Meta 7 días | Dónde |
 |---|---|---|

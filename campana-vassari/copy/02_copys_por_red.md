@@ -32,7 +32,7 @@ Hashtags base: #DepartamentosCancun #Infonavit #CreditoInfonavit #Fovissste #Cas
 > #DepartamentosCancun #Infonavit #CreditoInfonavit #Fovissste #CasaPropia #DejaDeRentar #Huayacan #Cancun #AltaVidaInmuebles
 
 Primer comentario (IG): «📲 WhatsApp directo: 998 154 6066. Escribe "PRECALIFICAR" y te contestamos hoy.»
-Etiqueta de IA: **sí** (la voz en off es sintética).
+Etiqueta de IA: **sí**, solo con la marca de cada red (la voz en off es sintética); sin leyenda en el copy ni en el video.
 
 **YouTube Shorts** · título: `Depa de 3 recámaras con Infonavit en Cancún 🔑 Entrega inmediata` · descripción: el mismo copy con el enlace de WhatsApp.
 

@@ -21,7 +21,7 @@
 
 | Ángulo | Pieza | Estilo |
 |---|---|---|
-| Recorrido con Kenia | Reel principal 36 s | Kenia abre la puerta → recorrido rápido → amenidades → ubicación → precio → CTA. Voz en off femenina (IA) + subtítulos grandes |
+| Recorrido con Kenia | Reel principal 36 s | Kenia abre la puerta → recorrido rápido → amenidades → ubicación → precio → CTA. Voz en off femenina + subtítulos grandes |
 | Deja de rentar | Reel «POV» 18.6 s | Tendencia POV, cortes al ritmo (112 bpm), un rótulo grande por espacio |
 | FAQ que vende | Reel FAQ 21.8 s | Tarjetas de pregunta en espresso/oro + respuesta sobre el recorrido |
 | Amenidades | Reel 15.8 s | Montaje exterior rápido + lista de amenidades del brochure |
@@ -29,7 +29,7 @@
 | Recorrido completo | YouTube 16:9 ~3 min | Video vertical sobre fondo desenfocado + panel de texto por espacio; incluye «Así se entrega» con el depa vacío real |
 | Inversión | LinkedIn | Distancias a aeropuerto y Tren Maya, sin prometer rendimientos |
 
-Personas reales: **Kenia Acosta** (abre la puerta y camina por el pasillo en el recorrido). Ninguna persona generada con IA. Jaime entra cuando mande su video (ver «Pendiente: video de Jaime»).
+Personas: **Kenia Acosta** (abre la puerta y camina por el pasillo en el recorrido). En próximas campañas se pueden usar avatares o personas generadas con IA. Jaime entra cuando mande su video (ver «Pendiente: video de Jaime»).
 
 ## Guion del Reel principal (voz «Marisol», Higgsfield Seed Audio)
 
@@ -41,13 +41,14 @@ Personas reales: **Kenia Acosta** (abre la puerta y camina por el pasillo en el 
 | 17.0–24.4 | Terraza, alberca, área de convivencia, jardín | «Afuera: alberca, multicancha, gimnasio al aire libre, pista para correr y juegos para los niños.» | — |
 | 24.4–27.0 | Alberca | «Sobre avenida Huayacán, a diez kilómetros del aeropuerto.» | ZONA HOTELERA 12.5 KM · TREN MAYA 9.7 KM |
 | 27.0–31.5 | Sala (lento) | (música) | DESDE $1,880,000 · Infonavit · Fovissste · Bancario · Entrega inmediata + nota legal |
-| 31.5–36.0 | Cierre marfil con logo | (música) | Escríbenos por WhatsApp · Te precalificamos gratis hoy · 998 154 6066 · «Voz en off generada con IA» |
+| 31.5–36.0 | Cierre marfil con logo | (música) | Escríbenos por WhatsApp · Te precalificamos gratis hoy · 998 154 6066 |
 
 Las líneas de precio y CTA no llevan voz: los créditos de Higgsfield se agotaron a mitad de la generación. Van en pantalla grande con la música, que funciona igual de bien en Reels (la mayoría ve sin sonido).
 
 ## Reglas de edición aplicadas
 
-- Se descartaron todas las tomas donde se lee el letrero del residencial («EL ARTE DE VIVIR» + logo) y la placa del desarrollador en la recámara.
+- En esta campaña se descartaron las tomas donde se lee el letrero del residencial («EL ARTE DE VIVIR» + logo) y la placa del desarrollador en la recámara.
 - Se eliminó el audio original de todos los videos (por si alguien dice el nombre del desarrollo).
 - Música original sintetizada (`scripts/musica.py`), sin derechos de terceros.
-- Etiqueta de IA: **sí** en el Reel principal (voz sintética). **No** en los demás (video real, rótulos y música propia).
+- Etiqueta de IA: solo la marca de la red (IG, TikTok, YouTube) en el Reel principal, por la voz sintética. No se escribe ninguna leyenda de IA en el video ni en el copy. Los demás no la llevan (video real, rótulos y música propia).
+- Para esta y las próximas campañas se pueden usar tomas buenas aunque se vea la marca o el desarrollador.

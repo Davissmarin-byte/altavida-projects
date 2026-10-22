@@ -6,7 +6,7 @@ Los videos se renderizaron en el sandbox de Higgsfield (ahí están los original
 
 | Pieza | Duración | Liga |
 |---|---|---|
-| Reel principal (9:16, voz IA + subtítulos) | 36.0 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/2634c828-411d-4827-839c-2ed6ec056157.mp4 |
+| Reel principal (9:16, voz en off + subtítulos) | 36.0 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/7f63ebd8-0cea-41c7-b778-8c8eea0b2105.mp4 |
 | Reel POV «Dejaste de rentar» | 18.6 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/563f2093-8ad5-48f4-a0dd-a2940ad6f4ba.mp4 |
 | Reel FAQ «¿Me alcanza con mi Infonavit?» | 21.8 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/552a8df2-be28-4d14-8be1-a4e3d496d9c3.mp4 |
 | Reel Amenidades | 15.8 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/597a9dd3-1103-42b8-943b-e09dbf653ce5.mp4 |
@@ -51,3 +51,13 @@ Los videos se renderizaron en el sandbox de Higgsfield (ahí están los original
 1:28 Así se entrega tu departamento
 2:09 Amenidades, ubicación y precio
 ```
+
+## Voz «Marisol» (líneas originales, WAV)
+
+| Línea | Texto | Liga |
+|---|---|---|
+| L0 | «Así es un depa de tres recámaras que puedes comprar con tu Infonavit en Cancún.» | https://d8j0ntlcm91z4.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/hf_20261022_025343_14840ccb-0ac9-4422-b5c8-b60cd52548ce.wav |
+| L1 | «Sala y comedor con luz natural, y cocina incluida.» | https://d8j0ntlcm91z4.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/hf_20261022_025440_9ad93eb1-d6b0-4d12-aea7-eaee3018cedd.wav |
+| L2 | «Tres recámaras, dos baños completos y ochenta metros cuadrados de construcción.» | https://d8j0ntlcm91z4.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/hf_20261022_025343_d1746c86-7cbc-437a-ae45-dbff55103a06.wav |
+| L3 | «Afuera: alberca, multicancha, gimnasio al aire libre…» | https://d8j0ntlcm91z4.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/hf_20261022_025538_15097d24-f7c2-4715-9601-2b26ca35ab38.wav |
+| L4 | «Sobre avenida Huayacán, a diez kilómetros del aeropuerto.» | https://d8j0ntlcm91z4.cloudfront.net/user_3JsohseMLvk5UX6KfnkQqlJqD2E/hf_20261022_025343_f4e25164-9127-48ab-97e5-592b5acc3d44.wav |

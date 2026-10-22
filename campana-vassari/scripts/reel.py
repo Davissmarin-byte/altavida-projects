@@ -26,7 +26,7 @@ tomas = [
     dict(src="k6623", ini=30.5, dur=2.0),                         # alberca
     dict(src="k6623", ini=32.0, dur=2.6, zoom=(1.08, 1.0)),       # alberca, toma abierta
     dict(src="k6564", ini=15.5, dur=4.5, vel=0.6, zoom=(1.0, 1.1)),  # fondo del precio
-    dict(img=cierre(W, H, ia=True), dur=4.5, zoom=(1.0, 1.03)),
+    dict(img=cierre(W, H), dur=4.5, zoom=(1.0, 1.03)),
 ]
 
 voces = [(f"{V}/T0.wav", 0.3), (f"{V}/T1.wav", 5.2), (f"{V}/T2.wav", 10.3), (f"{V}/T3.wav", 15.7), (f"{V}/T4.wav", 22.2)]
