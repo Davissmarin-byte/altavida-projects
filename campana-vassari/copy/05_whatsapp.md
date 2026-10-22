@@ -2,7 +2,7 @@
 
 El canal que cierra. Regla de oro: **responder en menos de 5 minutos entre 9:00 y 21:00**. Un lead de Infonavit que espera una hora ya le escribió a otro asesor.
 
-## 1. Difusión a la cartera (jueves 22, 16:30, en cuanto salga el Reel)
+## 1. Difusión a la cartera (jueves 22, 15:30, en cuanto salga el Reel)
 
 Enviar desde la lista de difusión de ventas (no desde grupos). Adjuntar el **Reel principal** y, en un segundo mensaje, la **lámina 1 del carrusel**.
 
@@ -26,8 +26,8 @@ Versión para **referidores, notarías y asesores de crédito**:
 |---|---|---|
 | Jue 22 | 09:00 | historia_01.mp4, historia_02.mp4, historia_03.mp4 |
 | Jue 22 | 19:00 | historia_05.mp4 (precio) y historia_06.mp4 (CTA) |
-| Vie 23 | 14:30 | Reel «POV: dejaste de rentar» |
-| Sáb 24 | 13:30 | Reel FAQ «¿Me alcanza con mi Infonavit?» |
+| Vie 23 | 15:30 | Reel «POV: dejaste de rentar» |
+| Sáb 24 | 14:30 | Reel FAQ «¿Me alcanza con mi Infonavit?» |
 | Lun 26 | 17:00 | Enlace al video de YouTube |
 | Mar 27 | 09:00 | historia_04.mp4 y historia_06.mp4 |
 
