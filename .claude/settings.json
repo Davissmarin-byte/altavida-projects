@@ -1,0 +1,36 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__Windsor_ai__execute_action|mcp__Notion__notion-delete-pages|mcp__Notion__notion-delete-databases|mcp__Google_Drive__trash_file|mcp__Google_Sheets__batch_clear_values",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard_spend_delete.py\"",
+            "statusMessage": "Revisando regla de pauta y borrados"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write|MultiEdit|NotebookEdit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard_env.py\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/stop_drive_link.py\"",
+            "statusMessage": "Revisando enlace de Drive del contenido"
+          }
+        ]
+      }
+    ]
+  }
+}
