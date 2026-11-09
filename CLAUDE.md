@@ -58,3 +58,14 @@
 
 ## Reportes
 - Lunes, miércoles y viernes: métricas y resultados, separados por Marketplace, Inmuebles24, página web y cada red de Alta Vida Inmuebles.
+
+## Estudio de edición con Katana
+- Para editar video uso siempre Katana del conector de Higgsfield.
+- Carpetas: videos/crudos/ (grabaciones de Jaime), videos/referencias/ (estilos a copiar), videos/listos/ (ediciones terminadas), notas/ (ideas y lo que le gustó de cada edición).
+- "Mi grabación" = el archivo más reciente de videos/crudos/. Lo subo yo a Higgsfield.
+- Antes de cualquier toma generada digo cuántas voy a generar y cuántos créditos cuestan, y espero el sí de Jaime.
+- Tope por edición: 150 créditos. Si el plan pasa de ahí, propongo qué quitar para que quepa.
+- Si Jaime pide solo cortes, subtítulos y animaciones, no genero tomas nuevas.
+- Al terminar descargo el video a videos/listos/ como <tema>_<AAAA-MM-DD>.mp4 (ej. fachada-crane-reveal_2026-11-09.mp4); nunca sobrescribo, uso v1, v2.
+- Llevo notas/registro.md: qué edición fue, de qué grabación salió, qué notas me dio Jaime y cuánto costó.
+- Si Katana deja una línea que empieza con RESUME, la copio tal cual en notas/registro.md.
