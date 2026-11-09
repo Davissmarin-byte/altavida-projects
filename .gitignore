@@ -1,0 +1,5 @@
+# Los videos viven en Google Drive, no en GitHub
+videos/**/*.mp4
+videos/**/*.mov
+videos/**/*.m4v
+videos/**/*.webm
