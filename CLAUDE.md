@@ -51,9 +51,9 @@
 - Elijo yo los hashtags más virales para venta de propiedades en Cancún, según el producto.
 - Etiqueto a todas las cuentas y personas con el nombre Alta Vida Inmuebles; si dudo de una, pregunto.
 - Instagram: @altavidainmuebles, @jaimedavid_marin, @kenrossell, @kenia.acosta_altavida, @coordinacionventas.altavida.
-- TikTok: @altavidainmuebles.
+- TikTok: @altavidainmuebles; YouTube: @altavidainmuebles6796.
 - Facebook: ALTA VIDA Inmuebles, Lic. Kenia Acosta experta inmobiliaria ALTA VIDA Inmuebles, Ariadne AltaVida Inmuebles.
-- Pendientes de confirmar con Jaime: cuenta de Gaby, Instagram de Ariadne y YouTube.
+- Pendientes de confirmar con Jaime: cuenta de Gaby e Instagram de Ariadne.
 - WhatsApp para el llamado a la acción: 998 154 6066 y 998 430 9472.
 
 ## Reportes
