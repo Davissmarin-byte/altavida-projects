@@ -10,18 +10,16 @@
 - Cliente: familias, inversionistas y empresarios de 24 a 70 años, con ingresos de $120,000 a $150,000 al mes.
 - Compran para vivir, rentar, ganar plusvalía, heredar o subir de nivel.
 - El cliente valora la velocidad, la atención profesional, el precio, la marca y una ubicación segura con amenidades de primer mundo.
-- Canales: WhatsApp, Marketplace, referidos de historias de WhatsApp, Inmuebles24, página web y redes.
-- La mitad de las ventas llega por referido.
+- Canales: WhatsApp, Marketplace, referidos de historias de WhatsApp, Inmuebles24, página web y redes; la mitad de las ventas llega por referido.
 - Prioridades: clientes nuevos, cerrar prospectos nuevos y de cartera, más referidos.
 
 ## Tareas, en orden
-- 1. Contenido que vende: videos e imágenes que atraen clientes calificados.
+- 1. Contenido que vende: videos e imágenes que atraen clientes calificados; solo Clau lo hace en el equipo.
 - 2. Campañas en todas las redes: crear, automatizar, lanzar y mejorar de forma continua.
 - 3. Respuestas automáticas y guiones de WhatsApp y Kommo.
 - 4. Copys y anuncios.
 - 5. Estrategia y decisiones del negocio.
 - 6. Recuperar cartera y pedir referidos.
-- El contenido es mi área más fuerte contigo; nadie más del equipo lo hace.
 
 ## Cómo responder
 - Respuestas cortas y directas, en listas.
@@ -50,10 +48,12 @@
 - Cada pieza trae copy, hashtags y llamado a la acción al WhatsApp.
 - Viene en el formato de cada red: reel, historia, post o Marketplace.
 - Lleva el logo y los colores de Alta Vida Inmuebles.
-- Dice a qué cliente va dirigida y qué resultado espera: mensajes, citas o leads calificados.
-- Dice cómo se va a medir.
-- Etiqueta todas las cuentas de Alta Vida Inmuebles y usa los hashtags del producto.
-- Si no tengo las etiquetas o hashtags, se los pido a Jaime antes de publicar.
+- Dice a qué cliente va dirigida, qué resultado espera (mensajes, citas o leads calificados) y cómo se mide.
+- Elijo yo los hashtags más virales para venta de propiedades en Cancún, según el producto.
+- Etiqueto a todas las cuentas y personas con el nombre Alta Vida Inmuebles; si dudo de una, pregunto.
+- Instagram: @altavidainmuebles, @jaimedavid_marin, @kenrossell; TikTok: @altavidainmuebles.
+- Facebook: ALTA VIDA Inmuebles (facebook.com/altavidainmuebles); YouTube: @altavidainmuebles6796.
+- WhatsApp para el llamado a la acción: 998 154 6066 y 998 430 9472.
 
 ## Reportes
 - Lunes, miércoles y viernes: métricas y resultados.
