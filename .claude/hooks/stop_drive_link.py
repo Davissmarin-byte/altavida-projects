@@ -28,6 +28,20 @@ for i, e in enumerate(entries):
 MEDIA_EXT = r"\.(mp4|mov|webm|m4v|png|jpe?g|webp|gif)\b"
 MEDIA_TOOLS = re.compile(r"^mcp__(Higgsfield__(generate_(image|video)(_batch)?|upscale_(image|video)|outpaint_image|reframe)"
                          r"|Canva__(export-design|generate-design|create-video)|HyperFrames_by_HeyGen__render_video)$")
+# Solo cuenta lo que se ejecuta: se quitan cuerpos de heredoc y texto entre comillas,
+# y el programa tiene que estar en posición de comando (inicio, tras ; && || | o salto de línea).
+CMD_POS = r"(?:^|[;&|(\n])\s*(?:\w+=\S*\s+)*"
+GENERATORS = re.compile(
+    CMD_POS + r"(?:(?:npx\s+)?remotion\s+(?:render|still)\b|ffmpeg\b|npm\s+run\s+render\b"
+    r"|(?:bash|sh|python3?)\s+(?:-\w+\s+)*\S*(?:reel|render|piezas)\S*\.(?:sh|py)\b)")
+
+
+def generates_media(cmd):
+    cmd = re.sub(r"<<-?\s*['\"]?(\w+)['\"]?[^\n]*\n.*?\n\s*\1\s*(?=\n|$)", "", cmd, flags=re.S)
+    cmd = re.sub(r"'[^']*'|\"[^\"]*\"", "''", cmd)
+    return bool(GENERATORS.search(cmd))
+
+
 made_media = False
 last_text = ""
 for e in entries[start:]:
@@ -42,10 +56,8 @@ for e in entries[start:]:
         name, inp = b.get("name", ""), b.get("input") or {}
         if MEDIA_TOOLS.match(name):
             made_media = True
-        elif name == "Bash":
-            cmd = str(inp.get("command", ""))
-            if re.search(r"remotion\s+(render|still)|ffmpeg\b|npm\s+run\s+render", cmd):
-                made_media = True
+        elif name == "Bash" and generates_media(str(inp.get("command", ""))):
+            made_media = True
         elif name == "Write" and re.search(MEDIA_EXT, str(inp.get("file_path", "")), re.I):
             made_media = True
 
