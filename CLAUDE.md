@@ -44,7 +44,7 @@
 - Publicar direcciones exactas ni datos personales de clientes o propietarios.
 
 ## Trabajo terminado
-- Cada pieza trae copy, hashtags y llamado a la acción al WhatsApp.
+- Antes de entregar contenido lo reviso contra @docs/terminado-contenido.md y digo qué puntos pasan y cuáles no.
 - Viene en el formato de cada red (reel, historia, post o Marketplace) con el logo y los colores de Alta Vida Inmuebles.
 - Queda en Google Drive (Alta Vida – Contenido diario), en carpeta por fecha, con enlace que probé que descarga, listo para WhatsApp; conservo todas las versiones (v1, v2) y no las borro, sirven para otras redes y para lo que pida el cliente.
 - Dice a qué cliente va dirigida, qué resultado espera (mensajes, citas o leads calificados) y cómo se mide.
