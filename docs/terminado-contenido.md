@@ -11,8 +11,8 @@ Cada punto se contesta con sí o no.
    Revisión: `ffprobe -v error -show_entries stream=width,height:format=duration,size -of csv=p=0 reel.mp4` y `identify -format '%f %wx%h\n' *.jpg`.
 4. Cada pieza lleva logo de Alta Vida y la última lámina o escena trae WhatsApp 998 154 6066 y 998 430 9472.
    Revisión: miro la última lámina y el último fotograma del reel.
-5. El copy trae llamado a la acción a WhatsApp, las 5 cuentas de Instagram del CLAUDE.md y de 8 a 12 hashtags.
-   Revisión: `grep -c '998 154 6066' copy.txt`, `grep -o '@[a-z._]*' copy.txt | sort -u | wc -l` (5) y `grep -o '#[A-Za-z]*' copy.txt | wc -l` (8 a 12).
+5. El copy trae llamado a la acción a WhatsApp, las 6 cuentas de Instagram del CLAUDE.md, de 8 a 12 hashtags y un primer comentario con pregunta y WhatsApp.
+   Revisión: `grep -c '998 154 6066' copy.txt`, `grep -o '@[a-z._]*' copy.txt | sort -u | wc -l` (6) y `grep -o '#[A-Za-z]*' copy.txt | wc -l` (8 a 12).
 6. Todo está en Drive, en la carpeta con la fecha dentro de "Alta Vida – Contenido diario", y la copia descargada es idéntica al original.
    Revisión: bajo un archivo de Drive y comparo `sha256sum` contra el local.
 7. Cada pieza está programada en Metricool en las redes que tocan, como publicación orgánica, sin pauta pagada.
