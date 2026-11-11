@@ -31,13 +31,13 @@ async function build(name, fmt, out) {
   s.addImage({ path: A(F.panel.img), x: 0, y: F.panel.y, w: 7.5, h: F.panel.h, objectName: "Jaime Marin y Kenia Acosta", altText: "Jaime Marin y Kenia Acosta, Alta Vida Inmuebles" });
   const lh = F.logo.w * 0.856;
   s.addImage({ path: A("logo_full.png"), x: (7.5 - F.logo.w) / 2, y: F.logo.y, w: F.logo.w, h: lh, objectName: "Logo Alta Vida Inmuebles", altText: "Logotipo de Alta Vida Inmuebles" });
-  txt(s, "BIENVENIDA  ·  EQUIPO DE VENTAS", { x: 0.5, y: F.label, w: 6.5, h: 0.35, fontSize: 13, bold: true, color: C.accent1, charSpacing: 4, objectName: "Etiqueta" });
-  txt(s, [{ text: "Hoy empieza tu viaje", options: { breakLine: true } }, { text: "extraordinario." }], { x: 0.5, y: F.phrase.y, w: 6.5, h: F.phrase.h, fontSize: F.phrase.size, bold: true, color: C.background1, valign: "top", fontFace: "Cambria", objectName: "Frase" });
-  txt(s, name, { x: 0.5, y: F.name, w: 6.5, h: 0.6, fontSize: 28, color: C.accent2, fontFace: "Cambria", objectName: "Nombre" });
+  txt(s, "BIENVENIDA A LA FAMILIA ALTA VIDA", { x: 0.5, y: F.label, w: 6.5, h: 0.35, fontSize: 13, bold: true, color: C.accent1, charSpacing: 4, objectName: "Etiqueta" });
+  txt(s, name, { x: 0.5, y: F.phrase.y, w: 6.5, h: 0.95, fontSize: F.phrase.size + 12, bold: true, color: C.accent2, valign: "middle", fontFace: "Cambria", objectName: "Nombre" });
+  txt(s, [{ text: "Gracias por elegirnos.", options: { breakLine: true } }, { text: "Desde hoy, esta también es tu casa." }], { x: 0.5, y: F.name - 0.45, w: 6.5, h: 1.0, fontSize: 22, color: C.background1, valign: "top", fontFace: "Cambria", italic: true, objectName: "Frase" });
   txt(s, [{ text: "Jaime Marin", options: { fontSize: 16, bold: true, color: C.background1, breakLine: true } }, { text: "SH y Líder de Ventas", options: { fontSize: 14, color: C.accent2 } }], { x: 1.15, y: F.cap, w: 2.5, h: 0.7, valign: "top", objectName: "Jaime Marin" });
   txt(s, [{ text: "Kenia Acosta", options: { fontSize: 16, bold: true, color: C.background1, breakLine: true } }, { text: "Socia y Vendedora", options: { fontSize: 14, color: C.accent2 } }], { x: 3.85, y: F.cap, w: 2.5, h: 0.7, valign: "top", objectName: "Kenia Acosta" });
   txt(s, "@altavidainmuebles", { x: 0.5, y: F.handle, w: 6.5, h: 0.35, fontSize: 14, color: C.accent4, objectName: "Cuenta" });
-  s.addNotes(`Bienvenida a ${name}: "Hoy empieza tu viaje extraordinario."`);
+  s.addNotes(`Bienvenida a ${name}: "Gracias por elegirnos. Desde hoy, esta también es tu casa."`);
   await pres.writeFile({ fileName: out });
   await applyTheme(out, THEME);
   console.log("OK", out);
