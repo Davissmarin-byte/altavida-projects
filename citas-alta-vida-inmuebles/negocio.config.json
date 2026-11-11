@@ -1,0 +1,113 @@
+{
+  "negocio": {
+    "nombre": "Alta Vida Inmuebles",
+    "logoTexto": "AVI",
+    "whatsapp": "529984309472",
+    "correo": "ventas.altavida@gmail.com",
+    "ciudad": "Cancún, Quintana Roo",
+    "sitio": ""
+  },
+  "marca": {
+    "colorPrincipal": "#C9A227",
+    "colorAcento": "#E8E3D8",
+    "modo": "oscuro"
+  },
+  "oferta": {
+    "nombre": "Cita de compra",
+    "duracionMinutos": 30,
+    "precioTexto": "Sin costo",
+    "incluye": [
+      "Definimos cómo compras: con recursos propios o con crédito hipotecario",
+      "Vemos la propiedad que se adapta a lo que necesitas y a tu capacidad de pago",
+      "Convertimos tus dudas en una decisión clara",
+      "Si es la tuya, la apartas ese mismo día con un monto menor al enganche",
+      "De regalo: asesoría inmobiliaria y financiera, y una pre-evaluación de tu perfil de crédito"
+    ]
+  },
+  "landing": {
+    "titular": "Invierte en Cancún en la zona correcta, con quien conoce cada residencial desde 2011",
+    "subtitular": "Tu propiedad cerca del mar, elegida para que tu patrimonio crezca. En 30 minutos defines cómo compras y ves la que sí es para ti.",
+    "ctaTexto": "Quiero ver mi propiedad",
+    "urgencia": "Cada propiedad es única y no se repite. La tierra en Cancún sigue subiendo.",
+    "dolores": [
+      { "titulo": "Recibiste una suma importante y no la quieres arriesgar", "texto": "Necesitas que tu dinero gane plusvalía y, de paso, mejorar tu estilo de vida en el Caribe mexicano." },
+      { "titulo": "«No sé si invertir en México»", "texto": "Tienes el dinero, pero no sabes en qué zona ni en qué residencial ponerlo." },
+      { "titulo": "«No sé qué va a pasar con la economía»", "texto": "La situación de Estados Unidos y México te hace dudar, y lo piensas una y otra vez." }
+    ],
+    "beneficios": [
+      { "titulo": "Tu dinero en una propiedad que crece", "texto": "Pones tu capital en una zona de alta plusvalía de Cancún o la Riviera Maya." },
+      { "titulo": "Sabes exactamente dónde invertir", "texto": "Tenemos más de 200 propiedades y conocemos cada residencial y a sus desarrolladores." },
+      { "titulo": "Pasas de la duda a la decisión", "texto": "Con tu forma de pago clara y la propiedad enfrente, decides con datos y sin miedo." },
+      { "titulo": "Trámites rápidos hasta tu escritura", "texto": "Crédito hipotecario, notaría y escritura: nos movemos rápido con los mejores contactos." }
+    ],
+    "paraQuien": [
+      "Eres empresario consolidado",
+      "Tu familia es estable y quiere vivir mejor cerca del mar",
+      "Eres médico o profesionista y buscas una propiedad de lujo para invertir o descansar",
+      "Tu presupuesto empieza en $2.5 millones de pesos"
+    ],
+    "noParaQuien": [
+      "Hoy no cuentas con recursos para comprar",
+      "No buscas una propiedad de lujo",
+      "Tu economía todavía no es sólida ni va en crecimiento"
+    ],
+    "preguntas": [
+      { "p": "¿Y si no tengo todo el dinero para comprar?", "r": "Dinos qué cantidad sí tienes. Con eso vemos si compras con recursos propios o con crédito hipotecario, y qué propiedad te queda. Tenemos opciones desde $2.5 millones." },
+      { "p": "¿Conviene invertir en México?", "r": "Si sabes dónde invertir, sí. Conocemos las zonas de alta plusvalía de Cancún y la Riviera Maya, el inventario y a los desarrolladores. Vendemos aquí desde 2011." },
+      { "p": "¿Y si la economía de Estados Unidos o de México se complica?", "r": "Nadie lo puede saber. Lo que sí debes saber es qué quieres y qué no. El mejor momento es hoy, antes de que la tierra en Cancún esté más cara." },
+      { "p": "¿Cuánto cuesta la cita?", "r": "Nada. Nuestros honorarios se pagan al cierre de la operación, en la escritura." },
+      { "p": "¿Dónde es la cita?", "r": "Si es presencial, en la propiedad que te interesa. También puede ser por videollamada. Te confirmamos el lugar por WhatsApp." },
+      { "p": "¿Qué me llevo aunque no compre ese día?", "r": "Una asesoría inmobiliaria y financiera, y una pre-evaluación de tu perfil de crédito. Sin compromiso." }
+    ],
+    "prueba": {
+      "activa": false,
+      "items": []
+    }
+  },
+  "agenda": {
+    "zonaHoraria": "America/Cancun",
+    "dias": [0, 1, 2, 3, 4, 5, 6],
+    "horaInicio": "09:00",
+    "horaFin": "20:00",
+    "duracionMinutos": 30,
+    "anticipacionHoras": 2,
+    "diasAdelante": 14
+  },
+  "formulario": {
+    "campos": [
+      { "id": "nombre", "etiqueta": "¿Cómo te llamas?", "tipo": "texto", "requerido": true },
+      { "id": "whatsapp", "etiqueta": "Tu WhatsApp (con lada)", "tipo": "tel", "requerido": true },
+      { "id": "modalidad", "etiqueta": "¿Cómo prefieres tu cita?", "tipo": "opciones", "requerido": false, "opciones": ["En la propiedad", "Por videollamada"] },
+      { "id": "correo", "etiqueta": "Tu correo", "tipo": "correo", "requerido": false },
+      { "id": "negocio", "etiqueta": "¿A qué te dedicas?", "tipo": "texto", "requerido": false },
+      { "id": "reto", "etiqueta": "¿Qué buscas? Zona, tipo de propiedad o presupuesto", "tipo": "parrafo", "requerido": false }
+    ]
+  },
+  "gracias": {
+    "titulo": "Listo, tu cita de compra está apartada",
+    "mensaje": "Manda el mensaje de WhatsApp para confirmarte. Ahí mismo te decimos en qué propiedad nos vemos o te mandamos la liga de la videollamada.",
+    "pasos": [
+      "Manda el mensaje de WhatsApp (ya va escrito)",
+      "Agrega la cita a tu calendario",
+      "Ten claro cuánto quieres invertir y si vas a usar crédito hipotecario"
+    ]
+  },
+  "crm": {
+    "pin": "2026",
+    "etapas": [
+      { "id": "llamada", "nombre": "Llamada o mensaje" },
+      { "id": "agenda", "nombre": "Agenda" },
+      { "id": "visitas", "nombre": "Visitas" },
+      { "id": "cierre", "nombre": "Cierre" },
+      { "id": "entregadinero", "nombre": "Entrega de dinero" },
+      { "id": "apartado", "nombre": "Apartado" },
+      { "id": "enganche", "nombre": "Enganche" },
+      { "id": "notaria", "nombre": "Notaría" },
+      { "id": "escritura", "nombre": "Escritura" },
+      { "id": "entrega", "nombre": "Entrega" }
+    ]
+  },
+  "integraciones": {
+    "webhookUrl": ""
+  }
+}
