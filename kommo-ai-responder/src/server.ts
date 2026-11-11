@@ -1,0 +1,43 @@
+import express from "express";
+import { config } from "./config.js";
+import { generateReply } from "./ai.js";
+
+const app = express();
+app.use(express.json());
+
+app.get("/health", (_req, res) => {
+  res.json({ status: "ok" });
+});
+
+app.post("/kommo/salesbot-reply", async (req, res) => {
+  if (req.header("X-Webhook-Secret") !== config.webhookSecret) {
+    res.status(401).json({ error: "unauthorized" });
+    return;
+  }
+
+  const { lead_id, lead_name, contact_name, property_title, property_url, message } = req.body ?? {};
+
+  if (typeof message !== "string" || message.trim() === "") {
+    res.status(400).json({ error: "falta el campo 'message'" });
+    return;
+  }
+
+  try {
+    const text = await generateReply({
+      leadId: lead_id,
+      leadName: lead_name,
+      contactName: contact_name,
+      propertyTitle: property_title,
+      propertyUrl: property_url,
+      message,
+    });
+    res.json({ text });
+  } catch (error) {
+    console.error("Error generando respuesta con IA:", error);
+    res.status(502).json({ error: "no se pudo generar la respuesta" });
+  }
+});
+
+app.listen(config.port, () => {
+  console.log(`kommo-ai-responder escuchando en el puerto ${config.port}`);
+});
