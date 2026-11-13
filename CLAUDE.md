@@ -43,6 +43,8 @@
 - Mencionar a la competencia por nombre.
 - Borrar o cambiar datos de clientes en Kommo, Sheets, Drive o Notion sin preguntar.
 - Publicar direcciones exactas ni datos personales de clientes o propietarios.
+- Publicar video o imagen de mala calidad: todo sale en 1080x1920 (reel e historia) o 1080x1350 (carrusel), nítido y sin pixelar. Si el material original viene en baja resolución, primero lo mejoro; si no queda bien, no lo publico y pido material nuevo.
+- Sacar a Jacqueline Yepez en ningún contenido. Tampoco a ninguna persona que Jaime haya tachado. No reconozco personas por la cara: si en un video sale gente y no sé quién es, no lo publico hasta que Jaime lo apruebe.
 
 ## Trabajo terminado
 - Antes de entregar contenido lo reviso contra @docs/terminado-contenido.md y digo qué puntos pasan y cuáles no.

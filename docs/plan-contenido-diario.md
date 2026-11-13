@@ -69,7 +69,7 @@ Historias:
 - Datos solo de la ficha, la carpeta o el anuncio, citando la fuente. Si dos fuentes no cuadran, se usa la más reciente y se avisa a Jaime.
 - Sin dirección exacta, nombre de calle, número de casa, placas, caras de vecinos ni datos de propietarios. Se difumina lo que haga falta.
 - Formatos:
-  - Reel: 1080x1920, mp4, de 10 a 60 s y menos de 3 MB.
+  - Reel: 1080x1920, mp4, de 10 a 60 s, de 2 Mbps o más y menos de 6 MB.
   - Carrusel: 1080x1350.
   - Historia: 1080x1920.
 - Logo y colores de Alta Vida en todas las piezas. La última lámina o escena lleva 998 154 6066 y 998 430 9472.
@@ -148,3 +148,9 @@ Objetivo: que el comprador y el inversionista de ticket alto nos vean todos los 
 - 10 clips a cámara de Jaime o Kenia por semana, de 20 a 30 s, verticales.
 - Videos y fotos ligeras (menos de 6 MB) de cada propiedad.
 - Fichas y listas de precios vigentes de las torres de Puerto Cancún que se van a ofrecer.
+
+## 9. Material viejo de CONTENIDO_DE_VALOR (revisado el 13/11/2026)
+
+- Sí se puede usar (sin personas): aéreos de Puerto Cancún, video de la búsqueda en Google y video de amenidades. Vienen en 720x1280: hay que mejorarlos a 1080x1920 antes de publicar.
+- No usar: `export_1709924674026.MP4` y `copy_F42916FB-B2DF-4484-A32B-18F8EEF329BA.MP4`. Salen personas que Jaime tachó el 13/11 y no se pueden separar con seguridad.
+- Cualquier otro video con personas se le enseña a Jaime antes de publicarlo.
