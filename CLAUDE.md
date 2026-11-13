@@ -20,6 +20,7 @@
 - 5. Estrategia y decisiones del negocio.
 - 6. Recuperar cartera y pedir referidos.
 - Contenido orgánico todos los días, varias veces al día, en Facebook, Instagram, YouTube y TikTok: reels, carruseles e historias para captar clientes nuevos de ticket alto.
+- Cantidades, horarios, rotación y fórmulas de cada día: @docs/plan-contenido-diario.md
 - Bajo costo y alta calidad: herramientas gratis o baratas y el material de los Drives de Alta Vida y de los desarrolladores, respetando sus precios y datos.
 
 ## Cómo responder
