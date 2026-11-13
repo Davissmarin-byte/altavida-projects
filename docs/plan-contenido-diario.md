@@ -5,18 +5,21 @@ Este plan se suma al CLAUDE.md y a docs/terminado-contenido.md. Si algo choca, m
 
 ## 1. Cuánto se publica cada día
 
-| Pieza | Cantidad diaria | Redes | Hora (Cancún) L–V | Sáb | Dom |
-|---|---|---|---|---|---|
-| Historia 1: propiedad del día | 1 | Instagram y Facebook | 9:00 | 10:00 | 11:00 |
-| Carrusel | 1 | Instagram, Facebook y TikTok (fotos) | 11:00 | 11:00 | 12:00 |
-| Reel | 1 | Instagram, Facebook, TikTok y YouTube Short | 13:00 | 14:00 | 14:00 |
-| Historia 2: interacción (encuesta, pregunta o caja de preguntas) | 1 | Instagram y Facebook | 16:00 | 17:00 | 17:00 |
-| Historia 3: repost del reel o del carrusel | 1 | Instagram y Facebook | 20:00 | 19:00 | 19:00 |
+Prioridad: reels y carruseles, porque son los que llegan a gente que todavía no nos sigue. Con 568 seguidores en Instagram, las historias solo las ve la comunidad actual, así que bajan a 1 al día.
 
-- Total al día: 1 reel, 1 carrusel y 3 historias, que dan 5 publicaciones y unas 14 salidas contando todas las redes.
-- Total a la semana: 7 reels, 7 carruseles y 21 historias.
-- Horarios: salen de getBestTimeToPostByNetwork en Metricool, con picos de 11 a 14 h entre semana y de 18 a 21 h el viernes. Antes de programar, se vuelven a consultar y se ajustan si cambian.
-- Choques: no se publican dos piezas del feed en la misma hora. Si una hora ya está ocupada, la pieza se mueve 1 o 2 horas.
+| Pieza | Cantidad diaria | Redes | Hora (Cancún) L–V | Sáb y Dom |
+|---|---|---|---|---|
+| Carrusel (propiedad o contenido de valor) | 1 | Instagram, Facebook y TikTok (fotos) | 9:00 | 10:00 |
+| Reel 1: propiedad | 1 | Instagram, Facebook, TikTok y YouTube Short | 12:00 | 13:00 |
+| Reel 2: valor, confianza o persona a cámara | 1 | Instagram, Facebook, TikTok y YouTube Short | 19:00 | 18:00 |
+| Historia: repost del mejor reel con enlace a WhatsApp | 1 | Instagram y Facebook | 20:30 | 20:00 |
+
+- Total al día: 2 reels, 1 carrusel y 1 historia.
+- Total a la semana: 14 reels, 7 carruseles y 7 historias. Cada reel sale en 4 redes: 56 salidas de video a la semana.
+- Por qué 2 reels: en nuestro reporte del 4 al 11 de noviembre, TikTok dio 1,938 vistas (+158%) y YouTube llegó a 1,343 en un día, contra 310 personas alcanzadas en Instagram. El video corto es lo que nos saca de la comunidad actual.
+- Si falta material para el segundo reel, se publica 1 reel bueno antes que 2 flojos. Un reel que no se ve completo baja el alcance del siguiente.
+- Horarios: salen de getBestTimeToPostByNetwork en Metricool (picos de 11 a 14 h y de 17 a 21 h). Se vuelven a consultar antes de programar.
+- Choques: no se publican dos piezas del feed en la misma hora.
 
 ## 2. Rotación de propiedades
 
@@ -106,3 +109,42 @@ Historias:
 - Confirmar que el precio de Lagos frente al lago sigue en $23,900,000.
 - Que Coordinación marque la casa de Aqua ("Fuente Diana") como no disponible en INVENTARIO LISTINGS.
 - Activar el seguimiento de la página web y compartir los leads de Marketplace e Inmuebles24.
+
+## 8. Campaña de 90 días: "El más conocido le gana al mejor"
+
+Objetivo: que el comprador y el inversionista de ticket alto nos vean todos los días y escriban al WhatsApp.
+
+### Tres líneas de contenido
+1. Propiedad (Reel 1 y carrusel): una propiedad al día, con gancho de precio en los primeros 3 segundos.
+2. Valor y confianza (Reel 2): Jaime o Kenia a cámara, 20 a 30 s, un solo consejo por video. Se retoma la serie de contenido de valor que ya funcionó (carpeta CONTENIDO_DE_VALOR del inventario de Alta Vida).
+3. Alta gama (2 veces por semana): penthouses y departamentos en Puerto Cancún y torres de lujo, para el inversionista de otras ciudades.
+
+### Temas de la serie de valor (rotar)
+- "3 errores al comprar en Cancún".
+- "¿Cuánto necesito de enganche para una casa de $5M?" (solo con cifras que dé Jaime o el banco).
+- "Zonas de plusvalía en Cancún: dónde sí y dónde no".
+- "Preventa o entrega inmediata: qué conviene".
+- "Qué revisa el notario antes de firmar".
+- "Por qué Cancún tiene producto que en otras ciudades ya no hay".
+- "24 años vendiendo en Cancún: lo que aprendimos" (historia de Jaime y Kenia).
+- Testimonios de clientes, solo con su permiso por escrito.
+
+### Fases
+| Fase | Semanas | Meta | Qué se hace |
+|---|---|---|---|
+| 1. Presencia | 1 a 4 | Publicar los 2 reels y el carrusel sin fallar un día | Probar las 6 fórmulas de reel y 4 temas de valor. Medir cuál da más envíos y mensajes. |
+| 2. Autoridad | 5 a 8 | Duplicar las vistas semanales de la fase 1 | Repetir las 2 fórmulas ganadoras. Entra la línea de alta gama. Colaboraciones con las cuentas del equipo. |
+| 3. Conversión | 9 a 12 | Citas y cierres | Reels de "últimas unidades" y recorridos con cita. Recuperar cartera con los mejores videos por WhatsApp. |
+
+### Qué se mide cada viernes
+- Vistas y envíos por reel, seguidores nuevos y mensajes de WhatsApp por palabra clave.
+- Citas agendadas y de qué pieza llegaron (lo anota Coordinación).
+
+### Pauta
+- Todo lo anterior es orgánico. No se gasta en pauta sin autorización escrita de Jaime.
+- Propuesta para decidir: impulsar solo el mejor reel de cada semana, con el presupuesto que Jaime apruebe.
+
+### Material que hace falta para sostener el ritmo
+- 10 clips a cámara de Jaime o Kenia por semana, de 20 a 30 s, verticales.
+- Videos y fotos ligeras (menos de 6 MB) de cada propiedad.
+- Fichas y listas de precios vigentes de las torres de Puerto Cancún que se van a ofrecer.
