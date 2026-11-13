@@ -7,7 +7,7 @@ Cada punto se contesta con sí o no.
    Revisión: comparo cada cifra del copy y de las imágenes contra la fuente citada.
 2. No aparece ninguna dirección exacta, número de casa ni dato personal, ni en el texto ni en las imágenes.
    Revisión: `grep -nE '[A-Za-z]+ [0-9]{1,4}\b|#[0-9]+' copy.txt` y reviso fotogramas del reel con `ffmpeg -ss <s> -i reel.mp4 -frames:v 1 f.jpg`.
-3. Los formatos son correctos: reel 1080x1920 mp4 de 10 a 60 s, de 2 Mbps o más y menos de 6 MB (el límite de 6 MB es lo que Drive me deja bajar para comprobar el archivo); carrusel 1080x1350; historia 1080x1920.
+3. Los formatos son correctos: reel 1080x1920 mp4 de 10 a 60 s y menos de 3 MB (el conector de Drive no deja subir archivos más pesados); carrusel 1080x1350; historia 1080x1920.
    Revisión: `ffprobe -v error -show_entries stream=width,height:format=duration,size -of csv=p=0 reel.mp4` y `identify -format '%f %wx%h\n' *.jpg`.
    Calidad: miro un fotograma a tamaño completo; si se ve pixelado o borroso, no pasa.
 4. Cada pieza lleva logo de Alta Vida y la última lámina o escena trae WhatsApp 998 154 6066 y 998 430 9472.

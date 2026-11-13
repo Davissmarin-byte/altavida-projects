@@ -69,7 +69,7 @@ Historias:
 - Datos solo de la ficha, la carpeta o el anuncio, citando la fuente. Si dos fuentes no cuadran, se usa la más reciente y se avisa a Jaime.
 - Sin dirección exacta, nombre de calle, número de casa, placas, caras de vecinos ni datos de propietarios. Se difumina lo que haga falta.
 - Formatos:
-  - Reel: 1080x1920, mp4, de 10 a 60 s, de 2 Mbps o más y menos de 6 MB.
+  - Reel: 1080x1920, mp4, de 10 a 60 s y menos de 3 MB (límite de subida del conector de Drive). Para que se vea nítido con ese peso, el reel dura de 12 a 18 s.
   - Carrusel: 1080x1350.
   - Historia: 1080x1920.
 - Logo y colores de Alta Vida en todas las piezas. La última lámina o escena lleva 998 154 6066 y 998 430 9472.
