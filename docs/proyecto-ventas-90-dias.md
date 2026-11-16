@@ -36,6 +36,7 @@ Cada lunes se elige 1 producto estrella de entrada (2 a 4 millones) y 1 de lujo 
 
 Cómo se elige (de 0 a 2 puntos por criterio, gana el de más puntos):
 1. Está en el rango que se vende (2 a 4 millones o 20 a 30 millones).
+   - Y su inventario se está moviendo: se revisa la lista de disponibilidad del desarrollador; si casi no cambia de un mes a otro, no es producto estrella.
 2. Entrega inmediata o escrituración rápida.
 3. Tiene ficha completa y precio vigente confirmado.
 4. Tiene video real o con persona.
@@ -45,7 +46,8 @@ Cómo se elige (de 0 a 2 puntos por criterio, gana el de más puntos):
 Semana 1 (16 al 22 de noviembre):
 - Entrada: Ombú, $3,290,000. Ficha completa, 13 clips reales en la biblioteca, rango correcto.
 - Lujo: Lagos del Sol frente al lago, $23,900,000. Precio confirmado por Jaime, fotos y video.
-- En espera: Valmira Living (entrega inmediata, solo 2 recámaras). Falta lista de precios.
+- Candidato fuerte para la semana 2: Valmira Living, modelo Viena de 2 recámaras, entrega inmediata, precio de promoción desde $2,794,000 (lista de octubre de 2026). Acepta Infonavit y Cofinavit en parte de las unidades.
+- No se ofrecen: Verona (vendido) y OKUN (va muy lento). Regla de Jaime (16/11): enfocarse en proyectos nuevos que sí se estén vendiendo según sus inventarios.
 
 Comparación de mercado de la semana 1 (16/11/2026, anuncios públicos, precios de lista; tabla completa en la hoja de medición, pestaña "Mercado semana 1"):
 - Entrada, departamentos de 2 a 4 millones en Av. Huayacán: mediana de $33,333 por m². Ombú nuestro: $37,816 por m² (87 m²), 13% arriba de la mediana y unos $290,000 a $340,000 arriba de dos reventas anunciadas en el mismo desarrollo ($2,950,000 amueblado y $3,000,000, ambas de 87 m²). Valmira se anuncia desde $2,690,000 por 87 m² con entrega inmediata ($30,920 por m²).
@@ -100,7 +102,7 @@ Las metas son objetivos de trabajo, no pronósticos: hoy la base es cero y no ha
 
 ## 8. Recursos y costos
 
-- Agente virtual: no conviene duplicarlo todavía. Hoy no hay leads que atender; primero se enciende el flujo. Cuando lleguen más de 10 conversaciones al día, se abre un segundo agente para Marketplace y mensajes de Instagram.
+- Agente virtual: hoy no hay ninguno. Jaime propone usar el perfil de Ariadne de Alta Vida para una agente virtual; se arma en otra conversación.
 - Créditos de Higgsfield: quedan unos 48. Alcanzan para música y pruebas, no para un video de avatar diario. El video con persona real no gasta créditos y es el que mejor rinde.
 - Metricool: conectar las páginas de colaboradores puede requerir marcas adicionales en el plan.
 - Pauta: es la decisión que más mueve el resultado. Propuesta para que Jaime decida, sin gastar nada hasta su autorización:
@@ -115,7 +117,7 @@ Las metas son objetivos de trabajo, no pronósticos: hoy la base es cero y no ha
 2. Lista de precios de Valmira y reventas activas de 2 a 4 millones.
 3. Qué más hay de 20 a 30 millones además de Lagos del Sol.
 4. Clips y fotos suyas en la biblioteca de Drive, y de 5 a 20 fotos para el avatar.
-5. Lista de las páginas de colaboradores (Facebook, Instagram y TikTok) y quién las administra, para conectarlas.
+5. Conectar a Metricool las cuentas de colaboradores, que administra Jaime: Instagram @gaby.altavida, @kenia.acosta_altavida, @coordinacionventas.altavida y @julie.altavida (Yulie, cuenta nueva), más dos páginas de Facebook y los perfiles que falta mandar. Cada persona es una marca aparte en Metricool; Instagram debe ser cuenta profesional.
 6. Quién lleva la hoja de mensajes y citas ahora que Coordinación cambió.
 7. Permiso para pausar las campañas viejas que siguen marcadas como activas.
 8. Ficha de Lagos del Sol frente al lago (m² de terreno y construcción, recámaras, baños) y revisar el precio de Ombú contra las reventas anunciadas en el mismo desarrollo.
