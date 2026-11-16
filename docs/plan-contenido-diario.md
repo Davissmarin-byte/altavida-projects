@@ -40,7 +40,7 @@ Prioridad: reels y carruseles, porque son los que llegan a gente que todavía no
 | Residencial Río | $6,750,000 | Publicado 13/11. Falta ficha (recámaras, baños, m²) |
 | Kiara, Aqua Residencial | $4,000,000 | Publicado 10/11 |
 | Vassari | $2,010,000 | Publicado 9/11 |
-| Valmira Living (en Gran Vía) | Sin precio publicado: falta lista vigente | Publicado 16/11. Entrega inmediata; solo quedan de 2 recámaras (87 m², 2 baños), confirmado por Jaime el 16/11 |
+| Valmira Living (en Gran Vía) | Modelo Viena 2 recámaras: precio de promoción desde $2,794,000 (nivel 4) hasta $3,209,100 (nivel 1), según lista de disponibilidad de octubre de 2026 que mandó Jaime el 16/11 | Publicado 16/11 sin precio. Entrega inmediata. Modelo Verona de 3 recámaras: vendido, no se ofrece |
 | Casa en Aqua (carpeta "Fuente Diana") | — | NO USAR: ya no está disponible (13/11) |
 
 ## 3. Formatos que dan más alcance (lo que funciona en 2026)
