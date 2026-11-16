@@ -73,12 +73,12 @@ Historias:
   - Reel: 1080x1920, mp4, de 10 a 60 s y menos de 3 MB (límite de subida del conector de Drive). Para que se vea nítido con ese peso, el reel dura de 12 a 18 s.
   - Carrusel: 1080x1350.
   - Historia: 1080x1920.
-- Logo y colores de Alta Vida en todas las piezas. La última lámina o escena lleva 998 154 6066 y 998 430 9472.
+- Logo y colores de Alta Vida en todas las piezas. Ninguna imagen ni video lleva teléfono: la última lámina o escena dice "Escríbenos por WhatsApp · El contacto está en la descripción". La descripción lleva solo el 998 430 9472.
 - El copy lleva:
   - Llamado a WhatsApp.
   - Las 6 cuentas de Instagram: @altavidainmuebles @jaimedavid_marin @kenrossell @kenia.acosta_altavida @coordinacionventas.altavida @gaby.altavida.
   - De 8 a 12 hashtags.
-- Primer comentario en el carrusel y el reel, con una pregunta y una palabra clave de la propiedad: "Escríbenos 'PH3' al WhatsApp 998 154 6066…".
+- Primer comentario en el carrusel y el reel, con una pregunta y una palabra clave de la propiedad: "Escríbenos 'PH3' al WhatsApp 998 430 9472…".
 - Siempre orgánico, sin pauta y sin boost, salvo autorización escrita de Jaime.
 
 ## 5. Flujo diario
