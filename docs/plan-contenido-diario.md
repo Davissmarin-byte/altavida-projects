@@ -166,3 +166,17 @@ Objetivo: que el comprador y el inversionista de ticket alto nos vean todos los 
 - TikTok: ganan los ganchos de precio de entrada (Infonavit 502 vistas, "POV dejaste de rentar" 398) y los carruseles de fotos rinden igual que los videos.
 - Decisión: al menos 1 de los 2 reels diarios lleva persona real o avatar con voz; todos llevan música; el gancho va en los primeros 2 s.
 - Música: pista propia generada en Higgsfield (ElevenLabs Music), guardada en Drive en "Biblioteca · Clips cortos reutilizables".
+
+## 11. Estrategia de canales personales (Jaime, 16/11/2026)
+
+Lo que Jaime reporta del mercado y de las reuniones del gremio:
+- Se venden las reventas y la propiedad de 2 a 4 millones, y la vivienda de lujo de 20 a 30 millones.
+- El cliente ya no busca en plataformas. Llega, en este orden, por Marketplace, estados de WhatsApp, historias y perfiles personales del equipo; las páginas de empresa son las que menos traen.
+
+Qué cambia:
+- Prioridad de producto: 2 a 4 millones (Ombú, Valmira, Vassari, Kiara, reventas de Arbolada) y 20 a 30 millones (Lagos del Sol y similares). El rango medio sale menos.
+- Cada día se entrega un "Kit personal" además de las piezas de marca: imagen o video vertical para estado de WhatsApp e historia, texto en primera persona para el perfil personal y anuncio de Marketplace (título, precio y descripción). Va en Drive, carpeta "Kit personal · WhatsApp, Marketplace y perfiles".
+- El kit lo publican a mano Jaime, Kenia y Gaby: Clau no tiene acceso a perfiles personales, estados de WhatsApp ni Marketplace.
+- Tono del kit: primera persona, cara y voz del asesor, sin lenguaje de anuncio. Video del asesor cuando lo haya.
+- Marketplace solo con precio exacto de ficha o lista vigente.
+- Medición: el equipo pregunta "¿dónde nos viste?" y anota WhatsApp, Marketplace, Facebook personal o página. Se revisa cada viernes.
