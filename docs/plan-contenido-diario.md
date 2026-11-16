@@ -40,6 +40,7 @@ Prioridad: reels y carruseles, porque son los que llegan a gente que todavía no
 | Residencial Río | $6,750,000 | Publicado 13/11. Falta ficha (recámaras, baños, m²) |
 | Kiara, Aqua Residencial | $4,000,000 | Publicado 10/11 |
 | Vassari | $2,010,000 | Publicado 9/11 |
+| Valmira Living (en Gran Vía) | Sin precio publicado: falta lista vigente | Publicado 16/11. Entrega inmediata; solo quedan de 2 recámaras (87 m², 2 baños), confirmado por Jaime el 16/11 |
 | Casa en Aqua (carpeta "Fuente Diana") | — | NO USAR: ya no está disponible (13/11) |
 
 ## 3. Formatos que dan más alcance (lo que funciona en 2026)
@@ -84,7 +85,7 @@ Historias:
 
 1. git pull de main y lectura de CLAUDE.md y de este plan.
 2. Elegir la propiedad del día según la rotación y revisar que siga disponible.
-3. Bajar fotos o videos de Drive. Archivos de más de 6 MB no bajan por el conector: usar versiones ligeras o pedírselas a Jaime.
+3. Bajar fotos o videos de Drive. El conector solo baja hasta 6 MB; los archivos más pesados bajan completos por descarga directa (`curl -L "https://drive.usercontent.google.com/download?id=<ID>&export=download&confirm=t"`) si la carpeta está compartida con enlace. Subir sigue limitado a 3 MB por archivo.
 4. Crear las piezas: reel, carrusel, 3 historias y copy.
 5. Subirlas a Drive, a "Alta Vida – Contenido diario", en la carpeta "AAAA-MM-DD · Propiedad".
 6. Bajar una copia de Drive y comparar sha256 contra el original.
@@ -97,7 +98,9 @@ Historias:
   - Alcance, vistas, interacciones, envíos, seguidores nuevos y mensajes.
   - Separado por Instagram, Facebook, TikTok, YouTube, Marketplace, Inmuebles24 y página web.
 - Palabra clave por propiedad en el primer comentario. Coordinación lleva la cuenta de mensajes por palabra clave en WhatsApp.
+- Por video: vistas, tiempo promedio visto, porcentaje que se salta en los primeros 3 s y envíos (IGRE23, IGRE24, IGRE30, IGRE21 en Instagram; TKPO07, TKPO15, TKPO10 en TikTok).
 - Cada viernes:
+  - Qué tipo de video retiene más: persona real, avatar o láminas. Comparar con cuentas inmobiliarias de Cancún.
   - Qué fórmula de reel tuvo más envíos y más mensajes.
   - La siguiente semana se repite la ganadora dos veces.
 
@@ -154,3 +157,12 @@ Objetivo: que el comprador y el inversionista de ticket alto nos vean todos los 
 - Sí se puede usar (sin personas): aéreos de Puerto Cancún, video de la búsqueda en Google y video de amenidades. Vienen en 720x1280: hay que mejorarlos a 1080x1920 antes de publicar.
 - No usar: `export_1709924674026.MP4` y `copy_F42916FB-B2DF-4484-A32B-18F8EEF329BA.MP4`. Salen personas que Jaime tachó el 13/11 y no se pueden separar con seguridad.
 - Cualquier otro video con personas se le enseña a Jaime antes de publicarlo.
+
+## 10. Lo que dicen los datos (análisis del 16/11/2026, reels de Instagram del 15/8 al 16/11)
+
+- Videos con personas reales, grabados con celular por el equipo: de 74 a 303 vistas, de 44% a 58% se salta en los primeros 3 s y se ven de 8 a 19 s.
+- Reels de láminas con texto y fotos (los que hace Clau): de 11 a 61 vistas, de 67% a 89% se salta y se ven de 3 a 8 s.
+- Videos del 4 al 8 de noviembre (serie de marca y crédito): de 20 a 71 vistas, de 64% a 85% se salta.
+- TikTok: ganan los ganchos de precio de entrada (Infonavit 502 vistas, "POV dejaste de rentar" 398) y los carruseles de fotos rinden igual que los videos.
+- Decisión: al menos 1 de los 2 reels diarios lleva persona real o avatar con voz; todos llevan música; el gancho va en los primeros 2 s.
+- Música: pista propia generada en Higgsfield (ElevenLabs Music), guardada en Drive en "Biblioteca · Clips cortos reutilizables".
