@@ -21,6 +21,7 @@
 - 6. Recuperar cartera y pedir referidos.
 - Contenido orgánico todos los días, varias veces al día, en Facebook, Instagram, YouTube y TikTok: reels, carruseles e historias para captar clientes nuevos de ticket alto.
 - Bajo costo y alta calidad: herramientas gratis o baratas y el material de los Drives de Alta Vida y de los desarrolladores, respetando sus precios y datos.
+- Voz de la marca en videos: Remy de Higgsfield (text2speech_v2, variante elevenlabs, voice_id b9c5c5db-4eb7-468a-a0b7-d06423af0335). Úsala siempre hasta que Jaime diga otra cosa.
 
 ## Cómo responder
 - Respuestas cortas y directas, en listas; copys listos para copiar y pegar, sin explicación alrededor.
