@@ -21,7 +21,10 @@ Este documento manda sobre el plan de contenido en todo lo que sea canales, prod
 
 ### Mercado
 - Lo que reporta Jaime de las reuniones del gremio: se venden las reventas y la propiedad de 2 a 4 millones, y la vivienda de lujo de 20 a 30 millones. El cliente llega por Marketplace, estados de WhatsApp y perfiles personales; las páginas de empresa son las que menos traen.
-- Índice SHF, segundo trimestre de 2026 (según publicaciones sobre el índice): Quintana Roo subió 11.5% anual contra 7.9% nacional. Hay que confirmar la cifra en la fuente oficial antes de usarla en un anuncio.
+- Índice SHF, confirmado en la fuente oficial (boletines de SHF en gob.mx, revisados el 16/11/2026):
+  - El 11.5% de Quintana Roo y el 7.9% nacional son del primer semestre de 2026 (enero a junio), no del segundo trimestre solo. En el segundo trimestre el dato nacional fue 7.3%; SHF no publica el trimestral por estado en el boletín.
+  - Dato más reciente (boletín del 10/11/2026, enero a septiembre de 2026): Quintana Roo 10.3% contra 7.6% nacional; municipio de Benito Juárez (Cancún) 10.1%.
+  - Cómo decirlo en un anuncio: "La vivienda en Quintana Roo subió 10.3% en los primeros nueve meses de 2026, contra 7.6% nacional (Índice SHF)". Es valor de avalúo de vivienda con crédito hipotecario, no una promesa de plusvalía de una propiedad.
 - Lujo: la vivienda de lujo en CDMX parte de $15 millones y su disponibilidad cayó 18% anual (Obras por Expansión, 6/11/2026). El comprador de CDMX, Monterrey y Guadalajara es el público natural para el rango de 20 a 30 millones.
 
 ### Conclusión
@@ -44,7 +47,12 @@ Semana 1 (16 al 22 de noviembre):
 - Lujo: Lagos del Sol frente al lago, $23,900,000. Precio confirmado por Jaime, fotos y video.
 - En espera: Valmira Living (entrega inmediata, solo 2 recámaras). Falta lista de precios.
 
-Pendiente de la comparación de mercado: revisar cada lunes 10 anuncios de Marketplace y portales en el mismo rango y zona, y anotar precio por m². La comparación es interna y no se nombra a la competencia en público.
+Comparación de mercado de la semana 1 (16/11/2026, anuncios públicos, precios de lista; tabla completa en la hoja de medición, pestaña "Mercado semana 1"):
+- Entrada, departamentos de 2 a 4 millones en Av. Huayacán: mediana de $33,333 por m². Ombú nuestro: $37,816 por m² (87 m²), 13% arriba de la mediana y unos $290,000 a $340,000 arriba de dos reventas anunciadas en el mismo desarrollo ($2,950,000 amueblado y $3,000,000, ambas de 87 m²). Valmira se anuncia desde $2,690,000 por 87 m² con entrega inmediata ($30,920 por m²).
+- Decisión: Ombú sigue como estrella de entrada esta semana porque tiene ficha, precio y video real, pero el mensaje se apoya en lo que lo distingue (nuevo sin habitar, planta baja, 2 cajones, frente a área verde), no en el precio. Valmira pasa a estrella de entrada en cuanto haya lista de precios vigente.
+- Lujo, casas de 20 a 30 millones: mediana de $57,776 por m² con pocos anuncios comparables. En Lagos del Sol hay anuncios de $20,900,000 (575 m², frente al lago, alberca y muelle) y $31,000,000 (467 m²). Lagos del Sol nuestro sigue como estrella de lujo, pero sin m² de la ficha no se puede comparar ni defender el precio.
+
+Rutina: revisar cada lunes 10 anuncios de Marketplace y portales en el mismo rango y zona, y anotar precio por m². La comparación es interna y no se nombra a la competencia en público.
 
 ## 3. Canales, en orden de prioridad
 
@@ -87,6 +95,8 @@ Las metas son objetivos de trabajo, no pronósticos: hoy la base es cero y no ha
 - Citas agendadas, citas realizadas, ofertas y operaciones.
 - Costo por mensaje y por cita si hay pauta.
 - Todo se anota en una sola hoja. Sin esa hoja no se puede saber qué funciona.
+- Hoja: "Medición · Proyecto Ventas 90 días" en Drive, carpeta "Alta Vida – Contenido diario" (https://docs.google.com/spreadsheets/d/1DCzSoKeqmA-2Vk1wqGR37mDrGtT4jWyDjGGnRS0RQT4). Se captura solo la pestaña Registro (una fila por conversación, con ID de Kommo y sin datos personales); el resumen semanal, por canal y por palabra clave se calculan solos.
+- La propuesta de la primera prueba de pauta (Ombú, $100 al día por 14 días a WhatsApp) está en la pestaña "Propuesta pauta" de la misma hoja, en borrador y sin publicar.
 
 ## 8. Recursos y costos
 
@@ -108,3 +118,4 @@ Las metas son objetivos de trabajo, no pronósticos: hoy la base es cero y no ha
 5. Lista de las páginas de colaboradores (Facebook, Instagram y TikTok) y quién las administra, para conectarlas.
 6. Quién lleva la hoja de mensajes y citas ahora que Coordinación cambió.
 7. Permiso para pausar las campañas viejas que siguen marcadas como activas.
+8. Ficha de Lagos del Sol frente al lago (m² de terreno y construcción, recámaras, baños) y revisar el precio de Ombú contra las reventas anunciadas en el mismo desarrollo.
