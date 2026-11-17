@@ -51,8 +51,8 @@ Semana 1 (16 al 22 de noviembre):
 
 Comparación de mercado de la semana 1 (16/11/2026, anuncios públicos, precios de lista; tabla completa en la hoja de medición, pestaña "Mercado semana 1"):
 - Entrada, departamentos de 2 a 4 millones en Av. Huayacán: mediana de $33,333 por m². Ombú nuestro: $37,816 por m² (87 m²), 13% arriba de la mediana y unos $290,000 a $340,000 arriba de dos reventas anunciadas en el mismo desarrollo ($2,950,000 amueblado y $3,000,000, ambas de 87 m²). Valmira se anuncia desde $2,690,000 por 87 m² con entrega inmediata ($30,920 por m²).
-- Decisión: Ombú sigue como estrella de entrada esta semana porque tiene ficha, precio y video real, pero el mensaje se apoya en lo que lo distingue (nuevo sin habitar, planta baja, 2 cajones, frente a área verde), no en el precio. Valmira (modelo Viena, 87 m², lista de octubre: de $2,794,000 en nivel 4 a $3,209,100 en nivel 1, es decir de $32,115 a $36,886 por m²) queda dentro del rango de mercado y es la candidata para la semana 2. Ojo: hay anuncios públicos de Valmira desde $2,660,000 y $2,690,000, abajo de la lista; confirmar con el desarrollador cuál precio está vigente antes de anunciarla.
-- Lujo, casas de 20 a 30 millones: mediana de $57,776 por m² con pocos anuncios comparables. En Lagos del Sol hay anuncios de $20,900,000 (575 m², frente al lago, alberca y muelle) y $31,000,000 (467 m²). Lagos del Sol nuestro sigue como estrella de lujo, pero sin m² de la ficha no se puede comparar ni defender el precio.
+- Decisión: Ombú sigue como estrella de entrada esta semana porque tiene ficha, precio y video real, pero el mensaje se apoya en lo que lo distingue (nuevo sin habitar, planta baja, 2 cajones, frente a área verde), no en el precio. Valmira (modelo Viena, 87 m², lista de octubre: de $2,794,000 en nivel 4 a $3,209,100 en nivel 1, es decir de $32,115 a $36,886 por m²) queda dentro del rango de mercado y es la candidata para la semana 2. Jaime confirmó el 17/11 que los precios de la lista son los correctos; son los únicos que se usan.
+- Lujo, casas de 20 a 30 millones: mediana de $57,776 por m² con pocos anuncios comparables. En Lagos del Sol hay anuncios de $20,900,000 (575 m², frente al lago, alberca y muelle) y $31,000,000 (467 m²). Lagos del Sol nuestro (ficha en Drive: 550 m² de terreno, 570 m² de construcción, 4 recámaras, 4.5 baños, alberca infinity y acceso al lago) sale en $41,930 por m² de construcción, 27% abajo de la mediana del rango: sigue como estrella de lujo y el precio se defiende bien.
 
 Rutina: revisar cada lunes 10 anuncios de Marketplace y portales en el mismo rango y zona, y anotar precio por m². La comparación es interna y no se nombra a la competencia en público.
 
@@ -99,6 +99,7 @@ Las metas son objetivos de trabajo, no pronósticos: hoy la base es cero y no ha
 - Todo se anota en una sola hoja. Sin esa hoja no se puede saber qué funciona.
 - Hoja: "Medición · Proyecto Ventas 90 días" en Drive, carpeta "Alta Vida – Contenido diario" (https://docs.google.com/spreadsheets/d/1DCzSoKeqmA-2Vk1wqGR37mDrGtT4jWyDjGGnRS0RQT4). Se captura solo la pestaña Registro (una fila por conversación, con ID de Kommo y sin datos personales); el resumen semanal, por canal y por palabra clave se calculan solos.
 - La propuesta de la primera prueba de pauta (Ombú, $100 al día por 14 días a WhatsApp) está en la pestaña "Propuesta pauta" de la misma hoja, en borrador y sin publicar.
+- Decisión de Jaime (17/11): la prueba se hace primero orgánica, sin pauta. La propuesta de pauta queda en pausa hasta que se definan la cuenta publicitaria y el WhatsApp. Los precios de Ombú ($3,290,000), Valmira (lista de octubre) y Lagos del Sol ($23,900,000) están confirmados.
 
 ## 8. Recursos y costos
 
@@ -120,4 +121,3 @@ Las metas son objetivos de trabajo, no pronósticos: hoy la base es cero y no ha
 5. Conectar a Metricool las cuentas de colaboradores, que administra Jaime: Instagram @gaby.altavida, @kenia.acosta_altavida, @coordinacionventas.altavida y @julie.altavida (Yulie, cuenta nueva), más dos páginas de Facebook y los perfiles que falta mandar. Cada persona es una marca aparte en Metricool; Instagram debe ser cuenta profesional.
 6. Quién lleva la hoja de mensajes y citas ahora que Coordinación cambió.
 7. Permiso para pausar las campañas viejas que siguen marcadas como activas.
-8. Ficha de Lagos del Sol frente al lago (m² de terreno y construcción, recámaras, baños) y revisar el precio de Ombú contra las reventas anunciadas en el mismo desarrollo.
