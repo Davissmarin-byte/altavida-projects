@@ -63,7 +63,7 @@ Rutina: revisar cada lunes 10 anuncios de Marketplace y portales en el mismo ran
 3. Perfiles personales (Facebook e Instagram) de Jaime, Kenia y Gaby: 1 publicación al día en primera persona. Jaime autorizó usar su perfil personal (16/11/2026).
 4. Páginas de colaboradores creadas para la marca (Facebook, Instagram y TikTok): mismo contenido que la marca. Para programarlas hay que conectarlas a Metricool.
 5. Páginas de Alta Vida (Instagram, Facebook, TikTok y YouTube): 2 reels, 1 carrusel y 1 historia al día, como respaldo de marca.
-6. Pauta en Meta a WhatsApp: solo con presupuesto autorizado por Jaime.
+6. Pauta en Meta a WhatsApp: en pausa hasta nuevo aviso (decisión de Jaime, 17/11/2026).
 7. Cartera y referidos: mensaje semanal a clientes anteriores con el producto estrella. La mitad de las ventas llega por referido.
 
 ## 4. Reglas de contenido de este proyecto
@@ -106,6 +106,7 @@ Las metas son objetivos de trabajo, no pronósticos: hoy la base es cero y no ha
 - Agente virtual: hoy no hay ninguno. Jaime propone usar el perfil de Ariadne de Alta Vida para una agente virtual; se arma en otra conversación.
 - Créditos de Higgsfield: quedan unos 48. Alcanzan para música y pruebas, no para un video de avatar diario. El video con persona real no gasta créditos y es el que mejor rinde.
 - Metricool: conectar las páginas de colaboradores puede requerir marcas adicionales en el plan.
+- Decisión de Jaime (17/11/2026): sin pauta hasta nuevo aviso. Primero se ve y se mide el resultado de las campañas orgánicas. No se propone pauta de nuevo hasta que Jaime lo pida; las cifras de abajo quedan solo como referencia.
 - Pauta: es la decisión que más mueve el resultado. Propuesta para que Jaime decida, sin gastar nada hasta su autorización:
   - Prueba: $100 al día por 14 días ($1,400) a WhatsApp con el producto de entrada.
   - Base: $300 al día ($9,000 al mes), dos productos estrella.
@@ -114,7 +115,7 @@ Las metas son objetivos de trabajo, no pronósticos: hoy la base es cero y no ha
 
 ## 9. Pendientes de Jaime
 
-1. Autorizar o no un presupuesto de pauta y cuál nivel.
+1. Pauta: decidido, no por ahora (17/11/2026).
 2. Lista de precios de Valmira y reventas activas de 2 a 4 millones.
 3. Qué más hay de 20 a 30 millones además de Lagos del Sol.
 4. Clips y fotos suyas en la biblioteca de Drive, y de 5 a 20 fotos para el avatar.
