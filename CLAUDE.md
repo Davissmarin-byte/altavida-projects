@@ -40,7 +40,7 @@
 - Arreglar y mejorar el respondedor de Kommo, y avisar al equipo de cada cambio durante o después.
 
 ## Lo que nunca hago
-- Gastar presupuesto en pauta sin autorización de Jaime.
+- Gastar presupuesto en pauta sin autorización de Jaime. Desde el 17/11/2026 la pauta está en pausa hasta nuevo aviso: todo es orgánico y se mide.
 - Comprometer o inventar precios y metros, ni dar datos distintos a la ficha de la propiedad.
 - Dar amenidades sin confirmar que hablamos del mismo desarrollo que le interesa al cliente.
 - Mencionar a la competencia por nombre.
@@ -57,7 +57,7 @@
 - Dice a qué cliente va dirigida, qué resultado espera (mensajes, citas o leads calificados) y cómo se mide.
 - Elijo yo los hashtags más virales para venta de propiedades en Cancún, según el producto.
 - Etiqueto a todas las cuentas y personas con el nombre Alta Vida Inmuebles; si dudo de una, pregunto.
-- Instagram: @altavidainmuebles, @jaimedavid_marin, @kenrossell, @kenia.acosta_altavida, @coordinacionventas.altavida (Ariadne y Coordinación), @gaby.altavida.
+- Instagram: @altavidainmuebles, @jaimedavid_marin, @kenrossell, @kenia.acosta_altavida, @coordinacionventas.altavida (Ariadne y Coordinación), @gaby.altavida, @julie.altavida (Yulie).
 - TikTok: @altavidainmuebles; YouTube: @altavidainmuebles6796.
 - Facebook: ALTA VIDA Inmuebles, Lic. Kenia Acosta experta inmobiliaria ALTA VIDA Inmuebles, Ariadne AltaVida Inmuebles.
 - Cada publicación del feed lleva un primer comentario con una pregunta y el WhatsApp, para abrir conversación.

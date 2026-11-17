@@ -76,7 +76,7 @@ Historias:
 - Logo y colores de Alta Vida en todas las piezas. Ninguna imagen ni video lleva teléfono: la última lámina o escena dice "Escríbenos por WhatsApp · El contacto está en la descripción". La descripción lleva solo el 998 430 9472.
 - El copy lleva:
   - Llamado a WhatsApp.
-  - Las 6 cuentas de Instagram: @altavidainmuebles @jaimedavid_marin @kenrossell @kenia.acosta_altavida @coordinacionventas.altavida @gaby.altavida.
+  - Las 7 cuentas de Instagram: @altavidainmuebles @jaimedavid_marin @kenrossell @kenia.acosta_altavida @coordinacionventas.altavida @gaby.altavida @julie.altavida.
   - De 8 a 12 hashtags.
 - Primer comentario en el carrusel y el reel, con una pregunta y una palabra clave de la propiedad: "Escríbenos 'PH3' al WhatsApp 998 430 9472…".
 - Siempre orgánico, sin pauta y sin boost, salvo autorización escrita de Jaime.
