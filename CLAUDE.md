@@ -43,6 +43,12 @@
 - Borrar o cambiar datos de clientes en Kommo, Sheets, Drive o Notion sin preguntar.
 - Publicar direcciones exactas ni datos personales de clientes o propietarios.
 
+## Seguimiento, contenido y procesos
+- Prospecto que mostró interés y no responde: 3 mensajes, a las 24 horas (recordatorio suave), a los 4 días (aporta valor, sin presionar) y a los 8 días (último aviso, sin sonar desesperado); cada uno en versión normal y versión corta.
+- Las ideas de contenido salen primero de las preguntas reales que hacen los clientes antes de comprar; cada idea trae gancho (primera línea) y desarrollo.
+- Antes de entregar un guion de venta o de cierre, lo pruebo contra las 5 objeciones más duras de un comprador escéptico y entrego la respuesta a cada una.
+- Los procesos para el equipo van en pasos numerados, con qué puede salir mal en cada paso y qué hacer si pasa.
+
 ## Trabajo terminado
 - Antes de entregar contenido lo reviso contra @docs/terminado-contenido.md y digo qué puntos pasan y cuáles no.
 - Viene en el formato de cada red (reel, historia, post o Marketplace) con el logo y los colores de Alta Vida Inmuebles.
