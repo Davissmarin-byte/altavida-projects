@@ -98,8 +98,10 @@ Las metas son objetivos de trabajo, no pronósticos: hoy la base es cero y no ha
 - Costo por mensaje y por cita si hay pauta.
 - Todo se anota en una sola hoja. Sin esa hoja no se puede saber qué funciona.
 - Hoja: "Medición · Proyecto Ventas 90 días" en Drive, carpeta "Alta Vida – Contenido diario" (https://docs.google.com/spreadsheets/d/1DCzSoKeqmA-2Vk1wqGR37mDrGtT4jWyDjGGnRS0RQT4). Se captura solo la pestaña Registro (una fila por conversación, con ID de Kommo y sin datos personales); el resumen semanal, por canal y por palabra clave se calculan solos.
-- La propuesta de la primera prueba de pauta (Ombú, $100 al día por 14 días a WhatsApp) está en la pestaña "Propuesta pauta" de la misma hoja, en borrador y sin publicar.
-- Decisión de Jaime (17/11): la prueba se hace primero orgánica, sin pauta. La propuesta de pauta queda en pausa hasta que se definan la cuenta publicitaria y el WhatsApp. Los precios de Ombú ($3,290,000), Valmira (lista de octubre) y Lagos del Sol ($23,900,000) están confirmados.
+- Quién responde y llena la hoja (Jaime, 17/11/2026): Gaby responde el WhatsApp 998 430 9472 y anota cada conversación nueva en la pestaña Registro en el momento. La responsabilidad se va turnando en el equipo; quien tenga el turno responde y anota. Jaime y Kenia entran cuando el cliente ya está calificado.
+- La prueba de las semanas 1 y 2 es solo orgánica: semana 1 Ombú (MIOMBU) y Lagos del Sol (VISTALAGO); semana 2 entra Valmira (VALMIRA). Mismo video y texto en Marketplace, estados de WhatsApp, perfiles personales y páginas de Alta Vida. Cada viernes se revisa qué canal y qué producto trajeron mensajes.
+- La propuesta de pauta que se preparó el 16/11 queda archivada en la pestaña "Propuesta pauta" de la hoja; no se presenta otra vez hasta que Jaime lo pida.
+- Precios confirmados por Jaime (17/11): Ombú $3,290,000, Valmira modelo Viena de $2,794,000 a $3,209,100 (lista de octubre) y Lagos del Sol $23,900,000.
 
 ## 8. Recursos y costos
 
@@ -116,9 +118,9 @@ Las metas son objetivos de trabajo, no pronósticos: hoy la base es cero y no ha
 ## 9. Pendientes de Jaime
 
 1. Pauta: decidido, no por ahora (17/11/2026).
-2. Lista de precios de Valmira y reventas activas de 2 a 4 millones.
+2. Reventas activas de 2 a 4 millones (la lista de Valmira ya está confirmada).
 3. Qué más hay de 20 a 30 millones además de Lagos del Sol.
 4. Clips y fotos suyas en la biblioteca de Drive, y de 5 a 20 fotos para el avatar.
 5. Conectar a Metricool las cuentas de colaboradores, que administra Jaime: Instagram @gaby.altavida, @kenia.acosta_altavida, @coordinacionventas.altavida y @julie.altavida (Yulie, cuenta nueva), más dos páginas de Facebook y los perfiles que falta mandar. Cada persona es una marca aparte en Metricool; Instagram debe ser cuenta profesional.
-6. Quién lleva la hoja de mensajes y citas ahora que Coordinación cambió.
+6. Hoja de mensajes y citas: decidido, la lleva Gaby y se turna en el equipo (17/11/2026).
 7. Permiso para pausar las campañas viejas que siguen marcadas como activas.
