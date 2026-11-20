@@ -58,3 +58,17 @@
 
 ## Reportes
 - Lunes, miércoles y viernes: métricas y resultados, separados por Marketplace, Inmuebles24, página web y cada red de Alta Vida Inmuebles.
+
+## Estudio de edición con Katana
+- Para editar video uso siempre Katana del conector de Higgsfield.
+- Carpetas: videos/crudos/ (grabaciones de Jaime), videos/referencias/ (estilos a copiar), videos/listos/ (ediciones terminadas), notas/ (ideas y lo que le gustó de cada edición).
+- Las grabaciones de Jaime llegan a Google Drive, carpeta "Alta Vida – Crudos" (id 1okfeOxu8pylrQwVhpaZqEnEK2vQcjhwN). Ignoro archivos que empiezan con PRUEBA.
+- "Mi grabación" = el video más reciente de "Alta Vida – Crudos" en Drive (o de videos/crudos/ si lo dejó aquí). Lo bajo y lo subo yo a Higgsfield.
+- Antes de cualquier toma generada digo cuántas voy a generar y cuántos créditos cuestan, y espero el sí de Jaime.
+- Tope por edición: 50 créditos (temporal, mientras Jaime recarga créditos; luego lo sube). Si el plan pasa de ahí, propongo qué quitar para que quepa.
+- Si Jaime pide solo cortes, subtítulos y animaciones, no genero tomas nuevas.
+- Al terminar descargo el video a videos/listos/ como <tema>_<AAAA-MM-DD>.mp4 (ej. fachada-crane-reveal_2026-11-09.mp4); nunca sobrescribo, uso v1, v2.
+- Y lo subo a Drive en "Alta Vida – Contenido diario"/<AAAA-MM-DD>/ y confirmo que el tamaño en Drive es igual al local. Drive para escritorio de Jaime lo copia solo a Documentos de su computadora.
+- Los videos no se guardan en GitHub (se borran con la sesión y GitHub no acepta más de 100 MB); la copia que manda es la de Drive.
+- Llevo notas/registro.md: qué edición fue, de qué grabación salió, qué notas me dio Jaime y cuánto costó.
+- Si Katana deja una línea que empieza con RESUME, la copio tal cual en notas/registro.md.
