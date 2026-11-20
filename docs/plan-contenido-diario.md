@@ -42,6 +42,7 @@ Prioridad: reels y carruseles, porque son los que llegan a gente que todavía no
 | Vassari | $2,010,000 | Publicado 9/11 |
 | Valmira Living (en Gran Vía) | Modelo Viena 2 recámaras: precio de promoción desde $2,794,000 (nivel 4) hasta $3,209,100 (nivel 1), según lista de disponibilidad de octubre de 2026 que mandó Jaime el 16/11 | Publicado 16/11 sin precio. Entrega inmediata. Modelo Verona de 3 recámaras: vendido, no se ofrece |
 | Casa en Aqua (carpeta "Fuente Diana") | — | NO USAR: ya no está disponible (13/11) |
+| Casa en Brisa (Vía Cumbres) | $9,950,000 (ya no vigente) | NO SE COMERCIALIZA: fuera de mercado (20/11). Su video solo sirve para contenido informativo, sin precio ni oferta, y solo si salimos personas del equipo |
 
 ## 3. Formatos que dan más alcance (lo que funciona en 2026)
 
