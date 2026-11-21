@@ -35,11 +35,11 @@ Prioridad: reels y carruseles, porque son los que llegan a gente que todavía no
 | Propiedad | Precio | Estado en contenido |
 |---|---|---|
 | Aurora Towers PH3, Torre Sol | $14,000,000 | Programado: sáb 14/11 y dom 15/11 |
-| Lagos del Sol, frente al lago | $23,900,000 | Siguiente: pieza individual de lujo |
+| Lagos del Sol, frente al lago | $23,900,000 | Reel 21/11 (atardecer y lago). El reel del clóset quedó en borrador para el 27/11 |
 | Ombú | $3,290,000 | Siguiente: videos nuevos de Jaime, formato "Esto te compra" |
 | Residencial Río | $6,750,000 | Publicado 13/11. Falta ficha (recámaras, baños, m²) |
 | Kiara, Aqua Residencial | $4,000,000 | Publicado 10/11 |
-| Vassari | $2,010,000 | Publicado 9/11 |
+| Vassari | Desde $1,910,000 según paquete y forma de pago (lista al 07/11/2026); un anuncio del 20/10 dice desde $2,010,000: Jaime confirma cuál sigue | Publicado 9/11 y 21/11 (reel del departamento muestra) |
 | Valmira Living (en Gran Vía) | Modelo Viena 2 recámaras: precio de promoción desde $2,794,000 (nivel 4) hasta $3,209,100 (nivel 1), según lista de disponibilidad de octubre de 2026 que mandó Jaime el 16/11 | Publicado 16/11 sin precio. Entrega inmediata. Modelo Verona de 3 recámaras: vendido, no se ofrece |
 | Casa en Aqua (carpeta "Fuente Diana") | — | NO USAR: ya no está disponible (13/11) |
 | Casa en Brisa (Vía Cumbres) | $9,950,000 (ya no vigente) | NO SE COMERCIALIZA: fuera de mercado (20/11). Su video solo sirve para contenido informativo, sin precio ni oferta, y solo si salimos personas del equipo |
@@ -111,6 +111,7 @@ Historias:
 - Ficha de Río: recámaras, baños y m².
 - Fotos del interior del PH3 de menos de 6 MB.
 - Confirmar que el precio de Lagos frente al lago sigue en $23,900,000.
+- Confirmar el precio vigente de Vassari: $1,910,000 (lista del 07/11) o $2,010,000 (anuncio del 20/10).
 - Que Coordinación marque la casa de Aqua ("Fuente Diana") como no disponible en INVENTARIO LISTINGS.
 - Activar el seguimiento de la página web y compartir los leads de Marketplace e Inmuebles24.
 
