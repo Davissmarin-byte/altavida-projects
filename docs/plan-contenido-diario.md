@@ -34,9 +34,9 @@ Prioridad: reels y carruseles, porque son los que llegan a gente que todavía no
 ### Estado del inventario al 13/11/2026
 | Propiedad | Precio | Estado en contenido |
 |---|---|---|
-| Aurora Towers PH3, Torre Sol | $14,000,000 | Programado: sáb 14/11 y dom 15/11 |
+| Aurora Towers PH3, Torre Sol | $14,000,000 | Publicado 14 y 15/11; reel 22/11 con el video de vistas del desarrollador. Faltan fotos del interior |
 | Lagos del Sol, frente al lago | $23,900,000 | Reel 21/11 (atardecer y lago). El reel del clóset quedó en borrador para el 27/11 |
-| Ombú | $3,290,000 | Siguiente: videos nuevos de Jaime, formato "Esto te compra" |
+| Ombú | $3,290,000 | Carrusel y reel 22/11 ("Mándaselo a quien sigue pagando renta") |
 | Residencial Río | $6,750,000 | Publicado 13/11. Falta ficha (recámaras, baños, m²) |
 | Kiara, Aqua Residencial | $4,000,000 | Publicado 10/11 |
 | Vassari | Desde $1,910,000 según paquete y forma de pago (lista al 07/11/2026); un anuncio del 20/10 dice desde $2,010,000: Jaime confirma cuál sigue | Publicado 9/11 y 21/11 (reel del departamento muestra) |
