@@ -5,20 +5,27 @@ Este plan se suma al CLAUDE.md y a docs/terminado-contenido.md. Si algo choca, m
 
 ## 1. Cuánto se publica cada día
 
-Prioridad: reels y carruseles, porque son los que llegan a gente que todavía no nos sigue. Con 568 seguidores en Instagram, las historias solo las ve la comunidad actual, así que bajan a 1 al día.
+Desde el 23/11/2026: 10 publicaciones al día, todas distintas (autorizado por Jaime el 22/11/2026). Antes eran 2 reels, 1 carrusel y 1 historia.
 
-| Pieza | Cantidad diaria | Redes | Hora (Cancún) L–V | Sáb y Dom |
-|---|---|---|---|---|
-| Carrusel (propiedad o contenido de valor) | 1 | Instagram, Facebook y TikTok (fotos) | 9:00 | 10:00 |
-| Reel 1: propiedad | 1 | Instagram, Facebook, TikTok y YouTube Short | 12:00 | 13:00 |
-| Reel 2: valor, confianza o persona a cámara | 1 | Instagram, Facebook, TikTok y YouTube Short | 19:00 | 18:00 |
-| Historia: repost del mejor reel con enlace a WhatsApp | 1 | Instagram y Facebook | 20:30 | 20:00 |
+| Hora (Cancún) | Pieza | Contenido | Redes |
+|---|---|---|---|
+| 9:00 | Carrusel 1 | Propiedad del día con ficha | Instagram, Facebook y TikTok (fotos) |
+| 10:30 | Reel 1 | Gancho aéreo o de estilo de vida de 2 s y recorrido real de la propiedad | Instagram, Facebook, TikTok y YouTube Short |
+| 12:30 | Reel 2 | Precio primero: "Esto te compra $X en Cancún" | Instagram, Facebook, TikTok y YouTube Short |
+| 14:30 | Historia 1 | Encuesta o caja de preguntas | Instagram y Facebook |
+| 16:00 | Reel 3 | Jaime, Kenia o Gaby a cámara: un consejo de 20 a 30 s (solo personas aprobadas por Jaime) | Instagram, Facebook, TikTok y YouTube Short |
+| 17:30 | Carrusel 2 | Comparativo de entrada (2 a 4M) contra lujo (20 a 30M), o contenido de valor | Instagram, Facebook y TikTok (fotos) |
+| 19:00 | Reel 4 | Tendencia: tomas falsas, "lo que vimos esta semana", "Cancún antes y ahora" | Instagram, Facebook, TikTok y YouTube Short |
+| 20:00 | Historia 2 | Repost del mejor reel con invitación a escribir | Instagram y Facebook |
+| 21:00 | Reel 5 | Lujo o estilo de vida: casa de 20 a 30M | Instagram, Facebook, TikTok y YouTube Short |
+| 21:30 | Historia 3 | Caja de preguntas o "responde y te mandamos la ficha" | Instagram y Facebook |
 
-- Total al día: 2 reels, 1 carrusel y 1 historia.
-- Total a la semana: 14 reels, 7 carruseles y 7 historias. Cada reel sale en 4 redes: 56 salidas de video a la semana.
-- Por qué 2 reels: en nuestro reporte del 4 al 11 de noviembre, TikTok dio 1,938 vistas (+158%) y YouTube llegó a 1,343 en un día, contra 310 personas alcanzadas en Instagram. El video corto es lo que nos saca de la comunidad actual.
-- Si falta material para el segundo reel, se publica 1 reel bueno antes que 2 flojos. Un reel que no se ve completo baja el alcance del siguiente.
-- Horarios: salen de getBestTimeToPostByNetwork en Metricool (picos de 11 a 14 h y de 17 a 21 h). Se vuelven a consultar antes de programar.
+- Total al día: 5 reels, 2 carruseles y 3 historias.
+- Fines de semana: misma parrilla; se pueden mover 1 hora más tarde si getBestTimeToPostByNetwork lo indica.
+- Material de stock (Pexels, Pixabay): solo como gancho de 2 s, nunca como la propiedad ni como la mayor parte del video. Instagram baja de las recomendaciones a las cuentas que publican sobre todo material ajeno (desde el 30/4/2026).
+- Avatar con IA: si se usa, se marca como contenido generado con IA.
+- Para sostener 5 reels al día hacen falta unos 15 clips a cámara a la semana del equipo. Si falta material, se publican menos piezas buenas antes que 10 flojas, y se avisa a Jaime.
+- Personas: solo las que Jaime aprobó por escrito. Lista en la sección 12.
 - Choques: no se publican dos piezas del feed en la misma hora.
 
 ## 2. Rotación de propiedades
@@ -39,7 +46,7 @@ Prioridad: reels y carruseles, porque son los que llegan a gente que todavía no
 | Ombú | $3,290,000 | Carrusel y reel 22/11 ("Mándaselo a quien sigue pagando renta") |
 | Residencial Río | $6,750,000 | Publicado 13/11. Falta ficha (recámaras, baños, m²) |
 | Kiara, Aqua Residencial | $4,000,000 | Publicado 10/11 |
-| Vassari | Desde $1,910,000 según paquete y forma de pago (lista al 07/11/2026); un anuncio del 20/10 dice desde $2,010,000: Jaime confirma cuál sigue | Publicado 9/11 y 21/11 (reel del departamento muestra) |
+| Vassari | Desde $2,010,000 (confirmado por Jaime el 22/11/2026). Ya no se usa $1,910,000 | Publicado 9/11 y 21/11 (reel del departamento muestra) |
 | Valmira Living (en Gran Vía) | Modelo Viena 2 recámaras: precio de promoción desde $2,794,000 (nivel 4) hasta $3,209,100 (nivel 1), según lista de disponibilidad de octubre de 2026 que mandó Jaime el 16/11 | Publicado 16/11 sin precio. Entrega inmediata. Modelo Verona de 3 recámaras: vendido, no se ofrece |
 | Casa en Aqua (carpeta "Fuente Diana") | — | NO USAR: ya no está disponible (13/11) |
 | Casa en Brisa (Vía Cumbres) | $9,950,000 (ya no vigente) | NO SE COMERCIALIZA: fuera de mercado (20/11). Su video solo sirve para contenido informativo, sin precio ni oferta, y solo si salimos personas del equipo |
@@ -111,7 +118,6 @@ Historias:
 - Ficha de Río: recámaras, baños y m².
 - Fotos del interior del PH3 de menos de 6 MB.
 - Confirmar que el precio de Lagos frente al lago sigue en $23,900,000.
-- Confirmar el precio vigente de Vassari: $1,910,000 (lista del 07/11) o $2,010,000 (anuncio del 20/10).
 - Que Coordinación marque la casa de Aqua ("Fuente Diana") como no disponible en INVENTARIO LISTINGS.
 - Activar el seguimiento de la página web y compartir los leads de Marketplace e Inmuebles24.
 
@@ -182,3 +188,9 @@ Qué cambia:
 - Tono del kit: primera persona, cara y voz del asesor, sin lenguaje de anuncio. Video del asesor cuando lo haya.
 - Marketplace solo con precio exacto de ficha o lista vigente.
 - Medición: el equipo pregunta "¿dónde nos viste?" y anota WhatsApp, Marketplace, Facebook personal o página. Se revisa cada viernes.
+
+## 12. Personas en el contenido
+
+- Jaime autoriza a cada persona antes de que aparezca (22/11/2026): Clau le manda la propuesta con fotogramas de cada video y quién sale, y espera su visto bueno.
+- Aprobadas: ninguna todavía. Se actualiza esta lista con cada visto bueno de Jaime.
+- Nunca: Jacqueline Yepez ni las personas que Jaime tachó.
