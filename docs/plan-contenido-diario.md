@@ -175,6 +175,11 @@ Objetivo: que el comprador y el inversionista de ticket alto nos vean todos los 
 - Decisión: al menos 1 de los 2 reels diarios lleva persona real o avatar con voz; todos llevan música; el gancho va en los primeros 2 s.
 - Música: pista propia generada en Higgsfield (ElevenLabs Music), guardada en Drive en "Biblioteca · Clips cortos reutilizables".
 
+## 10 bis. Mejora continua automática
+
+- Cada día, antes de crear, Clau baja de Metricool las métricas de los últimos 7 días, anota las conclusiones en docs/aprendizajes-metricool.md y las aplica ese mismo día.
+- Los análisis de Motion y de Meta que mande Jaime se suman al mismo archivo.
+
 ## 11. Estrategia de canales personales (Jaime, 16/11/2026)
 
 Lo que Jaime reporta del mercado y de las reuniones del gremio:
