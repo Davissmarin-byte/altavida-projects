@@ -35,3 +35,15 @@ Cuando Jaime mande análisis de Motion o Meta, se agregan aquí con fecha.
 - Los videos del equipo en eventos y visitas (como Elva Capital y Luna 4) se repiten como formato semanal "Lo que vimos esta semana".
 - TikTok: dos carruseles de fotos al día. Lujo con alberca en el horario fuerte (21:00).
 - El stock solo entra si aporta movimiento. Si el salto no baja de 70% en 3 días, se deja de usar.
+
+### Aplicado el 23/11
+- Ganchos de máximo 6 palabras, en grande y al centro, con el precio como pregunta: "¿$4.1M por esta casa?" y "¿Alberca propia por $6.75M?".
+- El primer fotograma ya muestra movimiento dentro de la casa (Arbolada), no un paisaje quieto. Hoy no se usó stock.
+- Formato nuevo: "Lo que vimos esta semana en Cancún", con clips reales de 5 propiedades.
+- Dos carruseles para TikTok: Arbolada y el de valor "Qué revisa el notario".
+- Medir el viernes 27/11: salto en 3 s de Arbolada y Río contra el 75% a 79% de la semana pasada.
+
+## Reporte del lunes 23/11 (semana del 16 al 22)
+- Vistas de los reels publicados en la semana: Instagram 513, Facebook 1,399 y TikTok 3,066. El reporte anterior medía las vistas totales de la cuenta, así que estas cifras no se comparan con él.
+- YouTube: el conector de Metricool ya no da las métricas por video.
+- Hoja de medición, pestaña Registro: sin ningún mensaje anotado. Sin esa hoja no se puede saber qué pieza trae clientes.
