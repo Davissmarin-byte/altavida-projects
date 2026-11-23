@@ -47,6 +47,8 @@ Desde el 23/11/2026: 10 publicaciones al día, todas distintas (autorizado por J
 | Residencial Río | $6,750,000 | Publicado 13/11. Falta ficha (recámaras, baños, m²) |
 | Kiara, Aqua Residencial | $4,000,000 | Publicado 10/11 |
 | Vassari | Desde $2,010,000 (confirmado por Jaime el 22/11/2026). Ya no se usa $1,910,000 | Publicado 9/11 y 21/11 (reel del departamento muestra) |
+| Arbolada, Casas Ceiba (Fase 1, Construcciones Tercer Milenio) | $4,100,000 (lotes 3, 4 y 5 disponibles; lote 13 apartado a $4,150,000; lote 12 vendido) según lista del 08/10/2026 | 3 recámaras, 3 baños, cuarto de lavado, 2 autos, 150 a 153 m² de construcción en 111.6 m² de terreno. Incluye piso de mármol, cubierta de granito, clósets y vestidor de parota, canceles de cristal templado. No incluye aires, estufa, campana ni alberca. Apartado $50,000. A un lado de Chedraui de Av. Huayacán. Publicado 23/11 (carrusel, reel y reel de Jaime) |
+| Velmari Grand Living, Puerto Cancún (Urban Homes) | Sin precio: pedir la lista de disponibilidad a Jaime o al desarrollador | 98 residencias. Brochure en Drive (carpeta VELLMARI GRAND LIVING). Reel 23/11 sin precio, con imágenes de referencia |
 | Valmira Living (en Gran Vía) | Modelo Viena 2 recámaras: precio de promoción desde $2,794,000 (nivel 4) hasta $3,209,100 (nivel 1), según lista de disponibilidad de octubre de 2026 que mandó Jaime el 16/11 | Publicado 16/11 sin precio. Entrega inmediata. Modelo Verona de 3 recámaras: vendido, no se ofrece |
 | Casa en Aqua (carpeta "Fuente Diana") | — | NO USAR: ya no está disponible (13/11) |
 | Casa en Brisa (Vía Cumbres) | $9,950,000 (ya no vigente) | NO SE COMERCIALIZA: fuera de mercado (20/11). Su video solo sirve para contenido informativo, sin precio ni oferta, y solo si salimos personas del equipo |
@@ -119,6 +121,7 @@ Historias:
 - Fotos del interior del PH3 de menos de 6 MB.
 - Confirmar que el precio de Lagos frente al lago sigue en $23,900,000.
 - Que Coordinación marque la casa de Aqua ("Fuente Diana") como no disponible en INVENTARIO LISTINGS.
+- Lista de precios y disponibilidad de Velmari Grand Living (la carpeta de inventario del desarrollador no tiene archivos visibles para Clau).
 - Activar el seguimiento de la página web y compartir los leads de Marketplace e Inmuebles24.
 
 ## 8. Campaña de 90 días: "El más conocido le gana al mejor"
@@ -197,5 +200,7 @@ Qué cambia:
 ## 12. Personas en el contenido
 
 - Jaime autoriza a cada persona antes de que aparezca (22/11/2026): Clau le manda la propuesta con fotogramas de cada video y quién sale, y espera su visto bueno.
-- Aprobadas: ninguna todavía. Se actualiza esta lista con cada visto bueno de Jaime.
+- Aprobadas por Jaime el 23/11/2026 ("Adelante con todas las hojas"): las personas que salen en los videos A2 (Arbolada, recorrido con Jaime), B3 (Vassari, Jaime a cámara; el trabajador del fondo y las placas se difuminan), A6 (Lagos, Jaime a cámara), A1 (Arbolada, calle) y C4 (Vassari, reflejo en el espejo).
+- Clips de Jaime ya editados en la biblioteca (Jaime_clip01a, 01b, 02a y 02b): se pueden usar.
+- Cualquier video nuevo con otras personas se vuelve a mandar a Jaime antes de publicarlo.
 - Nunca: Jacqueline Yepez ni las personas que Jaime tachó.
