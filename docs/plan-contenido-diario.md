@@ -202,5 +202,7 @@ Qué cambia:
 - Jaime autoriza a cada persona antes de que aparezca (22/11/2026): Clau le manda la propuesta con fotogramas de cada video y quién sale, y espera su visto bueno.
 - Aprobadas por Jaime el 23/11/2026 ("Adelante con todas las hojas"): las personas que salen en los videos A2 (Arbolada, recorrido con Jaime), B3 (Vassari, Jaime a cámara; el trabajador del fondo y las placas se difuminan), A6 (Lagos, Jaime a cámara), A1 (Arbolada, calle) y C4 (Vassari, reflejo en el espejo).
 - Clips de Jaime ya editados en la biblioteca (Jaime_clip01a, 01b, 02a y 02b): se pueden usar.
-- Cualquier video nuevo con otras personas se vuelve a mandar a Jaime antes de publicarlo.
+- Carpeta "Aprobado para publicar · personas, equipo, desayunos y eventos" (Drive 1VkNQxmvl9aBp0JIBBIeHZTCTv0_p3zfn, creada el 24/11/2026): todo lo que Jaime suba ahí está aprobado para publicar, con todas las personas que salgan, incluidos grupos, desayunos, conversaciones e interacciones inmobiliarias. No hace falta volver a pedir visto bueno.
+- Aun dentro de esa carpeta: nunca Jacqueline Yepez ni las personas que Jaime tachó; si se ve a alguna, ese tramo no se usa. Tampoco se publican datos personales, direcciones ni placas (se difuminan).
+- Cualquier video con personas que venga de otra carpeta se vuelve a mandar a Jaime antes de publicarlo.
 - Nunca: Jacqueline Yepez ni las personas que Jaime tachó.
