@@ -5,28 +5,29 @@ Este plan se suma al CLAUDE.md y a docs/terminado-contenido.md. Si algo choca, m
 
 ## 1. Cuánto se publica cada día
 
-Desde el 23/11/2026: 10 publicaciones al día, todas distintas (autorizado por Jaime el 22/11/2026). Antes eran 2 reels, 1 carrusel y 1 historia.
+Desde el 25/11/2026 (aprobado por Jaime): 3 piezas al día en el feed, todas con autorización previa de Jaime. La parrilla de 10 al día (22/11) queda suspendida: el análisis del 24/11 mostró que más volumen con reels de plantilla bajó las vistas por pieza (mediana de 33 en noviembre).
 
 | Hora (Cancún) | Pieza | Contenido | Redes |
 |---|---|---|---|
-| 9:00 | Carrusel 1 | Propiedad del día con ficha | Instagram, Facebook y TikTok (fotos) |
-| 10:30 | Reel 1 | Gancho aéreo o de estilo de vida de 2 s y recorrido real de la propiedad | Instagram, Facebook, TikTok y YouTube Short |
-| 12:30 | Reel 2 | Precio primero: "Esto te compra $X en Cancún" | Instagram, Facebook, TikTok y YouTube Short |
-| 14:30 | Historia 1 | Encuesta o caja de preguntas | Instagram y Facebook |
-| 16:00 | Reel 3 | Jaime, Kenia o Gaby a cámara: un consejo de 20 a 30 s (solo personas aprobadas por Jaime) | Instagram, Facebook, TikTok y YouTube Short |
-| 17:30 | Carrusel 2 | Comparativo de entrada (2 a 4M) contra lujo (20 a 30M), o contenido de valor | Instagram, Facebook y TikTok (fotos) |
-| 19:00 | Reel 4 | Tendencia: tomas falsas, "lo que vimos esta semana", "Cancún antes y ahora" | Instagram, Facebook, TikTok y YouTube Short |
-| 20:00 | Historia 2 | Repost del mejor reel con invitación a escribir | Instagram y Facebook |
-| 21:00 | Reel 5 | Lujo o estilo de vida: casa de 20 a 30M | Instagram, Facebook, TikTok y YouTube Short |
-| 21:30 | Historia 3 | Caja de preguntas o "responde y te mandamos la ficha" | Instagram y Facebook |
+| 12:30 | Reel 1 | Persona real (Jaime, Kenia, Gaby o el equipo) en recorrido, visita, evento o momento de confianza, editado al estilo de Edits | Instagram, Facebook, TikTok y YouTube Short |
+| 17:30 | Carrusel | Propiedad con ficha vigente o contenido de valor | Instagram, Facebook y TikTok (fotos) |
+| 19:00 | Reel 2 | Persona real con un consejo o una propiedad del inventario | Instagram, Facebook, TikTok y YouTube Short |
+| 20:00 | Historia | Repost del reel del día con invitación a escribir | Instagram y Facebook |
 
-- Total al día: 5 reels, 2 carruseles y 3 historias.
-- Fines de semana: misma parrilla; se pueden mover 1 hora más tarde si getBestTimeToPostByNetwork lo indica.
-- Material de stock (Pexels, Pixabay): solo como gancho de 2 s, nunca como la propiedad ni como la mayor parte del video. Instagram baja de las recomendaciones a las cuentas que publican sobre todo material ajeno (desde el 30/4/2026).
-- Avatar con IA: si se usa, se marca como contenido generado con IA.
-- Para sostener 5 reels al día hacen falta unos 15 clips a cámara a la semana del equipo. Si falta material, se publican menos piezas buenas antes que 10 flojas, y se avisa a Jaime.
-- Personas: solo las que Jaime aprobó por escrito. Lista en la sección 12.
-- Choques: no se publican dos piezas del feed en la misma hora.
+Flujo de autorización (no se negocia):
+1. Clau edita y sube cada pieza a Drive, en la carpeta del día, como propuesta.
+2. Clau manda a Jaime los enlaces y el texto de cada pieza, con la transcripción de lo que se dice y los precios o datos que se mencionan.
+3. Solo con el visto bueno de Jaime se programa en Metricool. Sin respuesta, no se publica.
+
+Edición de los reels con persona (lo que funciona según los datos y el manual de videos):
+- La voz de la persona va al frente, con subtítulos grandes generados de la transcripción y revisados.
+- Se cortan pausas y muletillas, se agregan zooms suaves en las frases clave y la música va baja. No se usan plantillas de catálogo ni etiquetas en cada corte.
+- Duración: de 20 a 40 s, con una sola idea por video. El gancho son las primeras palabras de la persona o una pregunta en pantalla.
+- Antes de proponer un video, Clau transcribe el audio y revisa:
+  - Que no se mencionen calles, números de casa ni datos personales. Si aparecen, se cortan o se silencian.
+  - Que los precios coincidan con la lista vigente. Los videos viejos pueden traer precios que ya no aplican; esos tramos se cortan o se avisan a Jaime.
+- Los reels se publican en colaboración con las cuentas del equipo cuando Jaime lo autorice.
+- TikTok puede llevar más volumen, porque ahí sí se reparte el contenido; se decide con Jaime.
 
 ## 2. Rotación de propiedades
 
@@ -202,7 +203,7 @@ Qué cambia:
 - Jaime autoriza a cada persona antes de que aparezca (22/11/2026): Clau le manda la propuesta con fotogramas de cada video y quién sale, y espera su visto bueno.
 - Aprobadas por Jaime el 23/11/2026 ("Adelante con todas las hojas"): las personas que salen en los videos A2 (Arbolada, recorrido con Jaime), B3 (Vassari, Jaime a cámara; el trabajador del fondo y las placas se difuminan), A6 (Lagos, Jaime a cámara), A1 (Arbolada, calle) y C4 (Vassari, reflejo en el espejo).
 - Clips de Jaime ya editados en la biblioteca (Jaime_clip01a, 01b, 02a y 02b): se pueden usar.
-- Carpeta "Aprobado para publicar · personas, equipo, desayunos y eventos" (Drive 1VkNQxmvl9aBp0JIBBIeHZTCTv0_p3zfn, creada el 24/11/2026): todo lo que Jaime suba ahí está aprobado para publicar, con todas las personas que salgan, incluidos grupos, desayunos, conversaciones e interacciones inmobiliarias. No hace falta volver a pedir visto bueno.
+- Carpeta "Aprobado para publicar · personas, equipo, desayunos y eventos" (Drive 1VkNQxmvl9aBp0JIBBIeHZTCTv0_p3zfn, creada el 24/11/2026): las personas que salen ahí están autorizadas, incluidos grupos, desayunos, conversaciones, momentos familiares e interacciones inmobiliarias. Son recopilaciones de meses anteriores: los precios que se escuchan pueden no estar vigentes. Cada pieza editada con ese material la revisa y autoriza Jaime antes de publicarse (25/11/2026).
 - Aun dentro de esa carpeta: nunca Jacqueline Yepez ni las personas que Jaime tachó; si se ve a alguna, ese tramo no se usa. Tampoco se publican datos personales, direcciones ni placas (se difuminan).
 - Cualquier video con personas que venga de otra carpeta se vuelve a mandar a Jaime antes de publicarlo.
 - Nunca: Jacqueline Yepez ni las personas que Jaime tachó.
