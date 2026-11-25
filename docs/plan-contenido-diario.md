@@ -27,7 +27,7 @@ Edición de los reels con persona (lo que funciona según los datos y el manual 
   - Que no se mencionen calles, números de casa ni datos personales. Si aparecen, se cortan o se silencian.
   - Que los precios coincidan con la lista vigente. Los videos viejos pueden traer precios que ya no aplican; esos tramos se cortan o se avisan a Jaime.
 - Los reels se publican en colaboración con las cuentas del equipo cuando Jaime lo autorice.
-- TikTok puede llevar más volumen, porque ahí sí se reparte el contenido; se decide con Jaime.
+- TikTok lleva 2 videos extra al día (Jaime, 25/11/2026), además de los reels: clips cortos (12 a 20 s) de material APTO con persona real, gancho en pantalla, música y cierre a WhatsApp. Van en horas pico de TikTok que no choquen con los reels (por ejemplo 12:00 y 16:00). Misma revisión de calidad, placas y datos personales.
 
 ## 2. Rotación de propiedades
 
