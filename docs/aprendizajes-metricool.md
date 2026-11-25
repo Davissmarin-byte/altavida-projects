@@ -57,3 +57,9 @@ Cuando Jaime mande análisis de Motion o Meta, se agregan aquí con fecha.
 - Threads (@jamesdavid_marin): 19:00 (sin dato de Metricool; se mide).
 - Historia en Instagram y Facebook: 20:00.
 Decisión (Jaime, 25/11): cada red con su propio texto y a su hora pico; Instagram con colaboradores @jamesdavid_marin, @kenia.acosta_altavida, @kenrossell y @julie.altavida.
+
+## 25/11/2026 · Métricas del 18 al 24/11 (Metricool)
+- Instagram, 16 reels: mediana 19.5 vistas (base 24/11: 33), mediana de salto en 3 s 69% (base 69%), envíos casi en cero (5 en total). Mejores: 80 (21/11), 60 (19/11), 55 (20/11), 52 (22/11).
+- TikTok, 20 videos: mediana 164 vistas; tope 226 (19/11). TikTok reparte 8 veces más que Instagram con el mismo material.
+- Conclusión: el volumen de plantillas sigue hundiendo Instagram; además, los reels de esa semana iban comprimidos a 3 MB y se veían pixelados.
+- Cambios que aplico hoy: solo video con persona real y en alta calidad (APTO en scripts/revisar_calidad.sh), menos piezas, horas pico por red y texto propio para cada red. Se mide contra 19.5 vistas y 69% de salto.
