@@ -208,4 +208,4 @@ Qué cambia:
 - Cualquier video con personas que venga de otra carpeta se vuelve a mandar a Jaime antes de publicarlo.
 - Nunca: Jacqueline Yepez ni las personas que Jaime tachó.
 - Quitados por Jaime el 25/11/2026 (circulados en rojo), fuera de todo proyecto y edición: V017 (IMG_0356), V024 (IMG_9750), V029 (IMG_4782), V035 (IMG_9152), V036 (IMG_3601) y V040 (IMG_0360). Los originales siguen en Drive; solo no se usan.
-- En espera hasta que Jaime confirme, porque pueden salir las mismas niñas o personas circuladas: V008, V009, V034, V041, V045 y V077.
+- V008, V009, V034, V041, V045 y V077: Jaime confirmó el 25/11/2026 que sí se pueden usar (cada pieza editada sigue pasando por su autorización).
