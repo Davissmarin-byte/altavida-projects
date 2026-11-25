@@ -84,7 +84,9 @@ Historias:
 - Datos solo de la ficha, la carpeta o el anuncio, citando la fuente. Si dos fuentes no cuadran, se usa la más reciente y se avisa a Jaime.
 - Sin dirección exacta, nombre de calle, número de casa, placas, caras de vecinos ni datos de propietarios. Se difumina lo que haga falta.
 - Formatos:
-  - Reel: 1080x1920, mp4, de 10 a 60 s y menos de 3 MB (límite de subida del conector de Drive). Para que se vea nítido con ese peso, el reel dura de 12 a 18 s.
+  - Reel: 1080x1920, mp4, de 10 a 60 s, en ALTA CALIDAD: H.264 CRF 18 (unos 6 a 10 Mbps, de 20 a 50 MB). Desde el 25/11/2026 ya no se comprime a 3 MB: con ese peso se veía pixelado (Jaime lo reportó).
+  - Cómo se sube: la versión HQ se sube a Higgsfield (media_upload + curl PUT + media_confirm), que da un enlace público; ese enlace es el que va a Metricool y el que se le da a Jaime para descargar. Se baja de nuevo y se compara sha256.
+  - En Drive queda solo una copia ligera (menos de 3 MB) para vista previa, con "preview" en el nombre. Esa copia no se publica ni se manda a nadie para publicar.
   - Carrusel: 1080x1350.
   - Historia: 1080x1920.
 - Logo y colores de Alta Vida en todas las piezas. Ninguna imagen ni video lleva teléfono: la última lámina o escena dice "Escríbenos por WhatsApp · El contacto está en la descripción". La descripción lleva solo el 998 430 9472.
