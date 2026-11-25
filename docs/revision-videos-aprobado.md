@@ -8,7 +8,7 @@ V017, V024, V029, V035, V036, V040.
 ## Ganchos que sí se usan (solo ese tramo de voz)
 | Video | Tramo | Gancho |
 |---|---|---|
-| V133 | 0.0–7.5 s | "Este no es solo un garden en Puerto Cancún… un espacio de 350 m² en medio de dos campos de golf." SOLO RENTA ($80,000 al mes): se corta "es la oportunidad de comprar" (2.0–3.58 s) |
+| V133 | 0.0–7.5 s | "Este no es solo un garden en Puerto Cancún… un espacio de 350 m² en medio de dos campos de golf." SOLO RENTA (precio solo a quien pida información): se corta "es la oportunidad de comprar" (2.0–3.58 s) |
 | V074 | 0–17 s | Ping-pong con Kenia: "dame tu top número uno de la mejor inversión en Av. Huayacán". Sin el precio de $2.5M ni el apartado de $25 mil |
 | V032 | 1.0–9.0 s | "Acompáñenme a conocer esta casa… aquí en Lagos del Sol." |
 | V038 | 0.8–6.8 s | "Venimos a conocer el showroom de Bella Towers." |
