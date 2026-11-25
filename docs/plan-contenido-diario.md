@@ -52,6 +52,8 @@ Edición de los reels con persona (lo que funciona según los datos y el manual 
 | Velmari Grand Living, Puerto Cancún (Urban Homes) | Sin precio: pedir la lista de disponibilidad a Jaime o al desarrollador | 98 residencias. Brochure en Drive (carpeta VELLMARI GRAND LIVING). Reel 23/11 sin precio, con el recorrido real de Jaime (carpeta de videos 18ry7_M56rcfBMx7KeJSbNBgyqlxIH2uP: 9 videos y fotos HEIC del 23/11). En esos videos salen mujeres del equipo y otras personas: no se usan hasta que Jaime diga quién es cada una |
 | Valmira Living (en Gran Vía) | Modelo Viena 2 recámaras: precio de promoción desde $2,794,000 (nivel 4) hasta $3,209,100 (nivel 1), según lista de disponibilidad de octubre de 2026 que mandó Jaime el 16/11 | Publicado 16/11 sin precio. Entrega inmediata. Modelo Verona de 3 recámaras: vendido, no se ofrece |
 | Casa en Aqua (carpeta "Fuente Diana") | — | NO USAR: ya no está disponible (13/11) |
+| Garden de 350 m² en Puerto Cancún (V133) | Sin precio: pedir ficha a Jaime | EN VENTA (confirmado 25/11). Entre dos campos de golf, se entrega amueblado. Publicar sin precio hasta tener la ficha |
+| CUORE Cumbres (V001, V142) | Sin precio: pedir lista a Jaime o al desarrollador | EN VENTA (confirmado 25/11). Preventa en Cumbres. Publicar sin precio hasta tener la lista |
 | Bodega en parque industrial (V141) y Bayview Grand (V152) | — | NO DISPONIBLES (25/11). Sus imágenes solo para contenido de valor y autoridad, sin precio ni oferta |
 | Casa en Brisa (Vía Cumbres) | $9,950,000 (ya no vigente) | NO SE COMERCIALIZA: fuera de mercado (20/11). Su video solo sirve para contenido informativo, sin precio ni oferta, y solo si salimos personas del equipo |
 
@@ -124,6 +126,7 @@ Historias:
 - Confirmar que el precio de Lagos frente al lago sigue en $23,900,000.
 - Que Coordinación marque la casa de Aqua ("Fuente Diana") como no disponible en INVENTARIO LISTINGS.
 - Lista de precios y disponibilidad de Velmari Grand Living (la carpeta de inventario del desarrollador no tiene archivos visibles para Clau).
+- Ficha y precio del garden de Puerto Cancún (V133) y lista de precios de CUORE Cumbres.
 - Activar el seguimiento de la página web y compartir los leads de Marketplace e Inmuebles24.
 
 ## 8. Campaña de 90 días: "El más conocido le gana al mejor"

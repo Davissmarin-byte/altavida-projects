@@ -8,13 +8,13 @@ V017, V024, V029, V035, V036, V040.
 ## Ganchos que sí se usan (solo ese tramo de voz)
 | Video | Tramo | Gancho |
 |---|---|---|
-| V133 | 0.0–7.5 s | "Este no es solo un garden en Puerto Cancún, es la oportunidad de comprar 350 m² en medio de dos campos de golf." (confirmar disponibilidad) |
+| V133 | 0.0–7.5 s | "Este no es solo un garden en Puerto Cancún, es la oportunidad de comprar 350 m² en medio de dos campos de golf." (en venta, confirmado por Jaime 25/11) |
 | V074 | 0–17 s | Ping-pong con Kenia: "dame tu top número uno de la mejor inversión en Av. Huayacán". Sin el precio de $2.5M ni el apartado de $25 mil |
 | V032 | 1.0–9.0 s | "Acompáñenme a conocer esta casa… aquí en Lagos del Sol." |
 | V038 | 0.8–6.8 s | "Venimos a conocer el showroom de Bella Towers." |
 | V018 | 0.8–14.9 s | "Vamos a ver la privada Jazmín…" |
 | V007 | 1.2–14.2 s | Jaime, Gaby y Kenia en el evento de Cumbres |
-| V142 | 0.0–7.9 s | "Invertir en CUORE Cumbres es asegurar rentabilidad…" (confirmar que sigue a la venta) |
+| V142 | 0.0–7.9 s | "Invertir en CUORE Cumbres es asegurar rentabilidad…" (en venta, confirmado por Jaime 25/11; también sirve V001) |
 | V108 | 0.0–11.0 s | "Bienvenidos a un hogar que refleja la armonía entre diseño y confort…" (Aqua Residencial) |
 | V169 | 0.0–10.0 s | "Si tú no le das al universo, no pretendas que el universo te dé a ti." |
 | V041 | completo | Frase motivacional (solo este; V045, V122 y V131 son la misma) |
