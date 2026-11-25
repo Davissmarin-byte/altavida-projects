@@ -52,6 +52,7 @@ Edición de los reels con persona (lo que funciona según los datos y el manual 
 | Velmari Grand Living, Puerto Cancún (Urban Homes) | Sin precio: pedir la lista de disponibilidad a Jaime o al desarrollador | 98 residencias. Brochure en Drive (carpeta VELLMARI GRAND LIVING). Reel 23/11 sin precio, con el recorrido real de Jaime (carpeta de videos 18ry7_M56rcfBMx7KeJSbNBgyqlxIH2uP: 9 videos y fotos HEIC del 23/11). En esos videos salen mujeres del equipo y otras personas: no se usan hasta que Jaime diga quién es cada una |
 | Valmira Living (en Gran Vía) | Modelo Viena 2 recámaras: precio de promoción desde $2,794,000 (nivel 4) hasta $3,209,100 (nivel 1), según lista de disponibilidad de octubre de 2026 que mandó Jaime el 16/11 | Publicado 16/11 sin precio. Entrega inmediata. Modelo Verona de 3 recámaras: vendido, no se ofrece |
 | Casa en Aqua (carpeta "Fuente Diana") | — | NO USAR: ya no está disponible (13/11) |
+| Bodega en parque industrial (V141) y Bayview Grand (V152) | — | NO DISPONIBLES (25/11). Sus imágenes solo para contenido de valor y autoridad, sin precio ni oferta |
 | Casa en Brisa (Vía Cumbres) | $9,950,000 (ya no vigente) | NO SE COMERCIALIZA: fuera de mercado (20/11). Su video solo sirve para contenido informativo, sin precio ni oferta, y solo si salimos personas del equipo |
 
 ## 3. Formatos que dan más alcance (lo que funciona en 2026)
