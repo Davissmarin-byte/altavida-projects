@@ -14,6 +14,8 @@ Desde el 25/11/2026 (aprobado por Jaime): 3 piezas al día en el feed, todas con
 | 19:00 | Reel 2 | Persona real con un consejo o una propiedad del inventario | Instagram, Facebook, TikTok y YouTube Short |
 | 20:00 | Historia | Repost del reel del día con invitación a escribir | Instagram y Facebook |
 
+Regla de Jaime (25/11/2026): antes de pausar, quitar o detener un proyecto o una publicación, o de bajar el volumen de publicaciones, Clau pide autorización a Jaime y explica por qué. Sin su OK no se detiene nada. Siempre en mejora continua: cada día se analiza, se sugiere y se resuelve.
+
 Flujo de autorización (no se negocia):
 1. Clau edita y sube cada pieza a Drive, en la carpeta del día, como propuesta.
 2. Clau manda a Jaime los enlaces y el texto de cada pieza, con la transcripción de lo que se dice y los precios o datos que se mencionan.
