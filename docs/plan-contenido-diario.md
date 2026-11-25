@@ -52,7 +52,7 @@ Edición de los reels con persona (lo que funciona según los datos y el manual 
 | Velmari Grand Living, Puerto Cancún (Urban Homes) | Sin precio: pedir la lista de disponibilidad a Jaime o al desarrollador | 98 residencias. Brochure en Drive (carpeta VELLMARI GRAND LIVING). Reel 23/11 sin precio, con el recorrido real de Jaime (carpeta de videos 18ry7_M56rcfBMx7KeJSbNBgyqlxIH2uP: 9 videos y fotos HEIC del 23/11). En esos videos salen mujeres del equipo y otras personas: no se usan hasta que Jaime diga quién es cada una |
 | Valmira Living (en Gran Vía) | Modelo Viena 2 recámaras: precio de promoción desde $2,794,000 (nivel 4) hasta $3,209,100 (nivel 1), según lista de disponibilidad de octubre de 2026 que mandó Jaime el 16/11 | Publicado 16/11 sin precio. Entrega inmediata. Modelo Verona de 3 recámaras: vendido, no se ofrece |
 | Casa en Aqua (carpeta "Fuente Diana") | — | NO USAR: ya no está disponible (13/11) |
-| Garden de 350 m² en Puerto Cancún (V133) | Renta: el precio NO se publica; solo se da por WhatsApp a quien pida información (Jaime, 25/11/2026) | SOLO EN RENTA por el momento: nunca decir "comprar" ni "venta". 2 recámaras, 2 baños, terraza con grill, 2 cajones, amueblado, entre dos campos de golf. Propuesta de reel v3 sin precio en Drive (1mU0nAhnHDVLX99NqSNS7Nff7ingxo7Qo) |
+| Garden de 350 m² en Puerto Cancún (V133) | Renta: el precio NO se publica; solo se da por WhatsApp a quien pida información (Jaime, 25/11/2026) | SOLO EN RENTA por el momento: nunca decir "comprar" ni "venta". VIDEO EN PAUSA (25/11): el original es de 480p, no pasa la revisión de calidad; sus publicaciones quedaron en borrador hasta tener video original en alta. 2 recámaras, 2 baños, terraza con grill, 2 cajones, amueblado, entre dos campos de golf. Propuesta de reel v3 sin precio en Drive (1mU0nAhnHDVLX99NqSNS7Nff7ingxo7Qo) |
 | CUORE Cumbres (V001, V142) | Sin precio: pedir lista a Jaime o al desarrollador | EN VENTA (confirmado 25/11). Preventa en Cumbres. Publicar sin precio hasta tener la lista |
 | Bodega en parque industrial (V141) y Bayview Grand (V152) | — | NO DISPONIBLES (25/11). Sus imágenes solo para contenido de valor y autoridad, sin precio ni oferta |
 | Casa en Brisa (Vía Cumbres) | $9,950,000 (ya no vigente) | NO SE COMERCIALIZA: fuera de mercado (20/11). Su video solo sirve para contenido informativo, sin precio ni oferta, y solo si salimos personas del equipo |
@@ -96,6 +96,16 @@ Historias:
   - De 8 a 12 hashtags.
 - Primer comentario en el carrusel y el reel, con una pregunta y una palabra clave de la propiedad: "Escríbenos 'PH3' al WhatsApp 998 430 9472…".
 - Siempre orgánico, sin pauta y sin boost, salvo autorización escrita de Jaime.
+
+## 4 bis. Revisión de calidad ANTES de editar (Jaime, 25/11/2026)
+
+Regla: o el video tiene buena calidad de origen, o no se usa. Se revisa antes de editar, antes de gastar créditos y antes de proponer.
+- Se corre `scripts/revisar_calidad.sh <video>` sobre el original:
+  - APTO: lado corto de 1080 px o más y 4 Mbps o más. Se usa.
+  - REVISAR: de 720 a 1079 px, o de 2 a 4 Mbps. Se escala a 1080x1920 y se mira un fotograma a tamaño completo; si se ve suave o pixelado, no se usa.
+  - NO USAR: menos de 720 px o menos de 2 Mbps. No se edita. Se pide el original a Jaime o al desarrollador. Mejorarlo con IA (Higgsfield upscale) gasta créditos: solo con autorización de Jaime.
+- Videos reenviados por WhatsApp o bajados de redes casi siempre salen en NO USAR: pedir el archivo original.
+- Clasificación de la carpeta "Aprobado para publicar": docs/revision-videos-aprobado.md.
 
 ## 5. Flujo diario
 

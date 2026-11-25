@@ -31,3 +31,10 @@ V017, V024, V029, V035, V036, V040.
 
 ## No van en contenido de venta
 Reclutamiento: V031, V126, V132, V149, V164.
+
+## Calidad de origen (scripts/revisar_calidad.sh, 25/11/2026)
+- NO USAR (menos de 720 px o menos de 2 Mbps): V127, V130, V133, V141, V152, V153, V164, V165, V170, V174, V176, V177, V181, V183, V184, V185.
+- REVISAR (720p o poco bitrate; se mira fotograma antes): V031, V061, V074, V078, V090, V091, V093, V100, V106, V126, V131, V132, V139, V145, V146, V149, V155, V156, V158, V162, V163, V167, V169, V178.
+- APTO: los otros 150 (1080p a 4K).
+- V133 (garden) quedó fuera por calidad: sus 7 publicaciones del 25/11 se pasaron a borrador. Hace falta el video original del desarrollador.
+- V074 (Kenia, Ombú) es REVISAR: se revisó el fotograma a 1080x1920 y se ve nítido; sigue programado el 26/11.
