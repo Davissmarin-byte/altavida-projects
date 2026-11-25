@@ -47,3 +47,13 @@ Cuando Jaime mande análisis de Motion o Meta, se agregan aquí con fecha.
 - Vistas de los reels publicados en la semana: Instagram 513, Facebook 1,399 y TikTok 3,066. El reporte anterior medía las vistas totales de la cuenta, así que estas cifras no se comparan con él.
 - YouTube: el conector de Metricool ya no da las métricas por video.
 - Hoja de medición, pestaña Registro: sin ningún mensaje anotado. Sin esa hoja no se puede saber qué pieza trae clientes.
+
+## Horas pico por red (Metricool, semana del 25/11/2026, hora de Cancún)
+- Instagram: 13:00 a 15:00 entre semana (también 18:00 a 20:00).
+- Facebook: 10:00 a 12:00.
+- TikTok: 10:00 y 18:00.
+- YouTube: 16:00.
+- LinkedIn (perfil de Jaime): 11:00.
+- Threads (@jamesdavid_marin): 19:00 (sin dato de Metricool; se mide).
+- Historia en Instagram y Facebook: 20:00.
+Decisión (Jaime, 25/11): cada red con su propio texto y a su hora pico; Instagram con colaboradores @jamesdavid_marin, @kenia.acosta_altavida, @kenrossell y @julie.altavida.
