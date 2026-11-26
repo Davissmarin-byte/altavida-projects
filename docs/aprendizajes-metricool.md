@@ -63,3 +63,9 @@ Decisión (Jaime, 25/11): cada red con su propio texto y a su hora pico; Instagr
 - TikTok, 20 videos: mediana 164 vistas; tope 226 (19/11). TikTok reparte 8 veces más que Instagram con el mismo material.
 - Conclusión: el volumen de plantillas sigue hundiendo Instagram; además, los reels de esa semana iban comprimidos a 3 MB y se veían pixelados.
 - Cambios que aplico hoy: solo video con persona real y en alta calidad (APTO en scripts/revisar_calidad.sh), menos piezas, horas pico por red y texto propio para cada red. Se mide contra 19.5 vistas y 69% de salto.
+
+## 26/11/2026 · Primer día con video real en alta calidad (25/11)
+- Instagram 25/11: los 2 reels nuevos tuvieron 103 y 57 vistas (base 19.5): de 3 a 5 veces más. Salto en 3 s: 62% y 74% (base 69%). Tiempo visto: 9.2 y 13.5 s (antes 3 a 8 s). Envíos: 2 y 1 (antes casi 0).
+- TikTok 25/11: "Un día recorriendo Cancún" 151, POV recorrido 115, golf 117, garden (480p) 73. El video de baja calidad fue el más bajo.
+- Conclusión: persona real + alta calidad funciona; la baja calidad se castiga también en TikTok.
+- Cambio de hoy: seguir solo con APTO, ganchos de persona hablando en el primer segundo y montajes de varios lugares (formato "Un día…").
