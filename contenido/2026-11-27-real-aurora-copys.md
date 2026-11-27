@@ -60,3 +60,38 @@ Primer comentario: ¿Para vivir o para invertir? Escríbenos "AURORA" al WhatsAp
 ## Marketplace (kit personal)
 Título: Departamento en preventa en Cancún · 1 recámara · $2,247,540
 Descripción: Real Aurora, Torre A. 1 recámara de 47.8 m² totales, alberca con bar, jacuzzi, pádel, gimnasio, coworking y ludoteca. Entrega diciembre 2029. También 2 y 3 recámaras y penthouse. Te mando planos y unidades disponibles por mensaje.
+
+## Reel 3 · Ubicación "¿Dónde está Real Aurora?"
+¿Dónde está Real Aurora? 📍
+
+Junto a Aurora Towers, entre Residencial Cumbres, Villa Magna y Campestre, con vista a la laguna.
+🚗 Puente Nichupté 2 km · Centro 10 km · Aeropuerto 10 km · Tren Maya 12 km
+✈️ A 2.5 h de CDMX y Monterrey, 1.8 h de Miami.
+
+Departamentos en preventa desde $2,247,540. Entrega Torre A: diciembre 2029.
+
+📲 Escríbenos "UBICACIÓN" al WhatsApp 998 430 9472 y te mandamos el mapa.
+
+@altavidainmuebles @jamesdavid_marin @kenrossell @kenia.acosta_altavida @coordinacionventas.altavida @gaby.altavida @julie.altavida
+
+#Cancun #PreventaCancun #DepartamentosCancun #InvertirEnCancun #BienesRaicesCancun #CancunRealEstate #Plusvalia #ZonaCumbres #AltaVidaInmuebles
+
+Distancias del brochure del desarrollador. Imágenes ilustrativas.
+
+Primer comentario: ¿Desde qué ciudad nos ves? Escríbenos "UBICACIÓN" al WhatsApp 998 430 9472.
+
+## Carrusel ubicación (6 láminas)
+Mismo copy del Reel 3, con "Desliza 👉" al inicio.
+
+## Reel 4 · Valle Aurora "Así entrega Dintsa"
+Antes de comprar en preventa, mira lo que ya entregó tu desarrollador 👀
+
+Estas son fotos reales de Valle Aurora Cancún, de Dintsa: alberca, gimnasio, boliche, juegos infantiles y lobby. Mismo desarrollador de la nueva preventa Real Aurora, desde $2,247,540.
+
+📲 Escríbenos "AURORA" al WhatsApp 998 430 9472 y te llevamos a conocer Valle Aurora.
+
+@altavidainmuebles @jamesdavid_marin @kenrossell @kenia.acosta_altavida @coordinacionventas.altavida @gaby.altavida @julie.altavida
+
+#Cancun #PreventaCancun #DepartamentosCancun #InvertirEnCancun #BienesRaicesCancun #CancunRealEstate #Plusvalia #AltaVidaInmuebles
+
+Primer comentario: ¿Qué revisas antes de comprar en preventa? Escríbenos "AURORA" al WhatsApp 998 430 9472.
