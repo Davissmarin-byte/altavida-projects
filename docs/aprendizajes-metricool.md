@@ -69,3 +69,9 @@ Decisión (Jaime, 25/11): cada red con su propio texto y a su hora pico; Instagr
 - TikTok 25/11: "Un día recorriendo Cancún" 151, POV recorrido 115, golf 117, garden (480p) 73. El video de baja calidad fue el más bajo.
 - Conclusión: persona real + alta calidad funciona; la baja calidad se castiga también en TikTok.
 - Cambio de hoy: seguir solo con APTO, ganchos de persona hablando en el primer segundo y montajes de varios lugares (formato "Un día…").
+
+## 27/11/2026 · Reporte del viernes (20 al 26/11)
+- Instagram, 15 reels: mediana 32 vistas (base 24/11: 33) y salto en 3 s 69% (base 69%). La semana todavía arrastra los reels de plantilla; los de persona real del 25/11 llegaron a 142 y 64.
+- TikTok: mediana de unos 150 vistas. 26/11: departamento muestra 142, CUORE 93, obra 81, Ombú (Kenia, 720p) 68.
+- Hoja Registro: sigue vacía; sin mensajes por palabra clave no se puede medir venta.
+- Qué repetir la siguiente semana: formatos "Un día recorriendo Cancún" y recorridos de interiores (departamento muestra), siempre con video APTO. El ping-pong de Kenia rindió menos en TikTok (video de 720p y 45 s): siguientes con Kenia, de 20 a 30 s.
