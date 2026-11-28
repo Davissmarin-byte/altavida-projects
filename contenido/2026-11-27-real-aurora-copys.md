@@ -1,4 +1,4 @@
-# Real Aurora Cancún · copys (propuesta 27/11/2026)
+# Real Aurora Cancún · copys (autorizados por Jaime el 28/11/2026; apartado $100,000)
 
 Fuente: lista "TA REAL CANCUN 271126" (Desarrollos Laguna Aurora, Torre A) y brochure de Dintsa. Imágenes: renders ilustrativos del desarrollador.
 
