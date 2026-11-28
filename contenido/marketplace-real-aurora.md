@@ -41,7 +41,7 @@ Escríbeme y te mando planos, precios por piso y unidades libres. Precio sujeto 
 Título: 1 recámara + flex (home office) en preventa · Cancún
 Precio: 3053120
 Descripción:
-Real Aurora, de Dintsa. 1 recámara + espacio flex para oficina o visitas, 2 baños, 64.96 m² totales.
+Real Aurora, de Dintsa. 1 recámara + espacio flex para oficina o visitas, 64.96 m² totales.
 Desde $3,053,120 · Apartas con $100,000 · Entrega diciembre 2029.
 Alberca con bar, jacuzzi, pádel, gimnasio y coworking. Mándame mensaje y te envío el plano. Precio sujeto a disponibilidad.
 
