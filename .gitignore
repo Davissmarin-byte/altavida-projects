@@ -1,0 +1,4 @@
+
+# Videos e imágenes pesadas del kit: viven en Higgsfield y Drive, no en git
+contenido/**/*.mp4
+contenido/**/*.jpg
