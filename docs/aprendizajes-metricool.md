@@ -75,3 +75,9 @@ Decisión (Jaime, 25/11): cada red con su propio texto y a su hora pico; Instagr
 - TikTok: mediana de unos 150 vistas. 26/11: departamento muestra 142, CUORE 93, obra 81, Ombú (Kenia, 720p) 68.
 - Hoja Registro: sigue vacía; sin mensajes por palabra clave no se puede medir venta.
 - Qué repetir la siguiente semana: formatos "Un día recorriendo Cancún" y recorridos de interiores (departamento muestra), siempre con video APTO. El ping-pong de Kenia rindió menos en TikTok (video de 720p y 45 s): siguientes con Kenia, de 20 a 30 s.
+
+## 28/11/2026 · Métricas del 21 al 27/11 (Metricool)
+- Instagram, 15 reels: mediana 36 vistas (base 24/11: 33) y salto en 3 s 66.7% (base 69%). Mejores: 157 y 141 vistas. Envíos: 9 en total (antes casi 0).
+- TikTok, 25 videos: mediana 151 vistas; tope 201. El único video muy bajo (5 vistas) fue una excepción.
+- Conclusión: el video con persona real en alta calidad ya mueve la mediana de Instagram por arriba de la base. Los reels de plantilla todavía bajan el promedio.
+- Cambios de hoy: los 2 reels abren con Jaime hablando en el primer segundo y con el precio como pregunta en pantalla ("¿$15.5M por esta casa?"). Subtítulos grandes de su voz, música baja mientras habla. El carrusel es comparativo (fórmula 6: dos precios, misma privada).
